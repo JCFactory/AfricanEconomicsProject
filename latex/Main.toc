@@ -1,0 +1,34 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Abstract}{2}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Introduction}{3}{chapter.2}% 
+\contentsline {chapter}{\numberline {3}Related work}{4}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Time series analysis and forecasting}{5}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}General description}{5}{section.4.1}% 
+\contentsline {paragraph}{\nonumberline Time series analysis}{5}{section*.1}% 
+\contentsline {paragraph}{\nonumberline Forecasting}{5}{section*.2}% 
+\contentsline {paragraph}{\nonumberline Time series analysis models}{5}{section*.3}% 
+\contentsline {paragraph}{\nonumberline Forecasting with \ac {arima} model}{5}{section*.4}% 
+\contentsline {section}{\numberline {4.2}Examples and possible use cases}{5}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Python library 'StatsModels'}{5}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}African Economic History}{6}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Inflation}{6}{section.5.1}% 
+\contentsline {paragraph}{\nonumberline General description of inflation}{6}{section*.6}% 
+\contentsline {paragraph}{\nonumberline Examples of inflation}{6}{section*.7}% 
+\contentsline {section}{\numberline {5.2}Exchange rate}{6}{section.5.2}% 
+\contentsline {paragraph}{\nonumberline General description of exchange rate}{6}{section*.8}% 
+\contentsline {paragraph}{\nonumberline Importance of exchange rate in a global vs. local context}{6}{section*.9}% 
+\contentsline {section}{\numberline {5.3}African economic crisis and its causes}{6}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Data source: Kaggle Dataset 'Africa Economic, Banking and Systemic Crisis Data'}{6}{section.5.4}% 
+\contentsline {chapter}{\numberline {6}Development of a solution for time series analysis and forecasting of african economic data}{7}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Problems and challenges of during data analysis}{7}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}First steps: Draft of developed solution}{7}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Proposed solution}{7}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Results}{7}{section.6.4}% 
+\contentsline {chapter}{\numberline {7}Conclusion and Outlook}{8}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Lessons learned}{8}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Conclusion}{8}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Outlook}{8}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Abbreviations}{9}{chapter.8}% 
+\contentsline {chapter}{\numberline {9}Appendix A}{10}{chapter.9}% 
+\contentsline {chapter}{\numberline {10}Appendix B}{11}{chapter.10}% 
