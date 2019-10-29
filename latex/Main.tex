@@ -5,8 +5,19 @@
 
 \chapter{Abstract}\label{abstract}
 
+Business Case:
+1) With the developed solution, doctors are getting an overview of the patient's blood pressure values. This makes them react more precisely to any special values. 
+2) Since the patient is lead through a tutorial and the chatbot is 'controlling'/'checking' his measured blood pressure values, all measurements are taken more accurately. This improves the process of documentation.
+3) With the service of sending a report via email every two weeks to the doctor. The doctor has always the current value and can interprete them faster. (now they are only getting a long list of all measured values of their patients which they have to interprete on their own and 
+4) Recommendation system of the nearest doctor helps the patient to directly go to his doctor 
+Jack: 'Hey, i found these nearest doctors/specialists in your neighbourhood. Just select one of them and make an appointment with them. 
 
 \chapter{Introduction}\label{introduction}
+
+Aim of this scientific work is to develop a solution to document blood pressure in order to react preventively against heart disease.
+To recommend an appropriate doctor in one's surrounding (approximately 5 kilometers of distance).
+The application shall send every week/every two weeks a report (including a diagramm of all measured blood pressure values of the patient) to the doctor so that the doctor will be informed in real-time. In the diagrams/frontend, it is possible to select different scales, e.g. like the values of last week/last month/last year. 
+At the beginning of using the Chatbot, the user is being led through a tutorial which shows him how to measure correctly his blood pressure. One instruction is for example not to drink coffee before measuring your blood pressure or to sit for at least 5 minutes.
 
 \chapter{Related work}\label{related}
 - nicht zu detailreich
@@ -27,6 +38,9 @@ https://freeappsforme.com/apps-to-measure-blood-pressure/#cardio-journal
 
 \chapter{Development of a chatbot}\label{chatbot}
 
+\section{Defining chatbot's personality}
+--> Jack
+
 \section{General description}\label{general_description}
 
 \paragraph{Data retrievel}
@@ -42,13 +56,11 @@ https://www.heart.org/en
 \section{Examples and possible use cases}\label{examples}
   
               
-\chapter{ICD-10 }\label{african_eco_hist}
+\chapter{Architecture of developed system }\label{archtiecture}
 
-\section{Data sources}\label{datasource}
+connection frontend (angularjs webpage) to mongodb through socket.io connection.
+Connection between Watson Assistant and Frontend through mongodb and via socket.io connection.
 
-\subsection{Kaggle Dataset}
-
-https://www.kaggle.com/mkachuee/BloodPressureDataset
 
 % ncbi query for all genomes
 %\begin{figure}[htbp]
@@ -57,6 +69,28 @@ https://www.kaggle.com/mkachuee/BloodPressureDataset
 %	\caption{\ac{ncbi} query to find all \ac{all} related gene sequences}
 %	\label{ncbi_query}
 %\end{figure}
+
+\chapter{Development process}\label{dev_process}
+
+\section{Data retrievel}
+
+\subsection{Kaggle Dataset}
+https://www.kaggle.com/mkachuee/BloodPressureDataset
+
+\section{Data preparation}
+
+\section{Development of Watson Assistant Dialog}
+
+\section{Setup of MongoDB and basic AngularJS Frontend}
+
+\section{Connect Watson Assistant to Frontend and MongoDB}
+
+\section{Data visualization: Development of a Python Script to show all measured values}
+
+\section{Development of recommendation of nearest doctors to patient}
+--> outlook: maybe in future to connect to the doctors' calendar to directly make an appointment through the chatbot
+
+\section{Development of email service to send reports every two weeks to the doctor}
 
 
 \chapter{Development of a solution for time series analysis and forecasting of african economic data}\label{development}
