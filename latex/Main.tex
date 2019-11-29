@@ -8,7 +8,9 @@
 Business Case:
 1) With the developed solution, doctors are getting an overview of the patient's blood pressure values. This makes them react more precisely to any special values. 
 2) Since the patient is lead through a tutorial and the chatbot is 'controlling'/'checking' his measured blood pressure values, all measurements are taken more accurately. This improves the process of documentation.
-3) With the service of sending a report via email every two weeks to the doctor. The doctor has always the current value and can interprete them faster. (now they are only getting a long list of all measured values of their patients which they have to interprete on their own and 
+3) With the service of sending a report via email every two weeks to the doctor. The doctor has always the current value and can interprete them faster. (now they are only getting a long list of all measured values of their patients which they have to interprete on their own and \begin{flushleft}
+•
+\end{flushleft}
 4) Recommendation system of the nearest doctor helps the patient to directly go to his doctor 
 Jack: 'Hey, i found these nearest doctors/specialists in your neighbourhood. Just select one of them and make an appointment with them. 
 
@@ -80,6 +82,22 @@ https://www.kaggle.com/mkachuee/BloodPressureDataset
 \section{Data preparation}
 
 \section{Development of Watson Assistant Dialog}
+
+\subsection{Intent model}
+
+The chatbot was built according to the description of "Deutsche Hochdruckliga", a german organization for patients with hypertonia \footnote{cf.\autocite{hochdruckliga}}.
+To better understand the users and patients a basic intent model with five intents was developed. 
+The five intents include 
+
+\begin{labeling}{Hypertonie_Messung}
+\item [Hypertonie_Definition] What is hypertonia?
+\item [Hypertonie_Schaeden] What are the consequences of hypertonia?
+\item [Hypertonie_Risiko] How possible is it that i can suffer from hypertonia?
+\item [Hypertonie_Symptome] What are the symptoms of hypertonia?
+\item [Hypertonie_Messung] How can i messure my blood pressure?
+\end{labeling}
+
+These five intents were used to define and develop five typical dialogs. 
 
 \section{Setup of MongoDB and basic AngularJS Frontend}
 
