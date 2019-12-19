@@ -9,7 +9,6 @@ Business Case:
 1) With the developed solution, doctors are getting an overview of the patient's blood pressure values. This makes them react more precisely to any special values. 
 2) Since the patient is lead through a tutorial and the chatbot is 'controlling'/'checking' his measured blood pressure values, all measurements are taken more accurately. This improves the process of documentation.
 3) With the service of sending a report via email every two weeks to the doctor. The doctor has always the current value and can interprete them faster. (now they are only getting a long list of all measured values of their patients which they have to interprete on their own and \begin{flushleft}
-•
 \end{flushleft}
 4) Recommendation system of the nearest doctor helps the patient to directly go to his doctor 
 Jack: 'Hey, i found these nearest doctors/specialists in your neighbourhood. Just select one of them and make an appointment with them. 
@@ -40,17 +39,20 @@ https://freeappsforme.com/apps-to-measure-blood-pressure/#cardio-journal
 
 \chapter{Development of a chatbot}\label{chatbot}
 
-\section{Defining chatbot's personality}
---> Jack
+First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor so that he can get more insights about the blood pressure values of his patients and improve the treatment.
+One of the main challenges during development was the process of providing information about the disease to the patient. Is it possible to include information about different types of blood pressure into the automated conversation with a chatbot? Or does it overwhelm the conversation's use case? Is it useful to let the user ask questions like: 'What are the different types of hypertension? Am i a high-risk patient?' 
+Or should these information be provided as a video or a simple web page with long articles to read? Might the patient or user be aborred after a while of talking to a chatbot who only knows answering his questions in the same way?
+Of course, a chatbot can be developed more intelligent to never provide the same answer and to answer more precisely to a users' intent. But this requires a lot of training and testing. 
+For that reason, in the first version of this chatbot, five simple intents and dialogs have been designed and implemented with the focus of the instructions to measure correctly and regularly. 
+In a second or third version, it is possible to focus more on the improvement of providing information about the disease (by not doing this in the style of question and answering).
 
 \section{General description}\label{general_description}
-
-\paragraph{Data retrievel}
-
-- challenges 
-- missing values ? 
-- how to make precise diagnosis
-
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1\textwidth]{images/components.png}
+	\caption{Component diagram of developed solution}
+	\label{ncbi_query}
+\end{figure}
 
 \section{Organizations for heart disease}
 https://www.heart.org/en
@@ -110,6 +112,8 @@ These five intents were used to define and develop five typical dialogs.
 
 \section{Development of email service to send reports every two weeks to the doctor}
 
+Another challenge was the way to automatically ask the user for his measured data. A 'usual' chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. But they are not constructed to ping a user every five hours or once a day in order to retrieve his measured data, analyze these and send them to a doctor. 
+In order to face this problem or use case, a routine including a timer had to be implemented.
 
 \chapter{Development of a solution for time series analysis and forecasting of african economic data}\label{development}
 \section{Problems and challenges of during data analysis}\label{problems_challenges}
@@ -122,6 +126,12 @@ These five intents were used to define and develop five typical dialogs.
 
 \chapter{Conclusion and Outlook}\label{conclusion_outlook}
 \section{Lessons learned}\label{lessons_learned}
+
+\section{Discussion}\label{discussion}
+Is a chatbot an appropriate solution for recording and reminding patients to measure their blood pressure ? 
+In practice, most chatbots are created to solve and help multiple intents of their users and not to only 'retrieve' information.
+On the one hand, the retrieved information can be used to run several analysis and to find out trends in the data. But on the other hand, the developed solution  supports users to never forget to measure and doctors to better understand trends in the measured data.
+During development and research, there came up another issue: To inform patients precisely about their illness. Most patients go to doctors and describe their symptoms, the doctor makes some diagnosis and provides them some medication. But in most cases, doctors do not have enough time to answer all the questions of their patients. For that reason it might be useful to provide a 24/7 service for patients with chronic disease to both record their symptoms and measurements and to answer all their questions.
 
 \section{Conclusion}\label{conclusion}
 
