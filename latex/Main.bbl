@@ -16,5 +16,35 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{hochdruckliga}{misc}{}
+      \list{language}{1}{%
+        {de}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bluthochdruck-Informationen für Betroffene und Ärzte auf der Homepage der Deutschen Hochdruckliga e.V. DHL®}
+      \field{title}{Bluthochdruck vermeiden, behandeln und senken - {Aktiv} gegen {Bluthochdruck}}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jf/Zotero/storage/WJGV8NXF/www.hochdruckliga.de.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.hochdruckliga.de/
+      \endverb
+      \verb{url}
+      \verb https://www.hochdruckliga.de/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

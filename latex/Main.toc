@@ -4,32 +4,31 @@
 \contentsline {chapter}{\numberline {2}Introduction}{9}{chapter.2}% 
 \contentsline {chapter}{\numberline {3}Related work}{16}{chapter.3}% 
 \contentsline {chapter}{\numberline {4}Development of a chatbot}{19}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Defining chatbot's personality}{19}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}General description}{20}{section.4.2}% 
-\contentsline {paragraph}{\nonumberline Data retrievel}{20}{section*.4}% 
-\contentsline {section}{\numberline {4.3}Organizations for heart disease}{21}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Examples and possible use cases}{21}{section.4.4}% 
-\contentsline {chapter}{\numberline {5}Architecture of developed system}{22}{chapter.5}% 
-\contentsline {chapter}{\numberline {6}Development process}{24}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Data retrievel}{24}{section.6.1}% 
-\contentsline {subsection}{\numberline {6.1.1}Kaggle Dataset}{24}{subsection.6.1.1}% 
-\contentsline {section}{\numberline {6.2}Data preparation}{25}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Development of Watson Assistant Dialog}{25}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Intent model}{25}{subsection.6.3.1}% 
-\contentsline {section}{\numberline {6.4}Setup of MongoDB and basic AngularJS Frontend}{30}{section.6.4}% 
-\contentsline {section}{\numberline {6.5}Connect Watson Assistant to Frontend and MongoDB}{30}{section.6.5}% 
-\contentsline {section}{\numberline {6.6}Data visualization: Development of a Python Script to show all measured values}{30}{section.6.6}% 
-\contentsline {section}{\numberline {6.7}Development of recommendation of nearest doctors to patient}{30}{section.6.7}% 
-\contentsline {section}{\numberline {6.8}Development of email service to send reports every two weeks to the doctor}{32}{section.6.8}% 
-\contentsline {chapter}{\numberline {7}Development of a solution for time series analysis and forecasting of african economic data}{33}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Problems and challenges of during data analysis}{34}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}First steps: Draft of developed solution}{34}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Proposed solution}{34}{section.7.3}% 
-\contentsline {section}{\numberline {7.4}Results}{34}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Conclusion and Outlook}{35}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Lessons learned}{35}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Conclusion}{35}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Outlook}{35}{section.8.3}% 
-\contentsline {chapter}{\numberline {9}Abbreviations}{36}{chapter.9}% 
-\contentsline {chapter}{\numberline {10}Appendix A}{37}{chapter.10}% 
-\contentsline {chapter}{\numberline {11}Appendix B}{43}{chapter.11}% 
+\contentsline {section}{\numberline {4.1}General description}{32}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Organizations for heart disease}{32}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Examples and possible use cases}{33}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Architecture of developed system}{34}{chapter.5}% 
+\contentsline {chapter}{\numberline {6}Development process}{36}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Data retrievel}{36}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Kaggle Dataset}{36}{subsection.6.1.1}% 
+\contentsline {section}{\numberline {6.2}Data preparation}{37}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Development of Watson Assistant Dialog}{37}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Intent model}{37}{subsection.6.3.1}% 
+\contentsline {section}{\numberline {6.4}Setup of MongoDB and basic AngularJS Frontend}{42}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}Connect Watson Assistant to Frontend and MongoDB}{42}{section.6.5}% 
+\contentsline {section}{\numberline {6.6}Data visualization: Development of a Python Script to show all measured values}{42}{section.6.6}% 
+\contentsline {section}{\numberline {6.7}Development of recommendation of nearest doctors to patient}{42}{section.6.7}% 
+\contentsline {section}{\numberline {6.8}Development of email service to send reports every two weeks to the doctor}{44}{section.6.8}% 
+\contentsline {chapter}{\numberline {7}Development of a solution for time series analysis and forecasting of african economic data}{49}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Problems and challenges of during data analysis}{50}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}First steps: Draft of developed solution}{50}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Proposed solution}{50}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}Results}{50}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Conclusion and Outlook}{51}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Lessons learned}{51}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Discussion}{51}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Conclusion}{59}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Outlook}{59}{section.8.4}% 
+\contentsline {chapter}{\numberline {9}Abbreviations}{60}{chapter.9}% 
+\contentsline {chapter}{\numberline {10}Appendix A}{63}{chapter.10}% 
+\contentsline {chapter}{\numberline {11}Appendix B}{69}{chapter.11}% 
