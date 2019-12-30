@@ -44,6 +44,109 @@
       \verb https://www.hochdruckliga.de/
       \endverb
     \endentry
+    \entry{lupton_mhealth}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=87ecd018a55d18b4c916c52860a4c9fa}{%
+           family={Lupton},
+           familyi={L\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{fullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{bibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorbibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authornamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorfullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1477-8211, 1477-822X}
+      \field{journaltitle}{Social Theory \& Health}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shorttitle}{M-health and health promotion}
+      \field{title}{M-health and health promotion: {The} digital cyborg and surveillance society}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{volume}{10}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{229\bibrangedash 244}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1057/sth.2012.6
+      \endverb
+      \verb{file}
+      \verb Lupton - 2012 - M-health and health promotion The digital cyborg .pdf:/Users/jf/Zotero/storage/RWCTFJXV/Lupton - 2012 - M-health and health promotion The digital cyborg .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1057/sth.2012.6
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1057/sth.2012.6
+      \endverb
+    \endentry
+    \entry{lupton_apps}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=87ecd018a55d18b4c916c52860a4c9fa}{%
+           family={Lupton},
+           familyi={L\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{fullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{bibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorbibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authornamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorfullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Societies}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shorttitle}{Apps as {Artefacts}}
+      \field{title}{Apps as {Artefacts}: {Towards} a {Critical} {Perspective} on {Mobile} {Health} and {Medical} {Apps}}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{606\bibrangedash 622}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.3390/soc4040606
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/jf/Zotero/storage/4KU3RSNQ/Lupton - 2014 - Apps as Artefacts Towards a Critical Perspective .pdf:application/pdf;Snapshot:/Users/jf/Zotero/storage/JMT54R5M/htm.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-4698/4/4/606
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-4698/4/4/606
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
