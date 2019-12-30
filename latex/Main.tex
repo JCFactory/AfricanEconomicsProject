@@ -3,6 +3,11 @@
 \begin{document}
 \input{Titelseite}
 
+Title: Development of a system to control and monitor blood pressure measurements to prevent cardiovascular disease  
+
+
+
+
 \chapter{Abstract}\label{abstract}
 
 Business Case:
@@ -20,25 +25,29 @@ To recommend an appropriate doctor in one's surrounding (approximately 5 kilomet
 The application shall send every week/every two weeks a report (including a diagramm of all measured blood pressure values of the patient) to the doctor so that the doctor will be informed in real-time. In the diagrams/frontend, it is possible to select different scales, e.g. like the values of last week/last month/last year. 
 At the beginning of using the Chatbot, the user is being led through a tutorial which shows him how to measure correctly his blood pressure. One instruction is for example not to drink coffee before measuring your blood pressure or to sit for at least 5 minutes.
 
-\chapter{Related work}\label{related}
-- nicht zu detailreich
--Problemstellung
--Methoden (welche Methoden eingesetzt?)--> wenn nur 1, wieso nicht 2/3?
--Vorgehen
--Challenges
--verschiedene Varianten nennen
---> Vorgehen wird bewertet nicht 
-- Ziel beschreiben
-- Durchführung
-- wie wurde Ziel erreicht? --> 
+\section{Problem statement}
+
+\section{Aim and scope of this work}
+
+\chapter{Fundamentals}\label{fundamentals}
+
+\section{Reporting and Big Data}
+\section{Software Architecture: Best Practices}
+\section{Medical Documentation Apps}
+
+\footnote{cf.\autocite{lupton_mhealth}}
+\footnote{cf.\autocite{lupton_apps}}
+https://www.heart.org/en
 
 Blood Pressure Apps:
 Was können die schon ? 
 https://freeappsforme.com/apps-to-measure-blood-pressure/#cardio-journal
+\section{Chatbots} 
 
 
-\chapter{Development of a chatbot}\label{chatbot}
 
+
+\chapter{Analysis and Development}
 First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor so that he can get more insights about the blood pressure values of his patients and improve the treatment.
 One of the main challenges during development was the process of providing information about the disease to the patient. Is it possible to include information about different types of blood pressure into the automated conversation with a chatbot? Or does it overwhelm the conversation's use case? Is it useful to let the user ask questions like: 'What are the different types of hypertension? Am i a high-risk patient?' 
 Or should these information be provided as a video or a simple web page with long articles to read? Might the patient or user be aborred after a while of talking to a chatbot who only knows answering his questions in the same way?
@@ -46,7 +55,11 @@ Of course, a chatbot can be developed more intelligent to never provide the same
 For that reason, in the first version of this chatbot, five simple intents and dialogs have been designed and implemented with the focus of the instructions to measure correctly and regularly. 
 In a second or third version, it is possible to focus more on the improvement of providing information about the disease (by not doing this in the style of question and answering).
 
-\section{General description}\label{general_description}
+\section{Experimental set-up}
+
+\subsection{Software architecture}
+
+\subsection{Components}
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{images/components.png}
@@ -54,38 +67,11 @@ In a second or third version, it is possible to focus more on the improvement of
 	\label{ncbi_query}
 \end{figure}
 
-\section{Organizations for heart disease}
-https://www.heart.org/en
-
-\section{Examples and possible use cases}\label{examples}
-  
-              
-\chapter{Architecture of developed system }\label{archtiecture}
-
-connection frontend (angularjs webpage) to mongodb through socket.io connection.
-Connection between Watson Assistant and Frontend through mongodb and via socket.io connection.
-
-
-% ncbi query for all genomes
-%\begin{figure}[htbp]
-%	\centering
-	%\includegraphics[width=1\textwidth]{Image/ncbi_all_result.png}
-%	\caption{\ac{ncbi} query to find all \ac{all} related gene sequences}
-%	\label{ncbi_query}
-%\end{figure}
-
-\chapter{Development process}\label{dev_process}
-
-\section{Data retrievel}
-
-\subsection{Kaggle Dataset}
+\paragraph{Kaggle Dataset}
 https://www.kaggle.com/mkachuee/BloodPressureDataset
+\paragraph{Development of Watson Assistant Dialog}
 
-\section{Data preparation}
-
-\section{Development of Watson Assistant Dialog}
-
-\subsection{Intent model}
+\subparagraph{Intent model}
 
 The chatbot was built according to the description of "Deutsche Hochdruckliga", a german organization for patients with hypertonia \footnote{cf.\autocite{hochdruckliga}}.
 To better understand the users and patients a basic intent model with five intents was developed. 
@@ -99,43 +85,49 @@ The five intents include
 \item [Hypertonie_Messung] How can i messure my blood pressure?
 \end{labeling}
 
-These five intents were used to define and develop five typical dialogs. 
+These five intents were used to define and develop five typical dialogs.
 
-\section{Setup of MongoDB and basic AngularJS Frontend}
+\paragraph{Setup of MongoDB and basic AngularJS Frontend}
 
-\section{Connect Watson Assistant to Frontend and MongoDB}
+\paragraph{Connect Watson Assistant to Frontend and MongoDB}
 
-\section{Data visualization: Development of a Python Script to show all measured values}
+\paragraph{Data visualization: Development of a Python Script to show all measured values}
 
-\section{Development of recommendation of nearest doctors to patient}
+\paragraph{Development of recommendation of nearest doctors to patient}
 --> outlook: maybe in future to connect to the doctors' calendar to directly make an appointment through the chatbot
 
-\section{Development of email service to send reports every two weeks to the doctor}
+\paragraph{Development of email service to send reports every two weeks to the doctor}
 
 Another challenge was the way to automatically ask the user for his measured data. A 'usual' chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. But they are not constructed to ping a user every five hours or once a day in order to retrieve his measured data, analyze these and send them to a doctor. 
 In order to face this problem or use case, a routine including a timer had to be implemented.
 
-\chapter{Development of a solution for time series analysis and forecasting of african economic data}\label{development}
-\section{Problems and challenges of during data analysis}\label{problems_challenges}
+\section{Problem solving}
+\subsection{Tests}
+\subsection{Dataset}
+\section{Results}
 
-\section{First steps: Draft of developed solution}\label{draft}
+\chapter{Conclusion and Outlook }
+\section{Conclusion}
 
-\section{Proposed solution}\label{proposed_solution}
-
-\section{Results}\label{results}
-
-\chapter{Conclusion and Outlook}\label{conclusion_outlook}
-\section{Lessons learned}\label{lessons_learned}
-
-\section{Discussion}\label{discussion}
+\section{Outlook}
 Is a chatbot an appropriate solution for recording and reminding patients to measure their blood pressure ? 
 In practice, most chatbots are created to solve and help multiple intents of their users and not to only 'retrieve' information.
 On the one hand, the retrieved information can be used to run several analysis and to find out trends in the data. But on the other hand, the developed solution  supports users to never forget to measure and doctors to better understand trends in the measured data.
 During development and research, there came up another issue: To inform patients precisely about their illness. Most patients go to doctors and describe their symptoms, the doctor makes some diagnosis and provides them some medication. But in most cases, doctors do not have enough time to answer all the questions of their patients. For that reason it might be useful to provide a 24/7 service for patients with chronic disease to both record their symptoms and measurements and to answer all their questions.
 
-\section{Conclusion}\label{conclusion}
 
-\section{Outlook}\label{outlook}
+connection frontend (angularjs webpage) to mongodb through socket.io connection.
+Connection between Watson Assistant and Frontend through mongodb and via socket.io connection.
+
+
+% ncbi query for all genomes
+%\begin{figure}[htbp]
+%	\centering
+	%\includegraphics[width=1\textwidth]{Image/ncbi_all_result.png}
+%	\caption{\ac{ncbi} query to find all \ac{all} related gene sequences}
+%	\label{ncbi_query}
+%\end{figure}
+
 
 \chapter{Abbreviations}
 \input{Abkuerzung}
