@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  30 DEC 2019 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  31 DEC 2019 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2138,8 +2138,8 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 \chapter
-             {Abstract}\label{abstract} [1]
+l.5 \chapter
+            {Abstract}\label{abstract} [1]
 chapter 1.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
@@ -2150,9 +2150,9 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 28.
+(Font)              scaled to size 16.41594pt on input line 22.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2162,47 +2162,59 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 ]
 chapter 3.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 38.
+(Font)              scaled to size 9.49997pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 38.
+(Font)              scaled to size 6.64998pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 38.
+(Font)              scaled to size 4.74998pt on input line 31.
+Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
+although it is yet undefined on input line 31.
+<images/example_software_architecture.png, id=93, 573.14125pt x 363.3575pt>
+File: images/example_software_architecture.png Graphic file (type png)
+<use images/example_software_architecture.png>
+Package pdftex.def Info: images/example_software_architecture.png  used on inpu
+t line 35.
+(pdftex.def)             Requested size: 426.79141pt x 270.5769pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [4
 
-]
+ <./images/example_software_architecture.png>]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[5]
 chapter 4.
-<images/components.png, id=97, 721.69624pt x 534.99875pt>
+<images/components.png, id=118, 721.69624pt x 534.99875pt>
 File: images/components.png Graphic file (type png)
 <use images/components.png>
-Package pdftex.def Info: images/components.png  used on input line 65.
+Package pdftex.def Info: images/components.png  used on input line 68.
 (pdftex.def)             Requested size: 426.79141pt x 316.38123pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[5
+[6
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 76.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 79.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 76.
+(Font)              scaled to size 9.49997pt on input line 79.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[6 <./images/components.png>]
+[7 <./images/components.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[7]
+[8]
 chapter 5.
 
-Overfull \hbox (10.87497pt too wide) in paragraph at lines 119--121
+Overfull \hbox (10.87497pt too wide) in paragraph at lines 122--124
 \OT1/txss/m/n/12 Con-nec-tion be-tween Wat-son As-sis-tant and Fron-tend throug
 h mon-godb and via socket.io
  []
@@ -2211,7 +2223,7 @@ h mon-godb and via socket.io
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[8
+[9
 
 ]
 chapter 6.
@@ -2219,27 +2231,33 @@ chapter 6.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[9
+[10
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <12> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 134.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 137.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 134.
+(Font)              scaled to size 11.39996pt on input line 137.
 LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 134.
+(Font)              scaled to size 11.39996pt on input line 137.
 
-Overfull \hbox (2.1563pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.1563pt too wide) in paragraph at lines 138--138
 [][]\OT1/txss/m/sl/12 Bluthochdruck ver-mei-den, be-han-deln und senken - Ak-ti
 v gegen Bluthochdruck \OT1/txss/m/n/12 (2019).
+ []
+
+
+Overfull \hbox (28.05142pt too wide) in paragraph at lines 138--138
+\OT1/txss/m/sl/12 Peo-ple and Smart City In-no-va-tion (Smart-World/SCALCOM/UIC
+/ATC/CBDCom/IOP/SCI)\OT1/txss/m/n/12 .
  []
 
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[10
+[11
 
 ]
 chapter 7.
@@ -2263,7 +2281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[11
+[12
 
 ]
 chapter 8.
@@ -2271,16 +2289,19 @@ chapter 8.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[12
+[13
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -2289,16 +2310,16 @@ Package biblatex Warning: Please rerun LaTeX.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 46593 strings out of 492616
- 884720 string characters out of 6129480
+ 46619 strings out of 492616
+ 885242 string characters out of 6129480
  1473954 words of memory out of 5000000
- 49777 multiletter control sequences out of 15000+600000
+ 49796 multiletter control sequences out of 15000+600000
  578889 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,89p,9100b,2000s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,12n,89p,9100b,3556s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
@@ -2306,10 +2327,10 @@ ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
 dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb>
-Output written on Main.pdf (15 pages, 102082 bytes).
+Output written on Main.pdf (16 pages, 996720 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

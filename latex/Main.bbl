@@ -147,6 +147,60 @@
       \verb https://www.mdpi.com/2075-4698/4/4/606
       \endverb
     \endentry
+    \entry{talukder}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=b714293e4f1f59753a87743f7cdbe2b3}{%
+           family={Talukder},
+           familyi={T\bibinitperiod},
+           given={Asoke\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=07ca720e8348abf5ceec091097b13d30}{%
+           family={Chaitanya},
+           familyi={C\bibinitperiod},
+           given={Manish},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=14486f0f1086219278b3dc561fc8f8c7}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f2f941d0a953878e96cdad9d901e6d84}{%
+           family={Sakurai},
+           familyi={S\bibinitperiod},
+           given={Kouichi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{854c9778060952ab7ee609e430d68c38}
+      \strng{fullhash}{69a13e69038f314508ed70a4f1d257ed}
+      \strng{bibnamehash}{854c9778060952ab7ee609e430d68c38}
+      \strng{authorbibnamehash}{854c9778060952ab7ee609e430d68c38}
+      \strng{authornamehash}{854c9778060952ab7ee609e430d68c38}
+      \strng{authorfullhash}{69a13e69038f314508ed70a4f1d257ed}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2018 {IEEE} {SmartWorld}, {Ubiquitous} {Intelligence} {Computing}, {Advanced} {Trusted} {Computing}, {Scalable} {Computing} {Communications}, {Cloud} {Big} {Data} {Computing}, {Internet} of {People} and {Smart} {City} {Innovation} ({SmartWorld}/{SCALCOM}/{UIC}/{ATC}/{CBDCom}/{IOP}/{SCI})}
+      \field{month}{10}
+      \field{note}{ISSN: null}
+      \field{shorttitle}{Proof of {Disease}}
+      \field{title}{Proof of {Disease}: {A} {Blockchain} {Consensus} {Protocol} for {Accurate} {Medical} {Decisions} and {Reducing} the {Disease} {Burden}}
+      \field{year}{2018}
+      \field{pages}{257\bibrangedash 262}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SmartWorld.2018.00079
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/U7QVJJWL/8560057.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/Y2LN8IQY/Talukder et al. - 2018 - Proof of Disease A Blockchain Consensus Protocol .pdf:application/pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
