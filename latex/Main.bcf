@@ -1996,14 +1996,22 @@
     <bcf:datasource type="file" datatype="bibtex">Lit.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="2">talukder</bcf:citekey>
-    <bcf:citekey order="3">talukder</bcf:citekey>
     <bcf:citekey order="4">talukder</bcf:citekey>
-    <bcf:citekey order="5">lupton_mhealth</bcf:citekey>
-    <bcf:citekey order="6">lupton_apps</bcf:citekey>
-    <bcf:citekey order="7">akhtar</bcf:citekey>
-    <bcf:citekey order="8">kawohl</bcf:citekey>
-    <bcf:citekey order="9">hochdruckliga</bcf:citekey>
+    <bcf:citekey order="5">talukder</bcf:citekey>
+    <bcf:citekey order="6">talukder</bcf:citekey>
+    <bcf:citekey order="7">lupton_mhealth</bcf:citekey>
+    <bcf:citekey order="8">lupton_apps</bcf:citekey>
+    <bcf:citekey order="9">akhtar</bcf:citekey>
+    <bcf:citekey order="10">kawohl</bcf:citekey>
+    <bcf:citekey order="11">zini</bcf:citekey>
+    <bcf:citekey order="12">zimmermann</bcf:citekey>
+    <bcf:citekey order="13">zini</bcf:citekey>
+    <bcf:citekey order="14">zini</bcf:citekey>
+    <bcf:citekey order="15">zimmermann</bcf:citekey>
+    <bcf:citekey order="16">zimmermann</bcf:citekey>
+    <bcf:citekey order="17">zimmermann</bcf:citekey>
+    <bcf:citekey order="18">zimmermann</bcf:citekey>
+    <bcf:citekey order="19">hochdruckliga</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

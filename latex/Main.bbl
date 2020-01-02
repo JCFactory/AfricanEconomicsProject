@@ -297,6 +297,124 @@
       \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/U7QVJJWL/8560057.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/Y2LN8IQY/Talukder et al. - 2018 - Proof of Disease A Blockchain Consensus Protocol .pdf:application/pdf
       \endverb
     \endentry
+    \entry{zimmermann}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=882079b25cd52f036c384c5cc94c9920}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c9cdf7240776e095b6aed3e9380275d3}{%
+           family={Pretz},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b63f43b220f7b6feee52c6d804a1eedf}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Gertrud},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6186a4f388513ccab58db68a36a98645}{%
+           family={Firesmith},
+           familyi={F\bibinitperiod},
+           given={Donald\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4677c4a6c29a74dd02ae9deaa556f240}{%
+           family={Petrov},
+           familyi={P\bibinitperiod},
+           given={Ilia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6b47c82013afcf484a8d841d719e2de0}{%
+           family={El-Sheikh},
+           familyi={E\bibinithyphendelim S\bibinitperiod},
+           given={Eman},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5eaf5510cd7de8f6caf879fff4c444e4}
+      \strng{fullhash}{32e0294b2fb5f8c01974d7edb2c32abd}
+      \strng{bibnamehash}{5eaf5510cd7de8f6caf879fff4c444e4}
+      \strng{authorbibnamehash}{5eaf5510cd7de8f6caf879fff4c444e4}
+      \strng{authornamehash}{5eaf5510cd7de8f6caf879fff4c444e4}
+      \strng{authorfullhash}{32e0294b2fb5f8c01974d7edb2c32abd}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 17th {IEEE} {International} {Enterprise} {Distributed} {Object} {Computing} {Conference} {Workshops}}
+      \field{month}{9}
+      \field{note}{ISSN: 2325-6605}
+      \field{title}{Towards {Service}-{Oriented} {Enterprise} {Architectures} for {Big} {Data} {Applications} in the {Cloud}}
+      \field{year}{2013}
+      \field{pages}{130\bibrangedash 135}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/EDOCW.2013.21
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/KF3UWHJC/6690543.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/PGHW6S28/Zimmermann et al. - 2013 - Towards Service-Oriented Enterprise Architectures .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{zini}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=b0b45aaf6f76a0d10efa446b491ecee5}{%
+           family={Zini},
+           familyi={Z\bibinitperiod},
+           given={Julia\bibnamedelima El},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3bf0bdfcd1ad3a4d6ed3e1a1a5d94555}{%
+           family={Rizk},
+           familyi={R\bibinitperiod},
+           given={Yara},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ab9ad0fd1072886327bd8fcf16882d22}{%
+           family={Awad},
+           familyi={A\bibinitperiod},
+           given={Mariette},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a95a836876425469b7253c3b09fffd7a}{%
+           family={Antoun},
+           familyi={A\bibinitperiod},
+           given={Jumana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{460fb945659ccf64ba592c78b7cf61ef}
+      \strng{fullhash}{378f8fa8abc0cd40d3d610f0aa21e963}
+      \strng{bibnamehash}{460fb945659ccf64ba592c78b7cf61ef}
+      \strng{authorbibnamehash}{460fb945659ccf64ba592c78b7cf61ef}
+      \strng{authornamehash}{460fb945659ccf64ba592c78b7cf61ef}
+      \strng{authorfullhash}{378f8fa8abc0cd40d3d610f0aa21e963}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 {International} {Joint} {Conference} on {Neural} {Networks} ({IJCNN})}
+      \field{month}{7}
+      \field{note}{ISSN: 2161-4393}
+      \field{title}{Towards {A} {Deep} {Learning} {Question}-{Answering} {Specialized} {Chatbot} for {Objective} {Structured} {Clinical} {Examinations}}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/IJCNN.2019.8851729
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/EZVGA529/8851729.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/6CGZ3VVY/Zini et al. - 2019 - Towards A Deep Learning Question-Answering Special.pdf:application/pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
