@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  2 JAN 2020 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  3 JAN 2020 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1846,6 +1846,9 @@ Package csquotes Info: ... found 'babel' package.
 
 LaTeX Warning: Label `vp_architecture' multiply defined.
 
+
+LaTeX Warning: Label `vp_architecture' multiply defined.
+
 )
 \openout1 = `Main.aux'.
 
@@ -2134,6 +2137,12 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 Package acronym Info: Label `acro:esarc' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 8.
+
+Overfull \hbox (10.44939pt too wide) in paragraph at lines 9--9
+ [][] [][][][] \OT1/txss/m/n/12 busi-ness and in-for-ma-tion ref-er-ence ar-chi
+-tec-ture cf.[Zimmermann 
+ []
+
 )
 \tf@lof=\write7
 \openout7 = `Main.lof'.
@@ -2177,17 +2186,12 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 31.
 Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
-<images/example_software_architecture.png, id=105, 573.14125pt x 363.3575pt>
+<images/example_software_architecture.png, id=110, 573.14125pt x 363.3575pt>
 File: images/example_software_architecture.png Graphic file (type png)
 <use images/example_software_architecture.png>
 Package pdftex.def Info: images/example_software_architecture.png  used on inpu
 t line 35.
 (pdftex.def)             Requested size: 426.79141pt x 270.5769pt.
-<images/vp_architecture.png, id=121, 681.54625pt x 310.15875pt>
-File: images/vp_architecture.png Graphic file (type png)
-<use images/vp_architecture.png>
-Package pdftex.def Info: images/vp_architecture.png  used on input line 51.
-(pdftex.def)             Requested size: 426.79141pt x 194.22734pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2195,30 +2199,35 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [4
 
  <./images/example_software_architecture.png>]
-<images/esarc_cube.png, id=133, 499.8675pt x 271.0125pt>
+<images/vp_architecture.png, id=139, 681.54625pt x 310.15875pt>
+File: images/vp_architecture.png Graphic file (type png)
+<use images/vp_architecture.png>
+Package pdftex.def Info: images/vp_architecture.png  used on input line 54.
+(pdftex.def)             Requested size: 426.79141pt x 194.22734pt.
+<images/esarc_cube.png, id=142, 499.8675pt x 271.0125pt>
 File: images/esarc_cube.png Graphic file (type png)
 <use images/esarc_cube.png>
-Package pdftex.def Info: images/esarc_cube.png  used on input line 58.
+Package pdftex.def Info: images/esarc_cube.png  used on input line 61.
 (pdftex.def)             Requested size: 426.79141pt x 231.39966pt.
-<images/esarc_business.png, id=138, 477.785pt x 288.07625pt>
+<images/esarc_business.png, id=147, 477.785pt x 288.07625pt>
 File: images/esarc_business.png Graphic file (type png)
 <use images/esarc_business.png>
-Package pdftex.def Info: images/esarc_business.png  used on input line 65.
+Package pdftex.def Info: images/esarc_business.png  used on input line 68.
 (pdftex.def)             Requested size: 426.79141pt x 257.32771pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[5 <./images/vp_architecture.png> <./images/esarc_cube.png>]
+[5 <./images/vp_architecture.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[6 <./images/esarc_business.png>]
+[6 <./images/esarc_cube.png> <./images/esarc_business.png>]
 chapter 4.
-<images/components.png, id=166, 721.69624pt x 534.99875pt>
+<images/components.png, id=178, 721.69624pt x 534.99875pt>
 File: images/components.png Graphic file (type png)
 <use images/components.png>
-Package pdftex.def Info: images/components.png  used on input line 93.
+Package pdftex.def Info: images/components.png  used on input line 96.
 (pdftex.def)             Requested size: 426.79141pt x 316.38123pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
@@ -2228,10 +2237,10 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 104.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 107.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 104.
+(Font)              scaled to size 9.49997pt on input line 107.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2243,7 +2252,7 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [9]
 chapter 5.
 
-Overfull \hbox (10.87497pt too wide) in paragraph at lines 147--149
+Overfull \hbox (10.87497pt too wide) in paragraph at lines 150--152
 \OT1/txss/m/n/12 Con-nec-tion be-tween Wat-son As-sis-tant and Fron-tend throug
 h mon-godb and via socket.io
  []
@@ -2264,28 +2273,22 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <12> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 162.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 165.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 162.
+(Font)              scaled to size 11.39996pt on input line 165.
 LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 162.
+(Font)              scaled to size 11.39996pt on input line 165.
 
-Overfull \hbox (2.1563pt too wide) in paragraph at lines 163--163
+Overfull \hbox (2.1563pt too wide) in paragraph at lines 166--166
 [][]\OT1/txss/m/sl/12 Bluthochdruck ver-mei-den, be-han-deln und senken - Ak-ti
 v gegen Bluthochdruck \OT1/txss/m/n/12 (2019).
  []
 
 
-Overfull \hbox (28.05142pt too wide) in paragraph at lines 163--163
+Overfull \hbox (28.05142pt too wide) in paragraph at lines 166--166
 \OT1/txss/m/sl/12 Peo-ple and Smart City In-no-va-tion (Smart-World/SCALCOM/UIC
 /ATC/CBDCom/IOP/SCI)\OT1/txss/m/n/12 .
- []
-
-
-Overfull \hbox (2.87708pt too wide) in paragraph at lines 163--163
-\OT1/txss/m/sl/12 En-ter-prise Dis-tributed Ob-ject Com-put-ing Con-fer-ence Wo
-rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
  []
 
 
@@ -2295,6 +2298,18 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [12
 
 ]
+Overfull \hbox (2.63542pt too wide) in paragraph at lines 166--166
+\OT1/txss/m/n/12 59259-978-3 978-1-58829-512-5. \OT1/txss/m/sc/12 url\OT1/txss/
+m/n/12 : []$\OT1/txtt/m/n/12 http : / / www . springerlink . com / openurl .
+ []
+
+
+Overfull \hbox (2.87708pt too wide) in paragraph at lines 166--166
+\OT1/txss/m/sl/12 En-ter-prise Dis-tributed Ob-ject Com-put-ing Con-fer-ence Wo
+rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
+ []
+
+
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
@@ -2331,11 +2346,11 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2349,30 +2364,27 @@ Package biblatex Warning: Please rerun LaTeX.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
  ) 
 Here is how much of TeX's memory you used:
- 46674 strings out of 492616
- 886333 string characters out of 6129480
+ 46686 strings out of 492616
+ 886662 string characters out of 6129480
  1474954 words of memory out of 5000000
- 49832 multiletter control sequences out of 15000+600000
+ 49841 multiletter control sequences out of 15000+600000
  578889 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,89p,9100b,3561s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
-/urw/times/utmr8a.pfb>
-Output written on Main.pdf (18 pages, 1792813 bytes).
+ 74i,12n,89p,9100b,3561s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on Main.pdf (18 pages, 1795288 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
  230 words of extra memory for PDF output out of 10000 (max. 10000000)
 

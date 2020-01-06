@@ -68,6 +68,62 @@
       \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/FWW9MDV6/8808076.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/3948VI2N/Akhtar et al. - 2019 - The Potential of Chatbots Analysis of Chatbot Con.pdf:application/pdf
       \endverb
     \endentry
+    \entry{beevers_blood_2001}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ee95022b968afada8b6709d2a2cb705a}{%
+           family={Beevers},
+           familyi={B\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=79220df92d3d556df7997f65b2284a91}{%
+           family={Lip},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelimb Y\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=33c7ca4e8b844f44aa7bff890cf9d1bb}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Eoin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{33aa4359495ee038411eb45648c2f75b}
+      \strng{fullhash}{33aa4359495ee038411eb45648c2f75b}
+      \strng{bibnamehash}{33aa4359495ee038411eb45648c2f75b}
+      \strng{authorbibnamehash}{33aa4359495ee038411eb45648c2f75b}
+      \strng{authornamehash}{33aa4359495ee038411eb45648c2f75b}
+      \strng{authorfullhash}{33aa4359495ee038411eb45648c2f75b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0959-8138}
+      \field{journaltitle}{BMJ : British Medical Journal}
+      \field{month}{4}
+      \field{number}{7293}
+      \field{title}{Blood pressure measurement}
+      \field{urlday}{3}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{volume}{322}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{1043\bibrangedash 1047}
+      \range{pages}{5}
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/Users/jf/Zotero/storage/P5FA7XKP/Beevers et al. - 2001 - Blood pressure measurement.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1120188/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1120188/
+      \endverb
+    \endentry
     \entry{hochdruckliga}{misc}{}
       \list{language}{1}{%
         {de}%
@@ -295,6 +351,54 @@
       \endverb
       \verb{file}
       \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/U7QVJJWL/8560057.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/Y2LN8IQY/Talukder et al. - 2018 - Proof of Disease A Blockchain Consensus Protocol .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{white_blood_2007}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=71b516c67ed37284b270818ae1100820}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima B},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Totowa, N.J.}%
+      }
+      \list{publisher}{1}{%
+        {Humana Press}%
+      }
+      \strng{namehash}{71b516c67ed37284b270818ae1100820}
+      \strng{fullhash}{71b516c67ed37284b270818ae1100820}
+      \strng{bibnamehash}{71b516c67ed37284b270818ae1100820}
+      \strng{authorbibnamehash}{71b516c67ed37284b270818ae1100820}
+      \strng{authornamehash}{71b516c67ed37284b270818ae1100820}
+      \strng{authorfullhash}{71b516c67ed37284b270818ae1100820}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-59259-978-3 978-1-58829-512-5}
+      \field{note}{OCLC: 915957468}
+      \field{title}{Blood pressure monitoring in cardiovsacular medicine and therapeutics}
+      \field{urlday}{3}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb White - 2007 - Blood pressure monitoring in cardiovsacular medici.pdf:/Users/jf/Zotero/storage/EDGRCC7C/White - 2007 - Blood pressure monitoring in cardiovsacular medici.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.springerlink.com/openurl.asp?genre=book&isbn=978-1-58829-512-5
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.com/openurl.asp?genre=book&isbn=978-1-58829-512-5
       \endverb
     \endentry
     \entry{zimmermann}{inproceedings}{}

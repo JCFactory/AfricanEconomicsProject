@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {3.1}Reporting and Big Data}{4}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Software Architecture: Best Practices}{4}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Medical Documentation Apps}{5}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Chatbots}{6}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Chatbots}{5}{section.3.4}% 
 \contentsline {chapter}{\numberline {4}Analysis and Development}{7}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Experimental set-up}{8}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}Software architecture}{8}{subsection.4.1.1}% 
