@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  10 JAN 2020 11:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  10 JAN 2020 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2167,9 +2167,9 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 22.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 22.
+(Font)              scaled to size 16.41594pt on input line 17.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2179,19 +2179,55 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 ]
 chapter 3.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 31.
+(Font)              scaled to size 9.49997pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 31.
+(Font)              scaled to size 6.64998pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 31.
+(Font)              scaled to size 4.74998pt on input line 32.
 Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
-although it is yet undefined on input line 31.
+although it is yet undefined on input line 32.
 <images/example_software_architecture.png, id=124, 573.14125pt x 363.3575pt>
 File: images/example_software_architecture.png Graphic file (type png)
 <use images/example_software_architecture.png>
 Package pdftex.def Info: images/example_software_architecture.png  used on inpu
-t line 35.
+t line 36.
 (pdftex.def)             Requested size: 426.79141pt x 270.5769pt.
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.43 ...ton et al.\footnotemark[\ref{lupton_apps}]
+                                                  , in healthcare projects, ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Reference `lupton_apps' on page 4 undefined on input line 43.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.44 ...an doctors\footnotemark[\ref{lupton_apps}]
+                                                   medication interaction ar...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Reference `lupton_apps' on page 4 undefined on input line 44.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.45 ...real-time \footnotemark[\ref{lupton_apps}]
+                                                  . Pursuant to Lupton et al...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Reference `lupton_apps' on page 4 undefined on input line 45.
+
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2199,50 +2235,55 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [4
 
  <./images/example_software_architecture.png>]
-<images/vp_architecture.png, id=155, 681.54625pt x 310.15875pt>
+<images/vp_architecture.png, id=157, 681.54625pt x 310.15875pt>
 File: images/vp_architecture.png Graphic file (type png)
 <use images/vp_architecture.png>
-Package pdftex.def Info: images/vp_architecture.png  used on input line 56.
+Package pdftex.def Info: images/vp_architecture.png  used on input line 65.
 (pdftex.def)             Requested size: 426.79141pt x 194.22734pt.
-<images/esarc_cube.png, id=158, 499.8675pt x 271.0125pt>
+
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[5]
+<images/esarc_cube.png, id=180, 499.8675pt x 271.0125pt>
 File: images/esarc_cube.png Graphic file (type png)
 <use images/esarc_cube.png>
-Package pdftex.def Info: images/esarc_cube.png  used on input line 63.
+Package pdftex.def Info: images/esarc_cube.png  used on input line 72.
 (pdftex.def)             Requested size: 426.79141pt x 231.39966pt.
-<images/esarc_business.png, id=163, 477.785pt x 288.07625pt>
+<images/esarc_business.png, id=185, 477.785pt x 288.07625pt>
 File: images/esarc_business.png Graphic file (type png)
 <use images/esarc_business.png>
-Package pdftex.def Info: images/esarc_business.png  used on input line 70.
+Package pdftex.def Info: images/esarc_business.png  used on input line 79.
 (pdftex.def)             Requested size: 426.79141pt x 257.32771pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[5 <./images/vp_architecture.png>]
+[6 <./images/vp_architecture.png> <./images/esarc_cube.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[6 <./images/esarc_cube.png> <./images/esarc_business.png>]
+[7 <./images/esarc_business.png>]
 chapter 4.
-<images/components.png, id=196, 721.69624pt x 534.99875pt>
+<images/components.png, id=203, 721.69624pt x 534.99875pt>
 File: images/components.png Graphic file (type png)
 <use images/components.png>
-Package pdftex.def Info: images/components.png  used on input line 98.
+Package pdftex.def Info: images/components.png  used on input line 107.
 (pdftex.def)             Requested size: 426.79141pt x 316.38123pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[7
+[8
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 109.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 118.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 109.
+(Font)              scaled to size 9.49997pt on input line 118.
 
-Overfull \hbox (17.4248pt too wide) in paragraph at lines 114--126
+Overfull \hbox (17.4248pt too wide) in paragraph at lines 123--135
  [] 
  []
 
@@ -2250,61 +2291,61 @@ Overfull \hbox (17.4248pt too wide) in paragraph at lines 114--126
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[8 <./images/components.png>]
-<images/01_Hypertonie_Definition.png, id=214, 1075.01625pt x 924.45375pt>
+[9 <./images/components.png>]
+<images/01_Hypertonie_Definition.png, id=221, 1075.01625pt x 924.45375pt>
 File: images/01_Hypertonie_Definition.png Graphic file (type png)
 <use images/01_Hypertonie_Definition.png>
 Package pdftex.def Info: images/01_Hypertonie_Definition.png  used on input lin
-e 133.
+e 142.
 (pdftex.def)             Requested size: 426.79141pt x 367.01016pt.
-<images/02_Hypertonie_Ursachen.png, id=215, 1459.4525pt x 1068.99374pt>
+<images/02_Hypertonie_Ursachen.png, id=222, 1459.4525pt x 1068.99374pt>
 File: images/02_Hypertonie_Ursachen.png Graphic file (type png)
 <use images/02_Hypertonie_Ursachen.png>
 Package pdftex.def Info: images/02_Hypertonie_Ursachen.png  used on input line 
-140.
+149.
 (pdftex.def)             Requested size: 426.79141pt x 312.61009pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/03_blutdruck_messung.png, id=216, 884.30376pt x 763.85374pt>
+<images/03_blutdruck_messung.png, id=223, 884.30376pt x 763.85374pt>
 File: images/03_blutdruck_messung.png Graphic file (type png)
 <use images/03_blutdruck_messung.png>
-Package pdftex.def Info: images/03_blutdruck_messung.png  used on input line 14
-7.
+Package pdftex.def Info: images/03_blutdruck_messung.png  used on input line 15
+6.
 (pdftex.def)             Requested size: 426.79141pt x 368.66202pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/04_tutorial_messung.png, id=217, 1069.9975pt x 1670.24pt>
+<images/04_tutorial_messung.png, id=224, 1069.9975pt x 1670.24pt>
 File: images/04_tutorial_messung.png Graphic file (type png)
 <use images/04_tutorial_messung.png>
-Package pdftex.def Info: images/04_tutorial_messung.png  used on input line 154
+Package pdftex.def Info: images/04_tutorial_messung.png  used on input line 163
 .
 (pdftex.def)             Requested size: 426.79141pt x 666.22371pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/WA_dialog.png, id=221, 1472.50125pt x 933.4875pt>
+<images/WA_dialog.png, id=228, 1472.50125pt x 933.4875pt>
 File: images/WA_dialog.png Graphic file (type png)
 <use images/WA_dialog.png>
-Package pdftex.def Info: images/WA_dialog.png  used on input line 166.
+Package pdftex.def Info: images/WA_dialog.png  used on input line 175.
 (pdftex.def)             Requested size: 426.79141pt x 270.562pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/WA_intents.png, id=222, 1469.49pt x 866.23625pt>
+<images/WA_intents.png, id=229, 1469.49pt x 866.23625pt>
 File: images/WA_intents.png Graphic file (type png)
 <use images/WA_intents.png>
-Package pdftex.def Info: images/WA_intents.png  used on input line 173.
+Package pdftex.def Info: images/WA_intents.png  used on input line 182.
 (pdftex.def)             Requested size: 426.79141pt x 251.58539pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/WA_entities.png, id=223, 1465.475pt x 873.2625pt>
+<images/WA_entities.png, id=230, 1465.475pt x 873.2625pt>
 File: images/WA_entities.png Graphic file (type png)
 <use images/WA_entities.png>
-Package pdftex.def Info: images/WA_entities.png  used on input line 180.
+Package pdftex.def Info: images/WA_entities.png  used on input line 189.
 (pdftex.def)             Requested size: 426.79141pt x 254.31895pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2313,34 +2354,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[9 <./images/01_Hypertonie_Definition.png>]
+[10 <./images/01_Hypertonie_Definition.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[10 <./images/02_Hypertonie_Ursachen.png>]
+[11 <./images/02_Hypertonie_Ursachen.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[11 <./images/03_blutdruck_messung.png>]
+[12 <./images/03_blutdruck_messung.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[12]
+[13]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[13 <./images/04_tutorial_messung.png>]
+[14 <./images/04_tutorial_messung.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[14 <./images/WA_dialog.png> <./images/WA_intents.png>]
+[15 <./images/WA_dialog.png> <./images/WA_intents.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[15 <./images/WA_entities.png>]
+[16 <./images/WA_entities.png>]
 chapter 5.
 
-Overfull \hbox (10.87497pt too wide) in paragraph at lines 217--219
+Overfull \hbox (10.87497pt too wide) in paragraph at lines 226--228
 \OT1/txss/m/n/12 Con-nec-tion be-tween Wat-son As-sis-tant and Fron-tend throug
 h mon-godb and via socket.io
  []
@@ -2349,7 +2390,7 @@ h mon-godb and via socket.io
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[16
+[17
 
 ]
 chapter 6.
@@ -2357,24 +2398,24 @@ chapter 6.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[17
+[18
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <12> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 232.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 241.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 232.
+(Font)              scaled to size 11.39996pt on input line 241.
 LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 232.
+(Font)              scaled to size 11.39996pt on input line 241.
 
-Overfull \hbox (2.1563pt too wide) in paragraph at lines 233--233
+Overfull \hbox (2.1563pt too wide) in paragraph at lines 242--242
 [][]\OT1/txss/m/sl/12 Bluthochdruck ver-mei-den, be-han-deln und senken - Ak-ti
 v gegen Bluthochdruck \OT1/txss/m/n/12 (2019).
  []
 
 
-Overfull \hbox (28.05142pt too wide) in paragraph at lines 233--233
+Overfull \hbox (28.05142pt too wide) in paragraph at lines 242--242
 \OT1/txss/m/sl/12 Peo-ple and Smart City In-no-va-tion (Smart-World/SCALCOM/UIC
 /ATC/CBDCom/IOP/SCI)\OT1/txss/m/n/12 .
  []
@@ -2383,16 +2424,16 @@ Overfull \hbox (28.05142pt too wide) in paragraph at lines 233--233
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[18
+[19
 
 ]
-Overfull \hbox (2.63542pt too wide) in paragraph at lines 233--233
+Overfull \hbox (2.63542pt too wide) in paragraph at lines 242--242
 \OT1/txss/m/n/12 59259-978-3 978-1-58829-512-5. \OT1/txss/m/sc/12 url\OT1/txss/
 m/n/12 : []$\OT1/txtt/m/n/12 http : / / www . springerlink . com / openurl .
  []
 
 
-Overfull \hbox (2.87708pt too wide) in paragraph at lines 233--233
+Overfull \hbox (2.87708pt too wide) in paragraph at lines 242--242
 \OT1/txss/m/sl/12 En-ter-prise Dis-tributed Ob-ject Com-put-ing Con-fer-ence Wo
 rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
  []
@@ -2401,7 +2442,7 @@ rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[19]
+[20]
 chapter 7.
 (./Anhang.tex
 Overfull \hbox (34.02832pt too wide) in paragraph at lines 6--7
@@ -2423,7 +2464,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[20
+[21
 
 ]
 chapter 8.
@@ -2431,16 +2472,19 @@ chapter 8.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[21
+[22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2452,16 +2496,16 @@ Package biblatex Warning: Please rerun LaTeX.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 46760 strings out of 492616
- 888380 string characters out of 6129480
+ 46771 strings out of 492616
+ 888512 string characters out of 6129480
  1475954 words of memory out of 5000000
- 49888 multiletter control sequences out of 15000+600000
+ 49897 multiletter control sequences out of 15000+600000
  578889 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,89p,9100b,3561s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,11n,89p,9100b,3561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
@@ -2469,10 +2513,10 @@ ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
 dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb>
-Output written on Main.pdf (24 pages, 2732713 bytes).
+Output written on Main.pdf (25 pages, 2734843 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
