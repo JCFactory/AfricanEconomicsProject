@@ -107,22 +107,87 @@ In a second or third version, it is possible to focus more on the improvement of
 \subparagraph{Intent model}
 
 The chatbot was built according to the description of "Deutsche Hochdruckliga", a german organization for patients with hypertonia \footnote{cf.\autocite{hochdruckliga}}.
-To better understand the users and patients a basic intent model with five intents was developed. 
-The five intents include 
+To better understand the users and patients a basic intent model with four intents was developed. 
+The four intents include 
 
-%\begin{labeling}{Hypertonie_Messung}
-%\item [Hypertonie_Definition] What is hypertonia?
-%\item [Hypertonie_Schaeden] What are the consequences of hypertonia?
-%\item [Hypertonie_Risiko] How possible is it that i can suffer from hypertonia?
-%\item [Hypertonie_Symptome] What are the symptoms of hypertonia?
-%\item [Hypertonie_Messung] How can i messure my blood pressure?
-%\end{labeling}
+\begin{center}
+\begin{tabular}{ |c|c| } 
+\hline
+Intent & User input  \\
+\hline
 
-These five intents were used to define and develop five typical dialogs.
+\multirow{4}{4em}\\
+Definition of hypertonia  & What is hypertonia?  \\ 
+Curses of hypertonia & What are the implications or curses of hypertonia? \\ 
+Blood pressure measurement &  I am measuring my blood pressure.\\ 
+Measurement tutorial & How should i measure my blood pressure? \\ 
+\hline
+\end{tabular}
+\end{center}
+
+
+These five intents were used to define and develop four typical dialogs.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/01_Hypertonie_Definition.png}
+	\caption{Dialog diagram: definition of hypertonia}
+	\label{dialog_diagram_01}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/02_Hypertonie_Ursachen.png}
+	\caption{Dialog diagram: curses of hypertonia}
+	\label{dialog_diagram_02}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/03_blutdruck_messung.png}
+	\caption{Dialog diagram: blood pressure measurement}
+	\label{dialog_diagram_03}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/04_tutorial_messung.png}
+	\caption{Dialog diagram: measurement tutorial}
+	\label{dialog_diagram_04}
+\end{figure}
+
+
+\subparagraph{Watson Assistant implementation}
+
+In the following, the implemented dialog as well as all entities and intents are described. They have been developed according to the Watson Assistant documentation \footnote{cf.\autocite{wa_docu}}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/WA_dialog.png}
+	\caption{Watson Assistant dialog}
+	\label{wa_dialog}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/WA_intents.png}
+	\caption{Watson Assistant intents}
+	\label{wa_intents}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/WA_entities.png}
+	\caption{Watson Assistant entitities}
+	\label{wa_entities}
+\end{figure}
+
 
 \paragraph{Setup of MongoDB and basic AngularJS Frontend}
 
 \paragraph{Connect Watson Assistant to Frontend and MongoDB}
+
+To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId has to be requested to be able to interact with Watson Assistant. After that, a simple get request is executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the best fitting answer (with the highest confidence value) from Watson, which is calculated \footnote{cf.\autocite{wa_api_v2}}.
 
 \paragraph{Data visualization: Development of a Python Script to show all measured values}
 

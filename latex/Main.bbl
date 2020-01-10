@@ -68,6 +68,73 @@
       \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/FWW9MDV6/8808076.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/3948VI2N/Akhtar et al. - 2019 - The Potential of Chatbots Analysis of Chatbot Con.pdf:application/pdf
       \endverb
     \endentry
+    \entry{alessa}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=5a4c4a03cf0eaf2012d1fe6231415fb3}{%
+           family={Alessa},
+           familyi={A\bibinitperiod},
+           given={Tourkiah},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e1363c918aa8888adb356c40aaafe9f0}{%
+           family={Hawley},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8d0105fc96f76bad7f4aa2c8009fa987}{%
+           family={Hock},
+           familyi={H\bibinitperiod},
+           given={Emma\bibnamedelima S},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b3487bcc9e6b8a4f93afb8d7fe9fdd38}{%
+           family={Witte},
+           familyi={W\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{3e8a1bf19984a9864112a0c618cdb390}
+      \strng{fullhash}{004ffb14637a94c0307b23d3e98bc1f1}
+      \strng{bibnamehash}{3e8a1bf19984a9864112a0c618cdb390}
+      \strng{authorbibnamehash}{3e8a1bf19984a9864112a0c618cdb390}
+      \strng{authornamehash}{3e8a1bf19984a9864112a0c618cdb390}
+      \strng{authorfullhash}{004ffb14637a94c0307b23d3e98bc1f1}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2291-5222}
+      \field{journaltitle}{JMIR mHealth and uHealth}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Smartphone {Apps} to {Support} {Self}-{Management} of {Hypertension}}
+      \field{title}{Smartphone {Apps} to {Support} {Self}-{Management} of {Hypertension}: {Review} and {Content} {Analysis}}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2196/13645
+      \endverb
+      \verb{file}
+      \verb Volltext:/Users/jf/Zotero/storage/9CACJX62/Alessa et al. - 2019 - Smartphone Apps to Support Self-Management of Hype.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6658295/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6658295/
+      \endverb
+    \endentry
     \entry{beevers_blood_2001}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=ee95022b968afada8b6709d2a2cb705a}{%
@@ -351,6 +418,48 @@
       \endverb
       \verb{file}
       \verb IEEE Xplore Abstract Record:/Users/jf/Zotero/storage/U7QVJJWL/8560057.html:text/html;IEEE Xplore Full Text PDF:/Users/jf/Zotero/storage/Y2LN8IQY/Talukder et al. - 2018 - Proof of Disease A Blockchain Consensus Protocol .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{wa_docu}{misc}{}
+      \field{sortinit}{Ü}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Übersicht über die {Watson} {Assistant}-{API}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Übersicht über die Watson Assistant-API:/Users/jf/Zotero/storage/UU5LW3S8/assistant.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://cloud.ibm.com/docs/services/assistant?topic=assistant-api-overview
+      \endverb
+      \verb{url}
+      \verb https://cloud.ibm.com/docs/services/assistant?topic=assistant-api-overview
+      \endverb
+    \endentry
+    \entry{wa_api_v2}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Watson {Assistant} v2 - {IBM} {Cloud} {API} {Docs}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Watson Assistant v2 - IBM Cloud API Docs:/Users/jf/Zotero/storage/8P9LEV8Z/assistant-v2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://cloud.ibm.com/apidocs/assistant/assistant-v2
+      \endverb
+      \verb{url}
+      \verb https://cloud.ibm.com/apidocs/assistant/assistant-v2
       \endverb
     \endentry
     \entry{white_blood_2007}{book}{}

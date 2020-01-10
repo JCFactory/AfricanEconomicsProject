@@ -16,18 +16,19 @@
 \contentsline {paragraph}{\nonumberline Kaggle Dataset}{8}{section*.8}% 
 \contentsline {paragraph}{\nonumberline Development of Watson Assistant Dialog}{8}{section*.9}% 
 \contentsline {subparagraph}{\nonumberline Intent model}{8}{section*.10}% 
-\contentsline {paragraph}{\nonumberline Setup of MongoDB and basic AngularJS Frontend}{9}{section*.11}% 
-\contentsline {paragraph}{\nonumberline Connect Watson Assistant to Frontend and MongoDB}{9}{section*.12}% 
-\contentsline {paragraph}{\nonumberline Data visualization: Development of a Python Script to show all measured values}{9}{section*.13}% 
-\contentsline {paragraph}{\nonumberline Development of recommendation of nearest doctors to patient}{9}{section*.14}% 
-\contentsline {paragraph}{\nonumberline Development of email service to send reports every two weeks to the doctor}{9}{section*.15}% 
-\contentsline {section}{\numberline {4.2}Problem solving}{9}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Tests}{9}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Dataset}{9}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Results}{9}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{10}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Conclusion}{10}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Outlook}{10}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Abbreviations}{11}{chapter.6}% 
-\contentsline {chapter}{\numberline {7}Appendix A}{14}{chapter.7}% 
-\contentsline {chapter}{\numberline {8}Appendix B}{15}{chapter.8}% 
+\contentsline {subparagraph}{\nonumberline Watson Assistant implementation}{9}{section*.15}% 
+\contentsline {paragraph}{\nonumberline Setup of MongoDB and basic AngularJS Frontend}{9}{section*.19}% 
+\contentsline {paragraph}{\nonumberline Connect Watson Assistant to Frontend and MongoDB}{10}{section*.20}% 
+\contentsline {paragraph}{\nonumberline Data visualization: Development of a Python Script to show all measured values}{10}{section*.21}% 
+\contentsline {paragraph}{\nonumberline Development of recommendation of nearest doctors to patient}{10}{section*.22}% 
+\contentsline {paragraph}{\nonumberline Development of email service to send reports every two weeks to the doctor}{11}{section*.23}% 
+\contentsline {section}{\numberline {4.2}Problem solving}{12}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Tests}{12}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Dataset}{12}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Results}{12}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{16}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Conclusion}{16}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Outlook}{16}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Abbreviations}{17}{chapter.6}% 
+\contentsline {chapter}{\numberline {7}Appendix A}{20}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Appendix B}{21}{chapter.8}% 
