@@ -89,7 +89,6 @@ As a requirement list for health data, Talukder et al. describe important featur
 
 
 \footnote{cf.\autocite{kawohl}}
-\footnote{cf.\autocite{zini}}
 \footnote{cf.\autocite{zimmermann}}
 
 \footnote{cf.\autocite{white_blood_2007}}
@@ -97,13 +96,6 @@ As a requirement list for health data, Talukder et al. describe important featur
 
 \footnote{cf.\autocite{alessa}}
 https://www.heart.org/en
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=1\textwidth]{images/vp_architecture.png}
-	\caption{Virtual patient software architecture cf.\autocite{zini}}
-	\label{vp_architecture}
-\end{figure}
 
 \begin{figure}[htbp]
 	\centering
@@ -124,6 +116,7 @@ Was können die schon ?
 %https://freeappsforme.com/apps-to-measure-blood-pressure/#cardio-journal
 \section{Chatbots} 
 
+\subsection{The potential of chatbots}
 Modelling, profiling, analyzing and understanding users becomes increasingly important in many different indrustries and count as key to success in todays data driven world. 
 The main advantage of chatbots is to provide a 24-hour customer service with personalized interaction and no waiting time\footnote{cf.\autocite{akhtar}}.
 Akhtar et al. analyzed chat conversations between customers and the chatbot of a telecommunication company in order to find out the user's topics of interest and how to satisfy users. As described by Akhtar et al., the tests of the chatbot were splitted into different activities, such as text mining techniques (feedback comments), event sequence analysis, frequent term extraction, analysis of bigrams/trigrams. 
@@ -145,9 +138,28 @@ There are several types of conversations which can be designed by building a cha
 \paragraph{Types of dialog systems}
 In general, dialog systems can be divided into two kinds of systems. On the one hand, there are task-oriented systems which are appropriate for short conversations and built for a certain purpose. On the other hand, there are non-task-oriented systems which are built for longer and more complex interactions with the purpose of imitating human conversations\footnote{cf.\autocite{akhtar}}.
 
+\subsection{A deep learning question-answering specialized chatbot for medical students}
+During their studies, medical students have to take an exam which is called \ac{osce} where they interact with a 'standardized' patient played by an actor who simulates the symptoms and intents of the patient\footnote{cf.\autocite{zini}}. The aim of this exam is to test and assess the students' abilities and social interaction and diagnosis skills.
+Since in practice, there are not many actors who can play a patient's role, Zini et al. developed a virtual patient and chatbot system which works with \ac{nlp} techniques.
+
+Figure \ref{vp_architecture} shows the architecture of the developed system to create a virtual patient. Zini et al. used a \ac{cnn} and \ac{lstm} network in order to learn domain specific word embeddings, sentence embedding and answer selection models.
+The embeddings model which is outlined by a red rectangle in figure \ref{vp_architecture} is trained on a corpus of medical documents.
+In Figure \ref{vp_architecture}, there is a \ac{nlp} engine outlined by a red rectangle. By using a supervised learning scheme to learn a mapping between question and answering pairs and judgement of correct match, this \ac{nlp} engine should correctly answer questions based on a script.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1\textwidth]{images/vp_architecture.png}
+	\caption{Virtual patient software architecture cf.\autocite{zini}}
+	\label{vp_architecture}
+\end{figure}
+
+The aim of the developed system was to create a deep learning framework for answer selection in the medical domain and to create domain-specific word and sentence e,bedding models. Additionally, a question and answering corpus should be created for \ac{osce}s.
+
+\paragraph{Question and Answering systems}
+According to Zini et al. there are two types of question and answering systems\footnote{cf.\autocite{zini}}. First of all, there is open domain question and answering which uses very specific terminology. Secondly there are restricted domain question and answering systems which are broader in their scope. These are for example insurance-related deep learning question and answering systems which make use of two baseline models: \ac{bow} and \ac{ir} model. 
+
 
 \chapter{Analysis and Development}
-
 
 First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor so that he can get more insights about the blood pressure values of his patients and improve the treatment.
 One of the main challenges during development was the process of providing information about the disease to the patient. Is it possible to include information about different types of blood pressure into the automated conversation with a chatbot? Or does it overwhelm the conversation's use case? Is it useful to let the user ask questions like: 'What are the different types of hypertension? Am i a high-risk patient?' 
@@ -194,7 +206,7 @@ Measurement tutorial & How should i measure my blood pressure? \\
 \end{center}
 
 
-These five intents were used to define and develop four typical dialogs.
+These five intents were used to define and develop four typical dialogs, displayed in figure \ref{dialog_diagram_01}, \ref{dialog_diagram_02}, \ref{dialog_diagram_03} and \ref{dialog_diagram_04}.
 
 \begin{figure}[h]
 	\centering
