@@ -40,6 +40,7 @@ In order to provide an effective treatment of any disease, all health related da
 According to Talukder et al.\footnote{cf.\autocite{talukder}}, there are three different types of mining: 
 
 \begin{itemize}
+\setlength\itemsep{-0.5em}
   \item \ac{mem}
   \item \ac{hsm} 
   \item payment (financial/coin) mining
@@ -77,6 +78,7 @@ Talukder et al. mention 'P6'-Medicine which describes medicine using six adjecti
 As a requirement list for health data, Talukder et al. describe important features as follows: 
 
 \begin{itemize}
+\setlength\itemsep{-0.5em}
   \item secured (the anonymity, privacy, confidentiality of health data must be approved)
   \item systems which provide health data must have a zero down-time 
   \item the integrity of the health data must be ensured
@@ -86,11 +88,6 @@ As a requirement list for health data, Talukder et al. describe important featur
 \end{itemize}
 
 
-
-
-
-
-\footnote{cf.\autocite{akhtar}}
 \footnote{cf.\autocite{kawohl}}
 \footnote{cf.\autocite{zini}}
 \footnote{cf.\autocite{zimmermann}}
@@ -127,10 +124,31 @@ Was können die schon ?
 %https://freeappsforme.com/apps-to-measure-blood-pressure/#cardio-journal
 \section{Chatbots} 
 
+Modelling, profiling, analyzing and understanding users becomes increasingly important in many different indrustries and count as key to success in todays data driven world. 
+The main advantage of chatbots is to provide a 24-hour customer service with personalized interaction and no waiting time\footnote{cf.\autocite{akhtar}}.
+Akhtar et al. analyzed chat conversations between customers and the chatbot of a telecommunication company in order to find out the user's topics of interest and how to satisfy users. As described by Akhtar et al., the tests of the chatbot were splitted into different activities, such as text mining techniques (feedback comments), event sequence analysis, frequent term extraction, analysis of bigrams/trigrams. 
+During data preprocessing, Akthar et al. used the following methods:
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item[1.] corpus generation
+  \item[2.] eliminating extra white space
+  \item[3.] stopwords removal
+  \item[4.] tokenizing
+  \item[5.] stemming
+  \item[6.] creating term-document matrices
+\end{itemize}
 
+The main challenges during the data analysis process are data availability, the access to further user information (e.g. contract details or age in order to generate an user model) and the distinction between different user types and different personality structures.
+
+\paragraph{Question Answering Paradigms}
+There are several types of conversations which can be designed by building a chatbot\footnote{cf.\autocite{akhtar}}. Generally, there can be distinguished between two different paradigms: information-retrieval based Question and Answering and knowledge-based Question and Answering. The first type describes the mechanism to define short texts as answers to a user's intent. On the opposite, the second type describes how to in natural language. The answers are stored into a full-related database and the conversation works simply with a rule-based method.
+\paragraph{Types of dialog systems}
+In general, dialog systems can be divided into two kinds of systems. On the one hand, there are task-oriented systems which are appropriate for short conversations and built for a certain purpose. On the other hand, there are non-task-oriented systems which are built for longer and more complex interactions with the purpose of imitating human conversations\footnote{cf.\autocite{akhtar}}.
 
 
 \chapter{Analysis and Development}
+
+
 First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor so that he can get more insights about the blood pressure values of his patients and improve the treatment.
 One of the main challenges during development was the process of providing information about the disease to the patient. Is it possible to include information about different types of blood pressure into the automated conversation with a chatbot? Or does it overwhelm the conversation's use case? Is it useful to let the user ask questions like: 'What are the different types of hypertension? Am i a high-risk patient?' 
 Or should these information be provided as a video or a simple web page with long articles to read? Might the patient or user be aborred after a while of talking to a chatbot who only knows answering his questions in the same way?
