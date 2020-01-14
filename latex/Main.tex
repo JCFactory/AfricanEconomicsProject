@@ -71,6 +71,9 @@ Figure \ref{esarc_example} shows the architecture 'ESARC', developed by Zimmerma
 	\label{esarc_example}
 \end{figure}
 
+As can be seen in figure \ref{esarc_example}, metamodels are used to define model elements in architectures. They relate architectural elements to ontologies which represent a common vocabulary for enterprise architectures.
+Zimmermann et al. recommend that operations of tasks and entity services should not have any knowledge about their process or interactive usage context \footnote{cf.\autocite{zimmermann}}. Instead, task service operations should be independent from users and sessions and should only implement business functionality.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{images/esarc_business.png}
@@ -78,6 +81,10 @@ Figure \ref{esarc_example} shows the architecture 'ESARC', developed by Zimmerma
 	\label{vp_architecture}
 \end{figure}
 
+Figure \ref{vp_architecture} shows a more detailed view of 'ESARC', the procedural framework for architecture assessment processes and questionnaire design. On top of the graphic, with orange background, there are business vision, drivers, goals and objectives. To be more precuse, architecture governance has the goal to manage activities such as plan, define, enable, measure, control and sets rules for architecture complicance to internal and external standards. 
+
+\paragraph{Actors in cloud computing}
+According to Zimmermann et al., the main actors in cloud computing are cloud consumers, providers, auditors and broker \footnote{cf.\autocite{zimmermann}}. In general, all \ac{soa} services are cloud services and follow a reference architecture: 'Jericho-Security-focused Service-oriented Reference architecture for cloud computing'. Thereby, management perspectives from \ac{itil} and \ac{togaf} standards are integrated.
 
 \section{Medical Documentation Apps}
 
@@ -315,7 +322,8 @@ Connection between Watson Assistant and Frontend through mongodb and via socket.
 
 \chapter{Abbreviations}
 \input{Abkuerzung}
-\printbibliography
+
+\printbibliography[heading=bibintoc]
 
 \chapter{Appendix A}\label{appendix a}
 \input{Anhang}
