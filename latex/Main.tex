@@ -214,7 +214,7 @@ In a second or third version, it is possible to focus more on the improvement of
 
 \subparagraph{Intent model}
 
-The chatbot was built according to the description of "Deutsche Hochdruckliga", a german organization for patients with hypertonia \footnote{cf.\autocite{hochdruckliga}}.
+The chatbot was built according to the description of "Deutsche Hochdruckliga", a german organization for patients with hypertonia\footnote{cf.\autocite{hochdruckliga}}.
 To better understand the users and patients a basic intent model with four intents was developed. 
 The four intents include 
 
@@ -298,6 +298,9 @@ In the following, the implemented dialog as well as all entities and intents are
 To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId has to be requested to be able to interact with Watson Assistant. After that, a simple get request is executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the best fitting answer (with the highest confidence value) from Watson, which is calculated \footnote{cf.\autocite{wa_api_v2}}.
 
 \paragraph{Data visualization: Development of a Python Script to show all measured values}
+\footnote{cf.\autocite{kaggle}}
+\footnote{cf.\autocite{decision_tree_python}}
+
 
 \paragraph{Development of recommendation of nearest doctors to patient}
 outlook: maybe in future to connect to the doctors' calendar to directly make an appointment through the chatbot
@@ -310,6 +313,8 @@ In order to face this problem or use case, a routine including a timer had to be
 \section{Problem solving}
 \subsection{Tests}
 \subsection{Dataset}
+\footnote{cf.\autocite{kaggle}}
+
 \section{Results}
 
 \chapter{Conclusion and Outlook }

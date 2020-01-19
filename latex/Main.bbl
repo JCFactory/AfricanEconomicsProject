@@ -160,6 +160,56 @@
       \verb https://www.hochdruckliga.de/
       \endverb
     \endentry
+    \entry{kaggle}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dataset consists of 70 000 records of patients data, 11 features + target.}
+      \field{title}{Cardiovascular {Disease} dataset}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jf/Zotero/storage/P2ILE39R/data.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://kaggle.com/sulianova/cardiovascular-disease-dataset
+      \endverb
+      \verb{url}
+      \verb https://kaggle.com/sulianova/cardiovascular-disease-dataset
+      \endverb
+    \endentry
+    \entry{decision_tree_python}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this tutorial, learn Decision Tree Classification, attribute selection measures, and how to build and optimize Decision Tree Classifier using Python Scikit-learn package.}
+      \field{journaltitle}{DataCamp Community}
+      \field{month}{12}
+      \field{title}{Decision {Tree} {Classification} in {Python}}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jf/Zotero/storage/WPMTTKGQ/decision-tree-classification-python.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.datacamp.com/community/tutorials/decision-tree-classification-python
+      \endverb
+      \verb{url}
+      \verb https://www.datacamp.com/community/tutorials/decision-tree-classification-python
+      \endverb
+    \endentry
     \entry{lupton_mhealth}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=87ecd018a55d18b4c916c52860a4c9fa}{%
