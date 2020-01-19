@@ -6,16 +6,16 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Example software architecture cf.\autocite {talukder}\relax }}{5}{figure.caption.10}% 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces \ac {esarc} as an example for big data architecture cf.\autocite {zimmermann}\relax }}{6}{figure.caption.14}% 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \ac {esarc} business and information reference architecture cf.\autocite {zimmermann}\relax }}{7}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Virtual patient software architecture cf.\autocite {zini}\relax }}{12}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Virtual patient software architecture cf.\autocite {zini}\relax }}{13}{figure.caption.28}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Component diagram of developed solution\relax }}{14}{figure.caption.30}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dialog diagram: definition of hypertonia\relax }}{15}{figure.caption.34}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Dialog diagram: curses of hypertonia\relax }}{16}{figure.caption.35}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Dialog diagram: blood pressure measurement\relax }}{17}{figure.caption.36}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Dialog diagram: measurement tutorial\relax }}{19}{figure.caption.37}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Watson Assistant dialog\relax }}{20}{figure.caption.39}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Watson Assistant intents\relax }}{20}{figure.caption.40}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Watson Assistant entitities\relax }}{21}{figure.caption.41}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Component diagram of developed solution\relax }}{15}{figure.caption.32}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dialog diagram: definition of hypertonia\relax }}{16}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Dialog diagram: curses of hypertonia\relax }}{17}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dialog diagram: blood pressure measurement\relax }}{18}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Dialog diagram: measurement tutorial\relax }}{20}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Watson Assistant dialog\relax }}{21}{figure.caption.41}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Watson Assistant intents\relax }}{21}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Watson Assistant entitities\relax }}{22}{figure.caption.43}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

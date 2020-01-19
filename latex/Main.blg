@@ -1,17 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'Main.blg'
-[38] biber-darwin:315> INFO - === Di Jan 14, 2020, 09:38:54
-[59] Biber.pm:371> INFO - Reading 'Main.bcf'
-[169] Biber.pm:889> INFO - Found 13 citekeys in bib section 0
-[185] Biber.pm:4093> INFO - Processing section 0
-[197] Biber.pm:4254> INFO - Looking for bibtex format file 'Lit.bib' for section 0
-[205] bibtex.pm:1523> INFO - LaTeX decoding ...
-[265] bibtex.pm:1340> INFO - Found BibTeX data source 'Lit.bib'
-[328] Utils.pm:193> WARN - ISBN '978-1-59259-978-3 978-1-58829-512-5' in entry 'white_blood_2007' is invalid - run biber with '--validate_datamodel' for details.
-[399] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[400] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[400] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[400] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[421] bbl.pm:636> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
-[433] bbl.pm:739> INFO - Output to Main.bbl
-[433] Biber.pm:110> INFO - WARNINGS: 1
+[45] biber-darwin:315> INFO - === So Jan 19, 2020, 09:55:28
+[68] Biber.pm:371> INFO - Reading 'Main.bcf'
+[161] Biber.pm:889> INFO - Found 13 citekeys in bib section 0
+[173] Biber.pm:4093> INFO - Processing section 0
+[183] Biber.pm:4254> INFO - Looking for bibtex format file 'Lit.bib' for section 0
+[191] bibtex.pm:1523> INFO - LaTeX decoding ...
+[240] bibtex.pm:1340> INFO - Found BibTeX data source 'Lit.bib'
+[354] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[354] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[354] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[355] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[378] bbl.pm:636> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[391] bbl.pm:739> INFO - Output to Main.bbl

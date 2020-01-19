@@ -10,34 +10,39 @@
 \contentsline {subsection}{\numberline {3.2.1}\ac {soa} for big data applications in the cloud}{6}{subsection.3.2.1}% 
 \contentsline {paragraph}{\nonumberline Actors in cloud computing}{7}{section*.16}% 
 \contentsline {section}{\numberline {3.3}Medical Documentation Apps}{8}{section.3.3}% 
-\contentsline {paragraph}{\nonumberline Blockchain solution for accurate medical decisions}{9}{section*.20}% 
-\contentsline {section}{\numberline {3.4}Chatbots}{10}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}The potential of chatbots}{10}{subsection.3.4.1}% 
-\contentsline {paragraph}{\nonumberline Question Answering Paradigms}{10}{section*.21}% 
-\contentsline {paragraph}{\nonumberline Types of dialog systems}{11}{section*.22}% 
-\contentsline {subsection}{\numberline {3.4.2}A deep learning question-answering specialized chatbot for medical students}{11}{subsection.3.4.2}% 
-\contentsline {paragraph}{\nonumberline Question and Answering systems}{12}{section*.27}% 
-\contentsline {chapter}{\numberline {4}Analysis and Development}{13}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Experimental set-up}{14}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Software architecture}{14}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Components}{14}{subsection.4.1.2}% 
-\contentsline {paragraph}{\nonumberline Kaggle Dataset}{14}{section*.31}% 
-\contentsline {paragraph}{\nonumberline Development of Watson Assistant Dialog}{14}{section*.32}% 
-\contentsline {subparagraph}{\nonumberline Intent model}{14}{section*.33}% 
-\contentsline {subparagraph}{\nonumberline Watson Assistant implementation}{15}{section*.38}% 
-\contentsline {paragraph}{\nonumberline Setup of MongoDB and basic AngularJS Frontend}{16}{section*.42}% 
-\contentsline {paragraph}{\nonumberline Connect Watson Assistant to Frontend and MongoDB}{16}{section*.43}% 
-\contentsline {paragraph}{\nonumberline Data visualization: Development of a Python Script to show all measured values}{16}{section*.44}% 
-\contentsline {paragraph}{\nonumberline Development of recommendation of nearest doctors to patient}{16}{section*.45}% 
-\contentsline {paragraph}{\nonumberline Development of email service to send reports every two weeks to the doctor}{17}{section*.46}% 
-\contentsline {section}{\numberline {4.2}Problem solving}{18}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Tests}{18}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Dataset}{18}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Results}{18}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{22}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Conclusion}{22}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Outlook}{22}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Abbreviations}{23}{chapter.6}% 
-\contentsline {chapter}{\nonumberline Bibliography}{24}{chapter*.47}% 
-\contentsline {chapter}{\numberline {7}Appendix A}{26}{chapter.7}% 
-\contentsline {chapter}{\numberline {8}Appendix B}{27}{chapter.8}% 
+\contentsline {subsection}{\numberline {3.3.1}Review of smartphone apps to support self-management of hypertension}{8}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Blood pressure monitoring in cardiovascular medicine and therapeutics}{8}{subsection.3.3.2}% 
+\contentsline {paragraph}{\nonumberline Influence factors of hypertension}{8}{section*.19}% 
+\contentsline {paragraph}{\nonumberline Future trends in blood pressure measurements}{9}{section*.20}% 
+\contentsline {subsection}{\numberline {3.3.3}Social web and use cases for medical apps}{9}{subsection.3.3.3}% 
+\contentsline {paragraph}{\nonumberline Blockchain solution for accurate medical decisions}{10}{section*.22}% 
+\contentsline {section}{\numberline {3.4}Chatbots}{11}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}The potential of chatbots}{11}{subsection.3.4.1}% 
+\contentsline {paragraph}{\nonumberline Question Answering Paradigms}{11}{section*.23}% 
+\contentsline {paragraph}{\nonumberline Types of dialog systems}{12}{section*.24}% 
+\contentsline {subsection}{\numberline {3.4.2}A deep learning question-answering specialized chatbot for medical students}{12}{subsection.3.4.2}% 
+\contentsline {paragraph}{\nonumberline Question and Answering systems}{13}{section*.29}% 
+\contentsline {chapter}{\numberline {4}Analysis and Development}{14}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Experimental set-up}{15}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Software architecture}{15}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Components}{15}{subsection.4.1.2}% 
+\contentsline {paragraph}{\nonumberline Kaggle Dataset}{15}{section*.33}% 
+\contentsline {paragraph}{\nonumberline Development of Watson Assistant Dialog}{15}{section*.34}% 
+\contentsline {subparagraph}{\nonumberline Intent model}{15}{section*.35}% 
+\contentsline {subparagraph}{\nonumberline Watson Assistant implementation}{16}{section*.40}% 
+\contentsline {paragraph}{\nonumberline Setup of MongoDB and basic AngularJS Frontend}{17}{section*.44}% 
+\contentsline {paragraph}{\nonumberline Connect Watson Assistant to Frontend and MongoDB}{17}{section*.45}% 
+\contentsline {paragraph}{\nonumberline Data visualization: Development of a Python Script to show all measured values}{17}{section*.46}% 
+\contentsline {paragraph}{\nonumberline Development of recommendation of nearest doctors to patient}{17}{section*.47}% 
+\contentsline {paragraph}{\nonumberline Development of email service to send reports every two weeks to the doctor}{18}{section*.48}% 
+\contentsline {section}{\numberline {4.2}Problem solving}{19}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Tests}{19}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Dataset}{19}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Results}{19}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{23}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Conclusion}{23}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Outlook}{23}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Abbreviations}{24}{chapter.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{25}{chapter*.49}% 
+\contentsline {chapter}{\numberline {7}Appendix A}{27}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Appendix B}{28}{chapter.8}% 
