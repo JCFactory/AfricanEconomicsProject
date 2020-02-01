@@ -18,7 +18,7 @@ Jack: 'Hey, i found these nearest doctors/specialists in your neighbourhood. Jus
 
 \section{Aim and scope of this work}
 Aim of this scientific work is to develop a solution to document blood pressure in order to react preventively against heart disease.
-To recommend an appropriate doctor in one's surrounding (approximately 5 kilometers of distance).
+To recommend an appropriate doctor in one's surrounding (approximately 5 kilometers of distance), an intuitive user interface with map is being shown.
 The application shall send every week/every two weeks a report (including a diagramm of all measured blood pressure values of the patient) to the doctor so that the doctor will be informed in real-time. In the diagrams/frontend, it is possible to select different scales, e.g. like the values of last week/last month/last year. 
 At the beginning of using the Chatbot, the user is being led through a tutorial which shows him how to measure correctly his blood pressure. One instruction is for example not to drink coffee before measuring your blood pressure or to sit for at least 5 minutes.
 
@@ -330,14 +330,8 @@ During development and research, there came up another issue: To inform patients
 connection frontend (angularjs webpage) to mongodb through socket.io connection.
 Connection between Watson Assistant and Frontend through mongodb and via socket.io connection.
 
-
-% ncbi query for all genomes
-%\begin{figure}[htbp]
-%	\centering
-	%\includegraphics[width=1\textwidth]{Image/ncbi_all_result.png}
-%	\caption{\ac{ncbi} query to find all \ac{all} related gene sequences}
-%	\label{ncbi_query}
-%\end{figure}
+\subsection{Predictive Analytics}
+Based on the given Kaggle dataset, it is interesting to predict the propability for potential hypertension patients based on their general information. Therefore a model was 
 
 
 \chapter{Abbreviations}
