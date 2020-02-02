@@ -8,15 +8,16 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \ac {esarc} business and information reference architecture cf.\autocite {zimmermann}\relax }}{7}{figure.caption.15}% 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Virtual patient software architecture cf.\autocite {zini}\relax }}{14}{figure.caption.32}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Component diagram of developed solution\relax }}{16}{figure.caption.36}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dialog diagram: definition of hypertonia\relax }}{17}{figure.caption.40}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Dialog diagram: curses of hypertonia\relax }}{18}{figure.caption.41}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Dialog diagram: blood pressure measurement\relax }}{19}{figure.caption.42}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Dialog diagram: measurement tutorial\relax }}{21}{figure.caption.43}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Watson Assistant dialog\relax }}{22}{figure.caption.45}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Watson Assistant intents\relax }}{22}{figure.caption.46}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Watson Assistant entitities\relax }}{23}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture diagram of developed system\relax }}{16}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dialog diagram: definition of hypertonia\relax }}{18}{figure.caption.41}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Dialog diagram: curses of hypertonia\relax }}{19}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dialog diagram: blood pressure measurement\relax }}{20}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Dialog diagram: measurement tutorial\relax }}{21}{figure.caption.44}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Watson Assistant dialog\relax }}{22}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Watson Assistant intents\relax }}{23}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Watson Assistant entitities\relax }}{23}{figure.caption.48}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Watson Assistant entitities\relax }}{26}{figure.caption.54}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

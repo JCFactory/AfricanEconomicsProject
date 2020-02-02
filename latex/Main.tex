@@ -200,21 +200,21 @@ In a second or third version, it is possible to focus more on the improvement of
 
 \subsection{Software architecture}
 
-\subsection{Components}
+Figure \ref{architecture_0102} gives an overview of all developed components. Quite above, there is the Watson Assistant instance, running in the IBM Cloud. Beneath Watson Assistant, a NodeJS server opens the session and sends messages from the client to the Assistant and backwards. The NodeJS server connects the cloud and the frontend by implementing \ac{http} requests and responses. Finally, there is the AngularJS application running locally and creating a \ac{JSON} reporting file every few minutes. This reporting file includes all messages, with the user from whom it was send and a timestamp. It can be used to analyze the data and to create profiles of the patients.
+
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=1\textwidth]{images/components.png}
-	\caption{Component diagram of developed solution}
-	\label{ncbi_query}
+	\includegraphics[width=1\textwidth]{images/architecture_0102.png}
+	\caption{Architecture diagram of developed system}
+	\label{architecture_0102}
 \end{figure}
 
-\paragraph{Kaggle Dataset}
-%https://www.kaggle.com/mkachuee/BloodPressureDataset
+
 \paragraph{Development of Watson Assistant Dialog}
 
 \subparagraph{Intent model}
 
-The chatbot was built according to the description of "Deutsche Hochdruckliga", a german organization for patients with hypertonia\footnote{cf.\autocite{hochdruckliga}}.
+The chatbot was built according to the webpage of "Deutsche Hochdruckliga", a german organization for patients who suffer from hypertonia\footnote{cf.\autocite{hochdruckliga}}. 
 To better understand the users and patients a basic intent model with four intents was developed. 
 The four intents include 
 
@@ -233,8 +233,7 @@ Measurement tutorial & How should i measure my blood pressure? \\
 \end{tabular}
 \end{center}
 
-
-These five intents were used to define and develop four typical dialogs, displayed in figure \ref{dialog_diagram_01}, \ref{dialog_diagram_02}, \ref{dialog_diagram_03} and \ref{dialog_diagram_04}.
+These four intents were used to define and develop four typical dialogs, displayed in figure \ref{dialog_diagram_01}, \ref{dialog_diagram_02}, \ref{dialog_diagram_03} and \ref{dialog_diagram_04}.
 
 \begin{figure}[h]
 	\centering
@@ -259,7 +258,7 @@ These five intents were used to define and develop four typical dialogs, display
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\textwidth]{images/04_tutorial_messung.png}
+	\includegraphics[width=1\textwidth]{images/06_tutorial_messung.png}
 	\caption{Dialog diagram: measurement tutorial}
 	\label{dialog_diagram_04}
 \end{figure}
@@ -290,10 +289,15 @@ In the following, the implemented dialog as well as all entities and intents are
 	\label{wa_entities}
 \end{figure}
 
+\paragraph{Setup of AngularJS Frontend}
+In order to provide a comfortable way to chat and view all retrieved and measured data, a basic angular application was built and run locally. Three open source ibraries, such as Nebular\footnote{cf.\autocite{nebular}}, Apache Echarts\footnote{cf.\autocite{echarts}} and Openlayers Maps\footnote{cf.\autocite{openlayers}} were included to the application. Nebular is a Javascript library that has certain themes (e.g. light, dark etc.) and a chat UI (which allows to send messages and different file types such as documents or images or videos). It also allows to send a location by defining longitude and latitude parameters. Generally, it is very handy and useful to fast built up an Angular webpage.
+Secondly, Apache Echarts is also a Javascript library which offers a huge variety of diagrams and maps, such as bar, line, pie and other special diagrams (including different animation modes, overlays and tooltips). For the first draft of the frontend, the basic line chart was used to display the weekly, monthly and yearly overview of measured pulse, systolic and diastolic values. But for future use cases, it might be also useful to display other charts of Echarts or maybe tables.
+The third Javascript library that was used, is called Openlayers Maps. It is very famous and many projects rather use Openlayers API than Google Places API because their API calls are very expensive. Openlayers Maps has many different modes and overlays. Certain places can be marked by different icons.
+All in all, the three described libraries were very well documented and are easy and ready to use after installation, so that the focus could be spent more on developing the Watson Assistant dialog described in the next paragraph.
 
-\paragraph{Setup of MongoDB and basic AngularJS Frontend}
+\paragraph{Connect Watson Assistant to Frontend}
 
-\paragraph{Connect Watson Assistant to Frontend and MongoDB}
+difficul
 
 To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId has to be requested to be able to interact with Watson Assistant. After that, a simple get request is executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the best fitting answer (with the highest confidence value) from Watson, which is calculated \footnote{cf.\autocite{wa_api_v2}}.
 
@@ -309,11 +313,35 @@ outlook: maybe in future to connect to the doctors' calendar to directly make an
 
 Another challenge was the way to automatically ask the user for his measured data. A 'usual' chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. But they are not constructed to ping a user every five hours or once a day in order to retrieve his measured data, analyze these and send them to a doctor. 
 In order to face this problem or use case, a routine including a timer had to be implemented.
+For future use cases, it might be very useful to have a proper dashboard for each doctor (which requires a user management and authentication mechanism) 
 
 \section{Problem solving}
 \subsection{Tests}
 \subsection{Dataset}
-\footnote{cf.\autocite{kaggle}}
+Since the setup of Watson Assistant API and the Angular Frontend took too much development time, a user test could not be executed. For that reason, the diagrams were calculated by using a dataset from Kaggle\footnote{cf.\autocite{kaggle}} which included 70000 entries of different patients and 12 characteristics. These 12 characteristics included:
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item age (in days)
+  \item gender
+  \item height
+  \item weight
+  \item systolic value
+  \item diastolic value
+  \item cholesterol (1: normal, 2: above normal, 3: well above normal)
+  \item gluc (1: normal, 2: above normal, 3: well above normal)
+  \item smoke (binary)
+  \item alco (binary)
+  \item active (binary)
+  \item presence or absence of cardiovascular disease (binary) 
+\end{itemize}
+
+
+  
+
+
+\section{Predictive Analytics: Creating a model to predict cardiovascular disease} \label{predict}
+Generally, it is hard to let an algorithm diagnose cardiovascular disease if only looking at the dataset above. In practice, it needs the experience of a doctor and many different measured values in different situations (e.g. in stress situations or in relaxing situations). Nevertheless, for analytics it is very interesting to test if for example a neural network could learn on the given dataset and could predict the probability of a cardiovascular disease for a given patient. 
+
 
 \section{Results}
 
@@ -321,6 +349,19 @@ In order to face this problem or use case, a routine including a timer had to be
 \section{Conclusion}
 
 \section{Outlook}
+
+
+\subsection{Connect Flask app, python script and Angular frontend}
+
+Figure \ref{architecture_perfect} shows the architecture which is aimed  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/architecture_perfectworld.png}
+	\caption{Watson Assistant entitities}
+	\label{architecture_perfect}
+\end{figure}
+
 Is a chatbot an appropriate solution for recording and reminding patients to measure their blood pressure ? 
 In practice, most chatbots are created to solve and help multiple intents of their users and not to only 'retrieve' information.
 On the one hand, the retrieved information can be used to run several analysis and to find out trends in the data. But on the other hand, the developed solution  supports users to never forget to measure and doctors to better understand trends in the measured data.
@@ -329,9 +370,18 @@ During development and research, there came up another issue: To inform patients
 
 connection frontend (angularjs webpage) to mongodb through socket.io connection.
 Connection between Watson Assistant and Frontend through mongodb and via socket.io connection.
+\subsection{Behaviour change techniques}
+\subsection{Therapy and Forecasting of healing}
+As described in section \ref{predict}, a neural network can calculate the probability of a patient to suffer cardiovascular disease.
+Moreover, another use case might be patients already suffering from cardiovascular disease which have to be treated and want to recover. In that situation the neural network could calculate the ideal weight,
+It could provide personlaized nutrition plans. It could also forecast the term or maybe exact date (if trained well) when the patients will be healthy again and  
 
-\subsection{Predictive Analytics}
-Based on the given Kaggle dataset, it is interesting to predict the propability for potential hypertension patients based on their general information. Therefore a model was 
+\subsection{Encrypt and save patient data}
+
+It is important to store all measured and personal data in a secure way. Asynchronous encryption is a good way to save these data and to only allow access to the parties that should see the information, such as patients. To give an example, the application could save the data to the cloud and for this one action it uses a public key. If the patient wants to get to this information, he needs a private key to decrypt all information. 
+
+
+
 
 
 \chapter{Abbreviations}
