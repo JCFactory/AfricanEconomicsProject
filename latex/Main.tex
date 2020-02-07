@@ -342,6 +342,14 @@ Since the setup of Watson Assistant API and the Angular Frontend took too much d
 \section{Predictive Analytics: Creating a model to predict cardiovascular disease} \label{predict}
 Generally, it is hard to let an algorithm diagnose cardiovascular disease if only looking at the dataset above. In practice, it needs the experience of a doctor and many different measured values in different situations (e.g. in stress situations or in relaxing situations). Nevertheless, for analytics it is very interesting to test if for example a neural network could learn on the given dataset and could predict the probability of a cardiovascular disease for a given patient. 
 
+\subsection{Development of python script}
+
+Based on the given Kaggle Dataset, a python script was developed. This script builds up a neural network for an intelligent and fast way to find out whether a person with given health characteristics has a higher or lower risk to suffer from cardiovascular disease.
+Therefore during the first step of analysis the dataset had to be cleaned from null values and only the factors which are relevant for correlation analysis were used. All other values were eliminated. This was implemented by using seaborn's function 'heatmap'. The produced heatmap showed the parameters of the dataset and how they correlated with the classification variable 'cardio' (which means that the person suffers from cardiovascular disease or not).
+
+As this is a binary classification problem sigmoid as the activation function was used.
+Dense layer implements output = activation(dot(input, kernel) + bias). Kernel is the weight matrix. Kernel initialization defines the way to set the initial random weights of Keras layers.
+To optimize the neural network an Adam function was used. Adam stands for Adaptive moment estimation and combines RMSProp and Momentum. Momentum takes the past gradients into account in order to smooth out the gradient descent.
 
 \section{Results}
 
@@ -392,6 +400,6 @@ It is important to store all measured and personal data in a secure way. Asynchr
 \chapter{Appendix A}\label{appendix a}
 \input{Anhang}
 \chapter{Appendix B}\label{appendix b}
-%\includepdf[pages=-]{lda_all_genomes_v04.pdf}
+\includepdf[pages=-]{keras_classifier.pdf}
 
 \end{document}
