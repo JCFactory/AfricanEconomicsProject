@@ -135,6 +135,27 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6658295/
       \endverb
     \endentry
+    \entry{echarts}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Apache {ECharts} (incubating)}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Apache ECharts (incubating):/Users/jf/Zotero/storage/4K369JCC/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.echartsjs.com/en/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.echartsjs.com/en/index.html
+      \endverb
+    \endentry
     \entry{hochdruckliga}{misc}{}
       \list{language}{1}{%
         {de}%
@@ -311,6 +332,48 @@
       \endverb
       \verb{url}
       \verb https://www.mdpi.com/2075-4698/4/4/606
+      \endverb
+    \endentry
+    \entry{nebular}{misc}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Nebular - {Customizable} {Angular} {UI} {Library}, {Auth} and {Security}}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Nebular - Customizable Angular UI Library, Auth and Security:/Users/jf/Zotero/storage/KSNS829H/nebular.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://akveo.github.io/nebular/
+      \endverb
+      \verb{url}
+      \verb https://akveo.github.io/nebular/
+      \endverb
+    \endentry
+    \entry{openlayers}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{OpenLayers} v6.1.1 {API} - {Class}: {Map}}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb OpenLayers v6.1.1 API - Class\: Map:/Users/jf/Zotero/storage/YB5TPX9N/module-ol_Map-Map.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html
+      \endverb
+      \verb{url}
+      \verb https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html
       \endverb
     \endentry
     \entry{talukder}{inproceedings}{}

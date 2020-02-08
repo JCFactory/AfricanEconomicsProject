@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  8 FEB 2020 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  8 FEB 2020 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2442,24 +2442,11 @@ Package pdftex.def Info: images/WA_entities.png  used on input line 289.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'nebular' on page 18 undefined on input line 296.
-
-LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <10> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 296.
-LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 296.
-
-LaTeX Warning: Citation 'echarts' on page 18 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'openlayers' on page 18 undefined on input line 296.
-
-
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [18]
-<images/angular_01.png, id=471, 1596.96625pt x 937.5025pt>
+<images/angular_01.png, id=480, 1596.96625pt x 937.5025pt>
 File: images/angular_01.png Graphic file (type png)
 <use images/angular_01.png>
 Package pdftex.def Info: images/angular_01.png  used on input line 303.
@@ -2468,7 +2455,7 @@ Package pdftex.def Info: images/angular_01.png  used on input line 303.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/angular_02.png, id=472, 1600.98125pt x 905.3825pt>
+<images/angular_02.png, id=481, 1600.98125pt x 905.3825pt>
 File: images/angular_02.png Graphic file (type png)
 <use images/angular_02.png>
 Package pdftex.def Info: images/angular_02.png  used on input line 309.
@@ -2510,7 +2497,7 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 [26 <./images/angular_01.png> <./images/angular_02.png>]
 chapter 5.
-<images/architecture_perfectworld.png, id=540, 432.61626pt x 568.1225pt>
+<images/architecture_perfectworld.png, id=549, 432.61626pt x 568.1225pt>
 File: images/architecture_perfectworld.png Graphic file (type png)
 <use images/architecture_perfectworld.png>
 Package pdftex.def Info: images/architecture_perfectworld.png  used on input li
@@ -2567,18 +2554,18 @@ v gegen Bluthochdruck \OT1/txss/m/n/12 (2019).
  []
 
 
-Overfull \hbox (28.05142pt too wide) in paragraph at lines 409--409
-\OT1/txss/m/sl/12 Peo-ple and Smart City In-no-va-tion (Smart-World/SCALCOM/UIC
-/ATC/CBDCom/IOP/SCI)\OT1/txss/m/n/12 .
- []
-
-
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [32
 
 ]
+Overfull \hbox (28.05142pt too wide) in paragraph at lines 409--409
+\OT1/txss/m/sl/12 Peo-ple and Smart City In-no-va-tion (Smart-World/SCALCOM/UIC
+/ATC/CBDCom/IOP/SCI)\OT1/txss/m/n/12 .
+ []
+
+
 Overfull \hbox (2.87708pt too wide) in paragraph at lines 409--409
 \OT1/txss/m/sl/12 En-ter-prise Dis-tributed Ob-ject Com-put-ing Con-fer-ence Wo
 rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
@@ -2614,7 +2601,7 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 ]
 chapter 8.
-<keras_classifier.pdf, id=604, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=619, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf>
 Package pdftex.def Info: keras_classifier.pdf  used on input line 414.
@@ -2623,7 +2610,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf>
 Package pdftex.def Info: keras_classifier.pdf  used on input line 414.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<keras_classifier.pdf, id=607, page=1, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=622, page=1, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 1>
 Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
@@ -2652,7 +2639,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [36 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=666, page=2, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=681, page=2, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 2>
 Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 414.
@@ -2666,7 +2653,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [37 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=671, page=3, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=686, page=3, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 3>
 Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 414.
@@ -2680,7 +2667,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [38 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=676, page=4, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=691, page=4, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 4>
 Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 414.
@@ -2694,7 +2681,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [39 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=681, page=5, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=696, page=5, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 5>
 Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 414.
@@ -2708,7 +2695,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [40 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=687, page=6, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=702, page=6, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 6>
 Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 414.
@@ -2723,7 +2710,7 @@ Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [41 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=694, page=7, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=709, page=7, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 7>
 Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 414.
@@ -2737,7 +2724,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [42 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=712, page=8, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=727, page=8, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 8>
 Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 414.
@@ -2751,7 +2738,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [43 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=717, page=9, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=732, page=9, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 9>
 Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 414.
@@ -2765,7 +2752,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [44 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=722, page=10, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=737, page=10, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 10>
 Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 414.
@@ -2779,7 +2766,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [45 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=727, page=11, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=742, page=11, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 11>
 Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 414.
@@ -2793,7 +2780,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [46 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=733, page=12, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=748, page=12, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 12>
 Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 414.
@@ -2807,7 +2794,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [47 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=738, page=13, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=753, page=13, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 13>
 Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 414.
@@ -2821,7 +2808,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [48 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=743, page=14, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=758, page=14, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 14>
 Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 414.
@@ -2835,7 +2822,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [49 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=748, page=15, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=764, page=15, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 15>
 Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 414.
@@ -2849,7 +2836,7 @@ File: keras_classifier.pdf Graphic file (type pdf)
 Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [50 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=753, page=16, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=769, page=16, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 16>
 Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 414.
@@ -2872,15 +2859,11 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Main
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
@@ -2888,11 +2871,11 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
  ) 
 Here is how much of TeX's memory you used:
- 47150 strings out of 492616
- 894185 string characters out of 6129480
- 1480216 words of memory out of 5000000
- 50145 multiletter control sequences out of 15000+600000
- 581434 words of font info for 133 fonts, out of 8000000 for 9000
+ 47155 strings out of 492616
+ 894429 string characters out of 6129480
+ 1480220 words of memory out of 5000000
+ 50149 multiletter control sequences out of 15000+600000
+ 579495 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,18n,89p,9100b,3561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2905,10 +2888,10 @@ st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb>
-Output written on Main.pdf (54 pages, 5487278 bytes).
+Output written on Main.pdf (54 pages, 5489205 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 789 compressed objects within 8 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 960 PDF objects out of 1000 (max. 8388607)
+ 805 compressed objects within 9 object streams
+ 224 named destinations out of 1000 (max. 500000)
  463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
