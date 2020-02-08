@@ -31,24 +31,24 @@
 \contentsline {subparagraph}{\nonumberline Intent model}{17}{section*.40}% 
 \contentsline {subparagraph}{\nonumberline Watson Assistant implementation}{17}{section*.45}% 
 \contentsline {paragraph}{\nonumberline Setup of AngularJS Frontend}{17}{section*.49}% 
-\contentsline {paragraph}{\nonumberline Connect Watson Assistant to Frontend}{18}{section*.50}% 
-\contentsline {paragraph}{\nonumberline Data visualization: Development of a Python Script to show all measured values}{19}{section*.51}% 
-\contentsline {paragraph}{\nonumberline Development of recommendation of nearest doctors to patient}{19}{section*.52}% 
-\contentsline {paragraph}{\nonumberline Development of email service to send reports every two weeks to the doctor}{19}{section*.53}% 
+\contentsline {paragraph}{\nonumberline Connect Watson Assistant to Frontend}{19}{section*.52}% 
+\contentsline {paragraph}{\nonumberline Data visualization: Development of a Python Script to show all measured values}{19}{section*.53}% 
+\contentsline {paragraph}{\nonumberline Development of recommendation of nearest doctors to patient}{19}{section*.54}% 
+\contentsline {paragraph}{\nonumberline Development of email service to send reports every two weeks to the doctor}{20}{section*.55}% 
 \contentsline {section}{\numberline {4.2}Problem solving}{21}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}Tests}{21}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Dataset}{21}{subsection.4.2.2}% 
 \contentsline {section}{\numberline {4.3}Predictive Analytics: Creating a model to predict cardiovascular disease}{22}{section.4.3}% 
 \contentsline {subsection}{\numberline {4.3.1}Development of python script}{23}{subsection.4.3.1}% 
 \contentsline {section}{\numberline {4.4}Results}{24}{section.4.4}% 
-\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{25}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Conclusion}{25}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Outlook}{25}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Connect Flask app, python script and Angular frontend}{25}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}Behaviour change techniques}{26}{subsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.2.3}Therapy and Forecasting of healing}{26}{subsection.5.2.3}% 
-\contentsline {subsection}{\numberline {5.2.4}Encrypt and save patient data}{26}{subsection.5.2.4}% 
-\contentsline {chapter}{\numberline {6}Abbreviations}{28}{chapter.6}% 
-\contentsline {chapter}{\nonumberline Bibliography}{30}{chapter*.55}% 
-\contentsline {chapter}{\numberline {7}Appendix A}{32}{chapter.7}% 
-\contentsline {chapter}{\numberline {8}Appendix B}{33}{chapter.8}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{26}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Conclusion}{26}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Outlook}{26}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Connect Flask app, python script and Angular frontend}{26}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Behaviour change techniques}{27}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}Therapy and Forecasting of healing}{27}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}Encrypt and save patient data}{27}{subsection.5.2.4}% 
+\contentsline {chapter}{\numberline {6}Abbreviations}{29}{chapter.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{31}{chapter*.57}% 
+\contentsline {chapter}{\numberline {7}Appendix A}{33}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Appendix B}{34}{chapter.8}% 

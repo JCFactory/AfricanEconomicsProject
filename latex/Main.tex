@@ -4,19 +4,20 @@
 \input{Titelseite}
 \chapter{Abstract}\label{abstract}
 
-Business Case:
-1) With the developed solution, doctors are getting an overview of the patient's blood pressure values. This makes them react more precisely to any special values. 
-2) Since the patient is lead through a tutorial and the chatbot is 'controlling'/'checking' his measured blood pressure values, all measurements are taken more accurately. This improves the process of documentation.
-3) With the service of sending a report via email every two weeks to the doctor. The doctor has always the current value and can interprete them faster. (now they are only getting a long list of all measured values of their patients which they have to interprete on their own and \begin{flushleft}
-\end{flushleft}
-4) Recommendation system of the nearest doctor helps the patient to directly go to his doctor 
-Jack: 'Hey, i found these nearest doctors/specialists in your neighbourhood. Just select one of them and make an appointment with them. 
+This scientific article focusses on the development of a chatbot and the analysis of blood pressure measurements.
+The purpose of this work can be divided into four top business cases. The first business case is that doctors can get an  an overview of the patient's blood pressure values. This makes them react more precisely to any special values or trends. 
+Second, the measurements are taken more accurately since the patient is lead by a chatbot through a tutorial. Furthermore, the chatbot controls and analyses the measured blood pressure values. This improves the process of documentation.
+Third, doctors are informed in-time when there are outliers because a service sends a report regularly via email. This leads to the scenario that the doctor can interprete the values faster.
+Fourth, the patients get a recommendation of the nearest doctor which helps them to keep their appointments.
+Last, a neural network was developed to calculate the probability of suffering from cardiovascular disease of a patient. This information can be useful for the doctor as well as the patient to prevent the break out of the disease.
 
 \chapter{Introduction}\label{introduction}
 
 \section{Problem statement}
+now they are only getting a long list of all measured values of their patients which they have to interprete on their own and 
 
 \section{Aim and scope of this work}
+ It was trained on a sample dataset from Kaggle and will be explained in section \ref{predict}.
 Aim of this scientific work is to develop a solution to document blood pressure in order to react preventively against heart disease.
 To recommend an appropriate doctor in one's surrounding (approximately 5 kilometers of distance), an intuitive user interface with map is being shown.
 The application shall send every week/every two weeks a report (including a diagramm of all measured blood pressure values of the patient) to the doctor so that the doctor will be informed in real-time. In the diagrams/frontend, it is possible to select different scales, e.g. like the values of last week/last month/last year. 
@@ -202,7 +203,7 @@ In a second or third version, it is possible to focus more on the improvement of
 
 Figure \ref{architecture_0102} gives an overview of all developed components. Quite above, there is the Watson Assistant instance, running in the IBM Cloud. Beneath Watson Assistant, a NodeJS server opens the session and sends messages from the client to the Assistant and backwards. The NodeJS server connects the cloud and the frontend by implementing \ac{http} requests and responses. Finally, there is the AngularJS application running locally and creating a \ac{JSON} reporting file every few minutes. This reporting file includes all messages, with the user from whom it was send and a timestamp. It can be used to analyze the data and to create profiles of the patients.
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{images/architecture_0102.png}
 	\caption{Architecture diagram of developed system}
@@ -290,18 +291,30 @@ In the following, the implemented dialog as well as all entities and intents are
 \end{figure}
 
 \paragraph{Setup of AngularJS Frontend}
-In order to provide a comfortable way to chat and view all retrieved and measured data, a basic angular application was built and run locally. Three open source ibraries, such as Nebular\footnote{cf.\autocite{nebular}}, Apache Echarts\footnote{cf.\autocite{echarts}} and Openlayers Maps\footnote{cf.\autocite{openlayers}} were included to the application. Nebular is a Javascript library that has certain themes (e.g. light, dark etc.) and a chat UI (which allows to send messages and different file types such as documents or images or videos). It also allows to send a location by defining longitude and latitude parameters. Generally, it is very handy and useful to fast built up an Angular webpage.
+
+In order to provide a comfortable way to chat and view all retrieved and measured data, a basic angular application was built and run locally (see figures \ref{angular_01} and \ref{angular_02}). Three open source ibraries, such as Nebular\footnote{cf.\autocite{nebular}}, Apache Echarts\footnote{cf.\autocite{echarts}} and Openlayers Maps\footnote{cf.\autocite{openlayers}} were included to the application. Nebular is a Javascript library that has certain themes (e.g. light, dark etc.) and a chat UI (which allows to send messages and different file types such as documents or images or videos). It also allows to send a location by defining longitude and latitude parameters. Generally, it is very handy and useful to fast built up an Angular webpage.
 Secondly, Apache Echarts is also a Javascript library which offers a huge variety of diagrams and maps, such as bar, line, pie and other special diagrams (including different animation modes, overlays and tooltips). For the first draft of the frontend, the basic line chart was used to display the weekly, monthly and yearly overview of measured pulse, systolic and diastolic values. But for future use cases, it might be also useful to display other charts of Echarts or maybe tables.
 The third Javascript library that was used, is called Openlayers Maps. It is very famous and many projects rather use Openlayers API than Google Places API because their API calls are very expensive. Openlayers Maps has many different modes and overlays. Certain places can be marked by different icons.
 All in all, the three described libraries were very well documented and are easy and ready to use after installation, so that the focus could be spent more on developing the Watson Assistant dialog described in the next paragraph.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/angular_01.png}
+	\caption{Angular Frontend (top page), chat UI and diagrams of measured values}
+	\label{angular_01}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/angular_02.png}
+	\caption{Angular Frontend (bottom page), map to show the nearest doctors}
+	\label{angular_02}
+\end{figure}
+
 \paragraph{Connect Watson Assistant to Frontend}
 
-difficul
+To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the answer from Watson Assistant \footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its 
 
-To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId has to be requested to be able to interact with Watson Assistant. After that, a simple get request is executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the best fitting answer (with the highest confidence value) from Watson, which is calculated \footnote{cf.\autocite{wa_api_v2}}.
-
-\paragraph{Data visualization: Development of a Python Script to show all measured values}
+\paragraph{Data visualization: Development of a Python Script to show all measured values} 
 \footnote{cf.\autocite{kaggle}}
 \footnote{cf.\autocite{decision_tree_python}}
 
@@ -311,9 +324,9 @@ outlook: maybe in future to connect to the doctors' calendar to directly make an
 
 \paragraph{Development of email service to send reports every two weeks to the doctor}
 
-Another challenge was the way to automatically ask the user for his measured data. A 'usual' chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. But they are not constructed to ping a user every five hours or once a day in order to retrieve his measured data, analyze these and send them to a doctor. 
+Another challenge was the way to automatically ask the user for his measured data. Most chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. By implementing a python script for data analysis an alarm was created to remind users every five hours or once a day.
 In order to face this problem or use case, a routine including a timer had to be implemented.
-For future use cases, it might be very useful to have a proper dashboard for each doctor (which requires a user management and authentication mechanism) 
+
 
 \section{Problem solving}
 \subsection{Tests}
@@ -384,11 +397,11 @@ As described in section \ref{predict}, a neural network can calculate the probab
 Moreover, another use case might be patients already suffering from cardiovascular disease which have to be treated and want to recover. In that situation the neural network could calculate the ideal weight,
 It could provide personlaized nutrition plans. It could also forecast the term or maybe exact date (if trained well) when the patients will be healthy again and  
 
+For future use cases, it might be very useful to have a proper dashboard for each doctor (which requires a user management and authentication mechanism) 
+
 \subsection{Encrypt and save patient data}
 
 It is important to store all measured and personal data in a secure way. Asynchronous encryption is a good way to save these data and to only allow access to the parties that should see the information, such as patients. To give an example, the application could save the data to the cloud and for this one action it uses a public key. If the patient wants to get to this information, he needs a private key to decrypt all information. 
-
-
 
 
 
