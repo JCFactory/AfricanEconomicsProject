@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  8 FEB 2020 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  8 FEB 2020 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2118,9 +2118,9 @@ LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 
 (./Main.toc
 Package acronym Info: Label `acro:soa' newly defined as it shall be overridden
-although it is yet undefined on input line 10.
+although it is yet undefined on input line 9.
 
-Overfull \hbox (6.32434pt too wide) in paragraph at lines 25--25
+Overfull \hbox (6.32434pt too wide) in paragraph at lines 24--24
  [][] [][]\OT1/txss/m/n/12 A deep learn-ing question-answering spe-cial-ized ch
 at-bot for med- 
  []
@@ -2173,9 +2173,22 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 17.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 17.
+(Font)              scaled to size 16.41594pt on input line 16.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 17.
+Package acronym Info: Label `acro:json' newly defined as it shall be overridden
+
+although it is yet undefined on input line 26.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2183,89 +2196,87 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [3
 
 ]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[4]
 chapter 3.
 Package acronym Info: Label `acro:p2p' newly defined as it shall be overridden
-although it is yet undefined on input line 31.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 31.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 31.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 31.
+although it is yet undefined on input line 33.
 Package acronym Info: Label `acro:poc' newly defined as it shall be overridden
-although it is yet undefined on input line 35.
+although it is yet undefined on input line 37.
 Package acronym Info: Label `acro:iot' newly defined as it shall be overridden
-although it is yet undefined on input line 35.
-LaTeX Font Info:    Try loading font information for TS1+txss on input line 41.
+although it is yet undefined on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+txss on input line 43.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/ts1txss.fd
 File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 41.
+(Font)              scaled to size 11.39996pt on input line 43.
 Package acronym Info: Label `acro:mem' newly defined as it shall be overridden
-although it is yet undefined on input line 41.
+although it is yet undefined on input line 43.
+Package acronym Info: Label `acro:hsm' newly defined as it shall be overridden
+although it is yet undefined on input line 44.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[4
+[5
 
 ]
-Package acronym Info: Label `acro:hsm' newly defined as it shall be overridden
-although it is yet undefined on input line 42.
 Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
-although it is yet undefined on input line 46.
+although it is yet undefined on input line 48.
 Package acronym Info: Label `acro:ncd' newly defined as it shall be overridden
-although it is yet undefined on input line 47.
-<images/example_software_architecture.png, id=184, 573.14125pt x 363.3575pt>
+although it is yet undefined on input line 49.
+<images/example_software_architecture.png, id=203, 573.14125pt x 363.3575pt>
 File: images/example_software_architecture.png Graphic file (type png)
 <use images/example_software_architecture.png>
 Package pdftex.def Info: images/example_software_architecture.png  used on inpu
-t line 52.
+t line 54.
 (pdftex.def)             Requested size: 426.79141pt x 270.5769pt.
 Package acronym Info: Label `acro:icd' newly defined as it shall be overridden
-although it is yet undefined on input line 57.
+although it is yet undefined on input line 59.
 Package acronym Info: Label `acro:snowmed ct' newly defined as it shall be over
 ridden
-although it is yet undefined on input line 57.
+although it is yet undefined on input line 59.
+Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
+although it is yet undefined on input line 64.
+
+
+Package acronym Warning: Acronym `IT' is not defined on input line 64.
+
+
+Package acronym Warning: Acronym `IT' is not defined on input line 64.
+
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[5 <./images/example_software_architecture.png>]
-Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
-although it is yet undefined on input line 62.
-
-
-Package acronym Warning: Acronym `IT' is not defined on input line 62.
-
-
-Package acronym Warning: Acronym `IT' is not defined on input line 62.
-
-<images/esarc_cube.png, id=217, 499.8675pt x 271.0125pt>
+[6 <./images/example_software_architecture.png>]
+<images/esarc_cube.png, id=232, 499.8675pt x 271.0125pt>
 File: images/esarc_cube.png Graphic file (type png)
 <use images/esarc_cube.png>
-Package pdftex.def Info: images/esarc_cube.png  used on input line 66.
+Package pdftex.def Info: images/esarc_cube.png  used on input line 68.
 (pdftex.def)             Requested size: 426.79141pt x 231.39966pt.
+<images/esarc_business.png, id=240, 477.785pt x 288.07625pt>
+File: images/esarc_business.png Graphic file (type png)
+<use images/esarc_business.png>
+Package pdftex.def Info: images/esarc_business.png  used on input line 78.
+(pdftex.def)             Requested size: 426.79141pt x 257.32771pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[6 <./images/esarc_cube.png>]
-<images/esarc_business.png, id=233, 477.785pt x 288.07625pt>
-File: images/esarc_business.png Graphic file (type png)
-<use images/esarc_business.png>
-Package pdftex.def Info: images/esarc_business.png  used on input line 76.
-(pdftex.def)             Requested size: 426.79141pt x 257.32771pt.
+[7 <./images/esarc_cube.png>]
 Package acronym Info: Label `acro:itil' newly defined as it shall be overridden
 
-although it is yet undefined on input line 84.
+although it is yet undefined on input line 86.
 Package acronym Info: Label `acro:togaf' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 84.
+although it is yet undefined on input line 86.
 
-Overfull \hbox (13.51984pt too wide) in paragraph at lines 84--85
+Overfull \hbox (13.51984pt too wide) in paragraph at lines 86--87
 \OT1/txss/m/n/12 Security-focused Service-oriented Ref-er-ence ar-chi-tec-ture 
 for cloud com-put-ing'. Thereby,
  []
@@ -2274,28 +2285,24 @@ for cloud com-put-ing'. Thereby,
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[7 <./images/esarc_business.png>]
+[8 <./images/esarc_business.png>]
 Package acronym Info: Label `acro:hcp' newly defined as it shall be overridden
-although it is yet undefined on input line 91.
-Package acronym Info: Label `acro:bct' newly defined as it shall be overridden
 although it is yet undefined on input line 93.
+Package acronym Info: Label `acro:bct' newly defined as it shall be overridden
+although it is yet undefined on input line 95.
 
-Overfull \vbox (1.26591pt too high) has occurred while \output is active []
-
-
-[8]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [9]
-Package acronym Info: Label `acro:m-health' newly defined as it shall be overri
-dden
-although it is yet undefined on input line 127.
-
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [10]
+Package acronym Info: Label `acro:m-health' newly defined as it shall be overri
+dden
+although it is yet undefined on input line 129.
+
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
@@ -2304,175 +2311,167 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [12]
-Package acronym Info: Label `acro:osce' newly defined as it shall be overridden
-
-although it is yet undefined on input line 170.
-Package acronym Info: Label `acro:cnn' newly defined as it shall be overridden
-although it is yet undefined on input line 173.
-Package acronym Info: Label `acro:lstm' newly defined as it shall be overridden
-
-although it is yet undefined on input line 173.
-<images/vp_architecture.png, id=371, 681.54625pt x 310.15875pt>
-File: images/vp_architecture.png Graphic file (type png)
-<use images/vp_architecture.png>
-Package pdftex.def Info: images/vp_architecture.png  used on input line 179.
-(pdftex.def)             Requested size: 426.79141pt x 194.22734pt.
-Package acronym Info: Label `acro:bow' newly defined as it shall be overridden
-although it is yet undefined on input line 187.
-Package acronym Info: Label `acro:ir' newly defined as it shall be overridden
-although it is yet undefined on input line 187.
-
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [13]
+Package acronym Info: Label `acro:osce' newly defined as it shall be overridden
+
+although it is yet undefined on input line 172.
+Package acronym Info: Label `acro:cnn' newly defined as it shall be overridden
+although it is yet undefined on input line 175.
+Package acronym Info: Label `acro:lstm' newly defined as it shall be overridden
+
+although it is yet undefined on input line 175.
+<images/vp_architecture.png, id=386, 681.54625pt x 310.15875pt>
+File: images/vp_architecture.png Graphic file (type png)
+<use images/vp_architecture.png>
+Package pdftex.def Info: images/vp_architecture.png  used on input line 181.
+(pdftex.def)             Requested size: 426.79141pt x 194.22734pt.
+Package acronym Info: Label `acro:bow' newly defined as it shall be overridden
+although it is yet undefined on input line 189.
+Package acronym Info: Label `acro:ir' newly defined as it shall be overridden
+although it is yet undefined on input line 189.
+
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[14 <./images/vp_architecture.png>]
+[14]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[15 <./images/vp_architecture.png>]
 chapter 4.
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
 
-although it is yet undefined on input line 203.
+although it is yet undefined on input line 205.
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 
-although it is yet undefined on input line 203.
+although it is yet undefined on input line 205.
 
-Package acronym Warning: Acronym `JSON' is not defined on input line 203.
+Package acronym Warning: Acronym `JSON' is not defined on input line 205.
 
 
-Package acronym Warning: Acronym `JSON' is not defined on input line 203.
+Package acronym Warning: Acronym `JSON' is not defined on input line 205.
 
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[15
+[16
 
 ]
-<images/architecture_0102.png, id=410, 361.35pt x 415.5525pt>
+<images/architecture_0102.png, id=426, 361.35pt x 415.5525pt>
 File: images/architecture_0102.png Graphic file (type png)
 <use images/architecture_0102.png>
-Package pdftex.def Info: images/architecture_0102.png  used on input line 207.
+Package pdftex.def Info: images/architecture_0102.png  used on input line 209.
 (pdftex.def)             Requested size: 426.79141pt x 490.81693pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[16 <./images/architecture_0102.png>]
-LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 217.
-
-LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 217.
-
-Overfull \hbox (25.60384pt too wide) in paragraph at lines 217--220
+[17 <./images/architecture_0102.png>]
+Overfull \hbox (25.60384pt too wide) in paragraph at lines 219--222
 [] []\OT1/txss/b/n/12 Intent model[][] \OT1/txss/m/n/12 The chat-bot was built 
 ac-cord-ing to the web-page of "Deutsche Hochdruck-
  []
 
 
-Overfull \hbox (17.4248pt too wide) in paragraph at lines 222--234
+Overfull \hbox (17.4248pt too wide) in paragraph at lines 224--236
  [] 
  []
 
-<images/01_Hypertonie_Definition.png, id=427, 1075.01625pt x 924.45375pt>
+<images/01_Hypertonie_Definition.png, id=442, 1075.01625pt x 924.45375pt>
 File: images/01_Hypertonie_Definition.png Graphic file (type png)
 <use images/01_Hypertonie_Definition.png>
 Package pdftex.def Info: images/01_Hypertonie_Definition.png  used on input lin
-e 240.
+e 242.
 (pdftex.def)             Requested size: 426.79141pt x 367.01016pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/02_Hypertonie_Ursachen.png, id=428, 1459.4525pt x 1068.99374pt>
+<images/02_Hypertonie_Ursachen.png, id=443, 1459.4525pt x 1068.99374pt>
 File: images/02_Hypertonie_Ursachen.png Graphic file (type png)
 <use images/02_Hypertonie_Ursachen.png>
 Package pdftex.def Info: images/02_Hypertonie_Ursachen.png  used on input line 
-247.
+249.
 (pdftex.def)             Requested size: 426.79141pt x 312.61009pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/03_blutdruck_messung.png, id=429, 884.30376pt x 763.85374pt>
+<images/03_blutdruck_messung.png, id=444, 884.30376pt x 763.85374pt>
 File: images/03_blutdruck_messung.png Graphic file (type png)
 <use images/03_blutdruck_messung.png>
 Package pdftex.def Info: images/03_blutdruck_messung.png  used on input line 25
-4.
+6.
 (pdftex.def)             Requested size: 426.79141pt x 368.66202pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/06_tutorial_messung.png, id=430, 1130.2225pt x 1185.42876pt>
+<images/06_tutorial_messung.png, id=445, 1130.2225pt x 1185.42876pt>
 File: images/06_tutorial_messung.png Graphic file (type png)
 <use images/06_tutorial_messung.png>
-Package pdftex.def Info: images/06_tutorial_messung.png  used on input line 261
+Package pdftex.def Info: images/06_tutorial_messung.png  used on input line 263
 .
 (pdftex.def)             Requested size: 426.79141pt x 447.62776pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/WA_dialog.png, id=434, 1472.50125pt x 933.4875pt>
+<images/WA_dialog.png, id=449, 1472.50125pt x 933.4875pt>
 File: images/WA_dialog.png Graphic file (type png)
 <use images/WA_dialog.png>
-Package pdftex.def Info: images/WA_dialog.png  used on input line 273.
+Package pdftex.def Info: images/WA_dialog.png  used on input line 275.
 (pdftex.def)             Requested size: 426.79141pt x 270.562pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/WA_intents.png, id=435, 1469.49pt x 866.23625pt>
+<images/WA_intents.png, id=450, 1469.49pt x 866.23625pt>
 File: images/WA_intents.png Graphic file (type png)
 <use images/WA_intents.png>
-Package pdftex.def Info: images/WA_intents.png  used on input line 280.
+Package pdftex.def Info: images/WA_intents.png  used on input line 282.
 (pdftex.def)             Requested size: 426.79141pt x 251.58539pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/WA_entities.png, id=436, 1465.475pt x 873.2625pt>
+<images/WA_entities.png, id=451, 1465.475pt x 873.2625pt>
 File: images/WA_entities.png Graphic file (type png)
 <use images/WA_entities.png>
-Package pdftex.def Info: images/WA_entities.png  used on input line 287.
+Package pdftex.def Info: images/WA_entities.png  used on input line 289.
 (pdftex.def)             Requested size: 426.79141pt x 254.31895pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `angular_01' on page 17 undefined on input line 294.
-
-
-LaTeX Warning: Reference `angular_02' on page 17 undefined on input line 294.
-
-
-LaTeX Warning: Citation 'nebular' on page 17 undefined on input line 294.
+LaTeX Warning: Citation 'nebular' on page 18 undefined on input line 296.
 
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <10> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 294.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 296.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 294.
+(Font)              scaled to size 9.49997pt on input line 296.
 
-LaTeX Warning: Citation 'echarts' on page 17 undefined on input line 294.
+LaTeX Warning: Citation 'echarts' on page 18 undefined on input line 296.
 
 
-LaTeX Warning: Citation 'openlayers' on page 17 undefined on input line 294.
+LaTeX Warning: Citation 'openlayers' on page 18 undefined on input line 296.
 
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[17]
-<images/angular_01.png, id=455, 1596.96625pt x 937.5025pt>
+[18]
+<images/angular_01.png, id=471, 1596.96625pt x 937.5025pt>
 File: images/angular_01.png Graphic file (type png)
 <use images/angular_01.png>
-Package pdftex.def Info: images/angular_01.png  used on input line 301.
+Package pdftex.def Info: images/angular_01.png  used on input line 303.
 (pdftex.def)             Requested size: 426.79141pt x 250.53983pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/angular_02.png, id=456, 1600.98125pt x 905.3825pt>
+<images/angular_02.png, id=472, 1600.98125pt x 905.3825pt>
 File: images/angular_02.png Graphic file (type png)
 <use images/angular_02.png>
-Package pdftex.def Info: images/angular_02.png  used on input line 307.
+Package pdftex.def Info: images/angular_02.png  used on input line 309.
 (pdftex.def)             Requested size: 426.79141pt x 241.34816pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2481,47 +2480,47 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[18 <./images/01_Hypertonie_Definition.png>]
+[19 <./images/01_Hypertonie_Definition.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[19 <./images/02_Hypertonie_Ursachen.png>]
+[20 <./images/02_Hypertonie_Ursachen.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[20 <./images/03_blutdruck_messung.png>]
+[21 <./images/03_blutdruck_messung.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[21 <./images/06_tutorial_messung.png>]
+[22 <./images/06_tutorial_messung.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[22 <./images/WA_dialog.png>]
+[23 <./images/WA_dialog.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[23 <./images/WA_intents.png>]
+[24 <./images/WA_intents.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[24 <./images/WA_entities.png>]
+[25 <./images/WA_entities.png>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[25 <./images/angular_01.png> <./images/angular_02.png>]
+[26 <./images/angular_01.png> <./images/angular_02.png>]
 chapter 5.
-<images/architecture_perfectworld.png, id=525, 432.61626pt x 568.1225pt>
+<images/architecture_perfectworld.png, id=540, 432.61626pt x 568.1225pt>
 File: images/architecture_perfectworld.png Graphic file (type png)
 <use images/architecture_perfectworld.png>
 Package pdftex.def Info: images/architecture_perfectworld.png  used on input li
-ne 380.
+ne 379.
 (pdftex.def)             Requested size: 426.79141pt x 560.49251pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (10.87497pt too wide) in paragraph at lines 391--393
+Overfull \hbox (10.87497pt too wide) in paragraph at lines 390--392
 \OT1/txss/m/n/12 Con-nec-tion be-tween Wat-son As-sis-tant and Fron-tend throug
 h mon-godb and via socket.io
  []
@@ -2530,45 +2529,45 @@ h mon-godb and via socket.io
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[26
+[27
 
 ]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[27]
+[28]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[28 <./images/architecture_perfectworld.png>]
+[29 <./images/architecture_perfectworld.png>]
 chapter 6.
 (./Abkuerzung.tex
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[29
+[30
 
 ])
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[30]
+[31]
 chapter without number
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <12> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 410.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 409.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 410.
+(Font)              scaled to size 11.39996pt on input line 409.
 LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 410.
+(Font)              scaled to size 11.39996pt on input line 409.
 
-Overfull \hbox (2.1563pt too wide) in paragraph at lines 410--410
+Overfull \hbox (2.1563pt too wide) in paragraph at lines 409--409
 [][]\OT1/txss/m/sl/12 Bluthochdruck ver-mei-den, be-han-deln und senken - Ak-ti
 v gegen Bluthochdruck \OT1/txss/m/n/12 (2019).
  []
 
 
-Overfull \hbox (28.05142pt too wide) in paragraph at lines 410--410
+Overfull \hbox (28.05142pt too wide) in paragraph at lines 409--409
 \OT1/txss/m/sl/12 Peo-ple and Smart City In-no-va-tion (Smart-World/SCALCOM/UIC
 /ATC/CBDCom/IOP/SCI)\OT1/txss/m/n/12 .
  []
@@ -2577,10 +2576,10 @@ Overfull \hbox (28.05142pt too wide) in paragraph at lines 410--410
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[31
+[32
 
 ]
-Overfull \hbox (2.87708pt too wide) in paragraph at lines 410--410
+Overfull \hbox (2.87708pt too wide) in paragraph at lines 409--409
 \OT1/txss/m/sl/12 En-ter-prise Dis-tributed Ob-ject Com-put-ing Con-fer-ence Wo
 rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
  []
@@ -2589,7 +2588,7 @@ rk-shops\OT1/txss/m/n/12 . ISSN: 2325-6605,
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[32]
+[33]
 chapter 7.
 (./Anhang.tex
 Overfull \hbox (34.02832pt too wide) in paragraph at lines 6--7
@@ -2611,264 +2610,264 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[33
+[34
 
 ]
 chapter 8.
-<keras_classifier.pdf, id=590, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=604, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf>
-Package pdftex.def Info: keras_classifier.pdf  used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf  used on input line 414.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf>
-Package pdftex.def Info: keras_classifier.pdf  used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf  used on input line 414.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<keras_classifier.pdf, id=593, page=1, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=607, page=1, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 1>
-Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 1>
-Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[34
+[35
 
 ]
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 1>
-Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 1>
-Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 1>
-Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 415.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [35 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=654, page=2, 614.295pt x 794.97pt>
-File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 2>
-Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 415.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 2>
-Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 415.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 2>
-Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page1 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [36 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=659, page=3, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=666, page=2, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 3>
-Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 415.
+<use keras_classifier.pdf, page 2>
+Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 3>
-Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 415.
+<use keras_classifier.pdf, page 2>
+Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 3>
-Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 415.
+<use keras_classifier.pdf, page 2>
+Package pdftex.def Info: keras_classifier.pdf , page2 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [37 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=664, page=4, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=671, page=3, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 4>
-Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 415.
+<use keras_classifier.pdf, page 3>
+Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 4>
-Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 415.
+<use keras_classifier.pdf, page 3>
+Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 4>
-Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 415.
+<use keras_classifier.pdf, page 3>
+Package pdftex.def Info: keras_classifier.pdf , page3 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [38 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=669, page=5, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=676, page=4, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 5>
-Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 415.
+<use keras_classifier.pdf, page 4>
+Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 5>
-Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 415.
+<use keras_classifier.pdf, page 4>
+Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 5>
-Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 415.
+<use keras_classifier.pdf, page 4>
+Package pdftex.def Info: keras_classifier.pdf , page4 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [39 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=674, page=6, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=681, page=5, 614.295pt x 794.97pt>
+File: keras_classifier.pdf Graphic file (type pdf)
+<use keras_classifier.pdf, page 5>
+Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 414.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: keras_classifier.pdf Graphic file (type pdf)
+<use keras_classifier.pdf, page 5>
+Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 414.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: keras_classifier.pdf Graphic file (type pdf)
+<use keras_classifier.pdf, page 5>
+Package pdftex.def Info: keras_classifier.pdf , page5 used on input line 414.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [40 <./keras_classifier.pdf>]
+<keras_classifier.pdf, id=687, page=6, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 6>
-Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 6>
-Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 6>
-Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page6 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[40 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=682, page=7, 614.295pt x 794.97pt>
+[41 <./keras_classifier.pdf>]
+<keras_classifier.pdf, id=694, page=7, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 7>
-Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 415.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 7>
-Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
 <use keras_classifier.pdf, page 7>
-Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 415.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [41 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=700, page=8, 614.295pt x 794.97pt>
-File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 8>
-Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 415.
+Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 8>
-Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 415.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 8>
-Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 415.
+<use keras_classifier.pdf, page 7>
+Package pdftex.def Info: keras_classifier.pdf , page7 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [42 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=705, page=9, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=712, page=8, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 9>
-Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 415.
+<use keras_classifier.pdf, page 8>
+Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 9>
-Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 415.
+<use keras_classifier.pdf, page 8>
+Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 9>
-Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 415.
+<use keras_classifier.pdf, page 8>
+Package pdftex.def Info: keras_classifier.pdf , page8 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [43 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=710, page=10, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=717, page=9, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 10>
-Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 415.
+<use keras_classifier.pdf, page 9>
+Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 10>
-Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 415.
+<use keras_classifier.pdf, page 9>
+Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 10>
-Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 415.
+<use keras_classifier.pdf, page 9>
+Package pdftex.def Info: keras_classifier.pdf , page9 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [44 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=715, page=11, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=722, page=10, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 11>
-Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 415.
+<use keras_classifier.pdf, page 10>
+Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 11>
-Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 415.
+<use keras_classifier.pdf, page 10>
+Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 11>
-Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 415.
+<use keras_classifier.pdf, page 10>
+Package pdftex.def Info: keras_classifier.pdf , page10 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [45 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=720, page=12, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=727, page=11, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 12>
-Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 415.
+<use keras_classifier.pdf, page 11>
+Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 12>
-Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 415.
+<use keras_classifier.pdf, page 11>
+Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 12>
-Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 415.
+<use keras_classifier.pdf, page 11>
+Package pdftex.def Info: keras_classifier.pdf , page11 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [46 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=726, page=13, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=733, page=12, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 13>
-Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 415.
+<use keras_classifier.pdf, page 12>
+Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 13>
-Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 415.
+<use keras_classifier.pdf, page 12>
+Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 13>
-Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 415.
+<use keras_classifier.pdf, page 12>
+Package pdftex.def Info: keras_classifier.pdf , page12 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [47 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=731, page=14, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=738, page=13, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 14>
-Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 415.
+<use keras_classifier.pdf, page 13>
+Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 14>
-Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 415.
+<use keras_classifier.pdf, page 13>
+Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 14>
-Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 415.
+<use keras_classifier.pdf, page 13>
+Package pdftex.def Info: keras_classifier.pdf , page13 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [48 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=736, page=15, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=743, page=14, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 15>
-Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 415.
+<use keras_classifier.pdf, page 14>
+Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 15>
-Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 415.
+<use keras_classifier.pdf, page 14>
+Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 15>
-Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 415.
+<use keras_classifier.pdf, page 14>
+Package pdftex.def Info: keras_classifier.pdf , page14 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [49 <./keras_classifier.pdf>]
-<keras_classifier.pdf, id=741, page=16, 614.295pt x 794.97pt>
+<keras_classifier.pdf, id=748, page=15, 614.295pt x 794.97pt>
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 16>
-Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 415.
+<use keras_classifier.pdf, page 15>
+Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 16>
-Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 415.
+<use keras_classifier.pdf, page 15>
+Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: keras_classifier.pdf Graphic file (type pdf)
-<use keras_classifier.pdf, page 16>
-Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 415.
+<use keras_classifier.pdf, page 15>
+Package pdftex.def Info: keras_classifier.pdf , page15 used on input line 414.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [50 <./keras_classifier.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+<keras_classifier.pdf, id=753, page=16, 614.295pt x 794.97pt>
+File: keras_classifier.pdf Graphic file (type pdf)
+<use keras_classifier.pdf, page 16>
+Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 414.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: keras_classifier.pdf Graphic file (type pdf)
+<use keras_classifier.pdf, page 16>
+Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 414.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: keras_classifier.pdf Graphic file (type pdf)
+<use keras_classifier.pdf, page 16>
+Package pdftex.def Info: keras_classifier.pdf , page16 used on input line 414.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [51 <./keras_classifier.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2886,36 +2885,30 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 417.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
  ) 
 Here is how much of TeX's memory you used:
- 47144 strings out of 492616
- 894137 string characters out of 6129480
- 1480879 words of memory out of 5000000
- 50140 multiletter control sequences out of 15000+600000
+ 47150 strings out of 492616
+ 894185 string characters out of 6129480
+ 1480216 words of memory out of 5000000
+ 50145 multiletter control sequences out of 15000+600000
  581434 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,18n,89p,9100b,3561s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.54} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.55} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb>
-Output written on Main.pdf (53 pages, 5485191 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb>
+Output written on Main.pdf (54 pages, 5487278 bytes).
 PDF statistics:
- 934 PDF objects out of 1000 (max. 8388607)
- 781 compressed objects within 8 object streams
- 220 named destinations out of 1000 (max. 500000)
- 471 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 943 PDF objects out of 1000 (max. 8388607)
+ 789 compressed objects within 8 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 

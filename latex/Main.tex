@@ -14,28 +14,29 @@ Last, a neural network was developed to calculate the probability of suffering f
 \chapter{Introduction}\label{introduction}
 
 \section{Problem statement}
-now they are only getting a long list of all measured values of their patients which they have to interprete on their own and 
+According to organization Deutsche Hochdruckliga \footnote{cf.\autocite{hochdruckliga}}, hypertension is one of the most common disease in our today's society. It can lead to cardiovascular disease and has many different curses, such as false nutrition, overweight or little movement.
+Another problem are the measurements, taken by patients at their home. Often, hypertension patients do not measure their blood pressure regularly or forget to write down their measured values. 
+What is more, the treating doctors often get a large list of measured values (pulse, systolic and diastolic values) which they have to interprete in short-term. Often, the diagnosis or treatment and medication of these doctors depends on the average value or minimum and maximum value which was measured. 
+All of these use cases can be automated and implemented by an application to prevent cardiovascular disease. The next section will explain the aims of this work and how they were implemented.
 
 \section{Aim and scope of this work}
- It was trained on a sample dataset from Kaggle and will be explained in section \ref{predict}.
-Aim of this scientific work is to develop a solution to document blood pressure in order to react preventively against heart disease.
+The first aim of this scientific work is to develop a solution to document blood pressure in order to react preventively against heart disease.
 To recommend an appropriate doctor in one's surrounding (approximately 5 kilometers of distance), an intuitive user interface with map is being shown.
 The application shall send every week/every two weeks a report (including a diagramm of all measured blood pressure values of the patient) to the doctor so that the doctor will be informed in real-time. In the diagrams/frontend, it is possible to select different scales, e.g. like the values of last week/last month/last year. 
-At the beginning of using the Chatbot, the user is being led through a tutorial which shows him how to measure correctly his blood pressure. One instruction is for example not to drink coffee before measuring your blood pressure or to sit for at least 5 minutes.
+At the beginning of using the Chatbot, the user is being led through a tutorial which shows him how to measure correctly his blood pressure. One instruction is for example not to drink coffee before measuring your blood pressure or to sit for at least 5 minutes. After that, a routine for the measurement leads the patient through the measurement. The measured values are saved automatically into a \ac{json} file.
+Due to time limitations, there were no user tests driven. But to build up diagrams and to build up a neural network that calculates the probability of the cardiovascular disease, a sample dataset from Kaggle was used. The whole analytics process and implementation will be explained in section \ref{predict}.
 
 \chapter{Fundamentals}\label{fundamentals}
 
-\section{Reporting and Big Data}
-
 \section{Software Architecture: Best Practices}
 
-To describe the 'best practices' of software architecture, in this section the architecture of a blockchain \ac{p2p} network which is backed with a distributed ledger system (see figure \ref{example_software_architecture}) will be explained. As stated by Talukder et al.\footnote{cf.\autocite{talukder}}, this model is an appropriate solution for health applications because they support multiple stakeholders.
+To describe the 'best practices' of software architecture, in this section the architecture of a blockchain \ac{p2p} network which is backed with a distributed ledger system (see figure \ref{example_software_architecture}) will be explained. As stated by Talukder et al.\footnote{cf.\autocite{talukder} pp.258}, this model is an appropriate solution for health applications because they support multiple stakeholders.
 
 As a common problem in every big data project there are multiple data sources and systems which provide relevant information for the particular use case. For instance, these information can be handwritten human readable and human understandable medical notes. Some information are computer readable and human understandable and the third 'generation' of information describes computer readable and understandable algorithms.
 
 In order to provide an effective treatment of any disease, all health related data of a person on a spatial and temporal basis from birth is needed. These data will be examined by a panel of experts to reach a consensus \ac{poc} and include all illness episodes, lab tests, pathological test results (which are outside the normal range), genomic data (to evaluate the genomic state of the individual), environmental and health events, lifestyle related data captured by \ac{iot}, therapeutic data and outcome analysis results.
 
-According to Talukder et al.\footnote{cf.\autocite{talukder}}, there are three different types of mining: 
+According to Talukder et al.\footnote{cf.\autocite{talukder} pp.260}, there are three different types of mining: 
 
 \begin{itemize}
 \setlength\itemsep{-0.5em}
@@ -44,14 +45,14 @@ According to Talukder et al.\footnote{cf.\autocite{talukder}}, there are three d
   \item payment (financial/coin) mining
 \end{itemize}
 
-As can be seen in figure \ref{example_software_architecture}, medical systems need many resources from which all relevant medical data iare loaded. As described by Talukder et al.\footnote{cf.\autocite{talukder}}, all medical data is processed by \ac{nlp} techniques, evidence based medicine as well as big data analytics (see figure \ref{example_software_architecture}).
+As can be seen in figure \ref{example_software_architecture}, medical systems need many resources from which all relevant medical data iare loaded. As described by Talukder et al.\footnote{cf.\autocite{talukder} pp.259}, all medical data is processed by \ac{nlp} techniques, evidence based medicine as well as big data analytics (see figure \ref{example_software_architecture}).
 In most health applications, patients' participation increases when they have access to their health and lab records. In the solution provided by Talukder et al. genomic tests and \ac{ncd} data are stored in the blockchain as a transaction.
 Moreover, the blockchain technology is deployed in the cloud (cf. figure \ref{example_software_architecture} Ethereum).
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{images/example_software_architecture.png}
-	\caption{Example software architecture cf.\autocite{talukder}}
+	\caption{Example software architecture cf.\autocite{talukder} pp.260}
 	\label{example_software_architecture}
 \end{figure}
 
@@ -59,35 +60,35 @@ What is more, there is a medical miner which validates every transaction, then t
 Finally, medical experts discuss in a proper medical consensus if the data is useful for an accurate diagnosis and public health.
 
 \subsection{\ac{soa} for big data applications in the cloud}
-The state-of-the art architecture for any project is \ac{soa} and has many advantages, such as flexibility, agility, process orientation, time-to-market and innovation\footnote{cf.\autocite{zimmermann}}. What is more, \ac{soa} is convenient for cloud computing since it is ready for extended service models.
-Figure \ref{esarc_example} shows the architecture 'ESARC', developed by Zimmermann et al.\footnote{cf.\autocite{zimmermann}}. It helps to cluster, classify, examine, compare, evaluate quality and optimize enterprise architectures. As depicted by figure \ref{esarc_example}, there is a link between enterprise and business information and design for supporting strategic initiatives. What is more, ESARC enables integration capacities for \ac{IT} management, software engineering, service and operations management as well as process improvement initiatives.
+The state-of-the art architecture for any project is \ac{soa} and has many advantages, such as flexibility, agility, process orientation, time-to-market and innovation\footnote{cf.\autocite{zimmermann} pp.130}. What is more, \ac{soa} is convenient for cloud computing since it is ready for extended service models.
+Figure \ref{esarc_example} shows the architecture 'ESARC', developed by Zimmermann et al.\footnote{cf.\autocite{zimmermann} p.132}. It helps to cluster, classify, examine, compare, evaluate quality and optimize enterprise architectures. As depicted by figure \ref{esarc_example}, there is a link between enterprise and business information and design for supporting strategic initiatives. What is more, ESARC enables integration capacities for \ac{IT} management, software engineering, service and operations management as well as process improvement initiatives.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{images/esarc_cube.png}
-	\caption{\ac{esarc} as an example for big data architecture cf.\autocite{zimmermann}}
+	\caption{\ac{esarc} as an example for big data architecture cf.\autocite{zimmermann} pp.133}
 	\label{esarc_example}
 \end{figure}
 
 As can be seen in figure \ref{esarc_example}, metamodels are used to define model elements in architectures. They relate architectural elements to ontologies which represent a common vocabulary for enterprise architectures.
-Zimmermann et al. recommend that operations of tasks and entity services should not have any knowledge about their process or interactive usage context \footnote{cf.\autocite{zimmermann}}. Instead, task service operations should be independent from users and sessions and should only implement business functionality.
+Zimmermann et al. recommend that operations of tasks and entity services should not have any knowledge about their process or interactive usage context \footnote{cf.\autocite{zimmermann} pp.133}. Instead, task service operations should be independent from users and sessions and should only implement business functionality.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{images/esarc_business.png}
-	\caption{\ac{esarc} business and information reference architecture cf.\autocite{zimmermann}}
+	\caption{\ac{esarc} business and information reference architecture cf.\autocite{zimmermann} pp.134}
 	\label{vp_architecture}
 \end{figure}
 
 Figure \ref{vp_architecture} shows a more detailed view of 'ESARC', the procedural framework for architecture assessment processes and questionnaire design. On top of the graphic, with orange background, there are business vision, drivers, goals and objectives. To be more precuse, architecture governance has the goal to manage activities such as plan, define, enable, measure, control and sets rules for architecture complicance to internal and external standards. 
 
 \paragraph{Actors in cloud computing}
-According to Zimmermann et al., the main actors in cloud computing are cloud consumers, providers, auditors and broker \footnote{cf.\autocite{zimmermann}}. In general, all \ac{soa} services are cloud services and follow a reference architecture: 'Jericho-Security-focused Service-oriented Reference architecture for cloud computing'. Thereby, management perspectives from \ac{itil} and \ac{togaf} standards are integrated.
+According to Zimmermann et al., the main actors in cloud computing are cloud consumers, providers, auditors and broker \footnote{cf.\autocite{zimmermann} pp.133}. In general, all \ac{soa} services are cloud services and follow a reference architecture: 'Jericho-Security-focused Service-oriented Reference architecture for cloud computing'. Thereby, management perspectives from \ac{itil} and \ac{togaf} standards are integrated.
 
 \section{Medical Documentation Apps}
 
 \subsection{Overview: Smartphone apps to support self-management of hypertension}
-There exist many different self-management applications for patients who suffer from hypertension. Generally, these self-management programs are likely to be effective if they track the behaviour of their users\footnote{cf.\autocite{alessa}}. This means that medical self-management applications should be supported by theory-based interventions which allow the identification of target behaviour and strategies of behavioural changes needed to achieve desirable health outcomes.
+There exist many different self-management applications for patients who suffer from hypertension. Generally, these self-management programs are likely to be effective if they track the behaviour of their users\footnote{cf.\autocite{alessa} p.1}. This means that medical self-management applications should be supported by theory-based interventions which allow the identification of target behaviour and strategies of behavioural changes needed to achieve desirable health outcomes.
 \paragraph{Key functionalities}
 As depicted by Alessa et al., important functionalities of medical self-management applications are stress management, communication with \ac{hcp}, self-monitoring abilities (e.g. portrayed in graphs or tables), reminders, automatic feedback and educational information.
 \paragraph{\ac{bct}}
@@ -102,8 +103,8 @@ Alessa et al. describe important functionalities during the development of medic
   \item beliefs about consequences
 \end{itemize}
 
-In their study, Alessa et al. studied that a significant number of applications support self-management of hypertension with similar functionalities\footnote{cf.\autocite{alessa}}.
-Besides these findings, Alessa et al. state that privacy and security is an important issue in many health applications and that these are not available in 35\% of all applications. Moreover, it should be ensured that users are able to make fully informaed decisions by equipping the applications with skills and information necessary to scrutinize the privacy and security policies. This is due to the lack of knowledge and experience of many users in privacy concerns which can be seen in the social media\footnote{cf.\autocite{alessa}}.
+In their study, Alessa et al. studied that a significant number of applications support self-management of hypertension with similar functionalities\footnote{cf.\autocite{alessa} p.2}.
+Besides these findings, Alessa et al. state that privacy and security is an important issue in many health applications and that these are not available in 35\% of all applications. Moreover, it should be ensured that users are able to make fully informaed decisions by equipping the applications with skills and information necessary to scrutinize the privacy and security policies. This is due to the lack of knowledge and experience of many users in privacy concerns which can be seen in the social media\footnote{cf.\autocite{alessa} p.3}.
 
 \subsection{Blood pressure monitoring in cardiovascular medicine and therapeutics}
 As mentioned above, many medical applications are developed for self-monitoring\footnote{cf. p.4ff.\autocite{white_blood_2007}}. These bring many advantages and disadvantages. On the one hand, home blood pressure measurements are representative of natural environment and can show the response to antihypertensive medication. Furthermore, it is an easy and cost-effective way for obtaining a large number of readings. 
@@ -112,24 +113,24 @@ White et al. mention three different monitors for home measurements: arm, wrist 
 
 \paragraph{Influence factors of hypertension}
 There are multiple factors which increase blood pressure, such as age, gender, environmental factors, smoking, alcohol, medication, caffeine, stress and talking.
-To be more precisely, e.g. women have lower blood pressure than men or age increases the blood pressure\footnote{cf. p.9ff.\autocite{white_blood_2007}}. Environmental factors mean that the blood pressure values depend on winter or summer term. In winter, it is possible that blood pressure values increase up to 5 mmHg. Besides, the time of date can also influence measurements. For instance, it is recommended that patients take readings in the early morning and night. And there are differences between multiple systolic measurements whereas diastolic measurements stay nearly the same. But the most important fact, stated by White et al. is that summer and exercice dicrease the blood pressure measurements\footnote{cf. p.9ff.\autocite{white_blood_2007}}.
+To be more precisely, e.g. women have lower blood pressure than men or age increases the blood pressure\footnote{cf.\autocite{white_blood_2007} pp.9}. Environmental factors mean that the blood pressure values depend on winter or summer term. In winter, it is possible that blood pressure values increase up to 5 mmHg. Besides, the time of date can also influence measurements. For instance, it is recommended that patients take readings in the early morning and night. And there are differences between multiple systolic measurements whereas diastolic measurements stay nearly the same. But the most important fact, stated by White et al. is that summer and exercice dicrease the blood pressure measurements\footnote{cf.\autocite{white_blood_2007} pp.9}.
 
 \paragraph{Future trends in blood pressure measurements}
-As explained by White et al., it is very useful to have all readings available in an electronic form and to use these together with telemonitoring \footnote{cf. p.31ff.\autocite{white_blood_2007}}. In detail, the readings could be transferred automatically to the health care provider. This can help to facilitate the communication between physician and patient in an easy way so that they could form virtual hypertension clinic.
+As explained by White et al., it is very useful to have all readings available in an electronic form and to use these together with telemonitoring \footnote{cf.\autocite{white_blood_2007} pp.31}. In detail, the readings could be transferred automatically to the health care provider. This can help to facilitate the communication between physician and patient in an easy way so that they could form virtual hypertension clinic.
 
 \subsection{Social web and use cases for medical apps}
-As stated by Lupton et al.\footnote{cf.\autocite{lupton_apps}} the current technical 'era' we are living in is the web 2.0 or social web. Social web includes sharing health and medical information with each other, e.g. patients and caregivers write about experiences and the individual health status. Often, the aim of these social webs is to control the health status by using online information and imaging.
-Conforming to Lupton et al.\footnote{cf.\autocite{lupton_apps}}, in healthcare projects, big data can be used to generate knowledge about healthcare, health behaviours and disease patterns. Such applications can assist in calculating diagnosis, identifying risks, facilitating health, fitness self-tracking as well as patient self-care regimes.
-As reported by a study which surveyed American doctors\footnote{cf.\autocite{lupton_apps}} medication interaction apps are the first most-used and diagnosis apps the second most used category of apps.
-Moreover, pregnancy apps offer greater opportunities, such as that women can engage obsessive self-surveillance because of producing detailed data, such as heart rates, in real-time\footnote{cf.\autocite{lupton_apps}}. Pursuant to Lupton et al., the future potential of medical application lies in systems which enable lay people to access medical information (such as the electronic medical record) that was previously only available to healthcare practitioners or students.
+As stated by Lupton et al.\footnote{cf.\autocite{lupton_apps} p.607} the current technical 'era' we are living in is the web 2.0 or social web. Social web includes sharing health and medical information with each other, e.g. patients and caregivers write about experiences and the individual health status. Often, the aim of these social webs is to control the health status by using online information and imaging.
+Conforming to Lupton et al.\footnote{cf.\autocite{lupton_apps} p.608}, in healthcare projects, big data can be used to generate knowledge about healthcare, health behaviours and disease patterns. Such applications can assist in calculating diagnosis, identifying risks, facilitating health, fitness self-tracking as well as patient self-care regimes.
+As reported by a study which surveyed American doctors\footnote{cf.\autocite{lupton_apps} p.610} medication interaction apps are the first most-used and diagnosis apps the second most used category of apps.
+Moreover, pregnancy apps offer greater opportunities, such as that women can engage obsessive self-surveillance because of producing detailed data, such as heart rates, in real-time\footnote{cf.\autocite{lupton_apps} pp.614}. Pursuant to Lupton et al., the future potential of medical application lies in systems which enable lay people to access medical information (such as the electronic medical record) that was previously only available to healthcare practitioners or students.
 
-In another article, Lupton et al. reported that the potential lies in automation of news or notifications which can be personalized or targeted so that doctors could contact patients directly to remind them to adhere to their tratment programs\footnote{cf.\autocite{lupton_mhealth}}.
-A further example of medical applications are 'smart pillboxes' for patients suffering from diabetes\footnote{cf.\autocite{lupton_mhealth}}. 'Smart pillboxes' are wireless devices that remind patients to take their medication and alert a doctor if the patient had failed to conform to their medication regimen.
-Continuing, \ac{m-health} technologies have a feedback, also called cybernetic mechanism in that they react with their users as opposed to passively provide information. To give an example, modern prosthesis or technological extensions of the body are a kind of cybernetic mechanism\footnote{cf.\autocite{lupton_mhealth}}. 
-A big part of today's medical applications are surveillance systems in order to record and monitor cases of illnesses, such as obesity or infections\footnote{cf.\autocite{lupton_mhealth}}. These records might be useful to early detect epidemiological changes in the disease pattern. To give an example, 'individual medical encounters' which are conducted online enable doctors to flexibly practice personalized surveillance over each of their patients. At this point, another term occurs: 'surveillance knowledge' which refers to the digital data produced in the surveillance and can be useful for the individuate users.
+In another article, Lupton et al. reported that the potential lies in automation of news or notifications which can be personalized or targeted so that doctors could contact patients directly to remind them to adhere to their tratment programs\footnote{cf.\autocite{lupton_mhealth} pp.229}.
+A further example of medical applications are 'smart pillboxes' for patients suffering from diabetes\footnote{cf.\autocite{lupton_mhealth} pp.232}. 'Smart pillboxes' are wireless devices that remind patients to take their medication and alert a doctor if the patient had failed to conform to their medication regimen.
+Continuing, \ac{m-health} technologies have a feedback, also called cybernetic mechanism in that they react with their users as opposed to passively provide information. To give an example, modern prosthesis or technological extensions of the body are a kind of cybernetic mechanism\footnote{cf.\autocite{lupton_mhealth} pp.234}. 
+A big part of today's medical applications are surveillance systems in order to record and monitor cases of illnesses, such as obesity or infections\footnote{cf.\autocite{lupton_mhealth} pp.235}. These records might be useful to early detect epidemiological changes in the disease pattern. To give an example, 'individual medical encounters' which are conducted online enable doctors to flexibly practice personalized surveillance over each of their patients. At this point, another term occurs: 'surveillance knowledge' which refers to the digital data produced in the surveillance and can be useful for the individuate users.
 
 \paragraph{Blockchain solution for accurate medical decisions}
-As stated by Talukder et al. a significant amount of today's diagnosis in \ac{ncd} is erroneos or unwanted\footnote{cf.\autocite{talukder}}. The term \ac{ncd} implicates disease caused by an unheallthy lifestyle, the proper environment or genomic causes over a long time and come up with confusing signs and symptoms.
+As stated by Talukder et al. a significant amount of today's diagnosis in \ac{ncd} is erroneos or unwanted\footnote{cf.\autocite{talukder} p.263}. The term \ac{ncd} implicates disease caused by an unheallthy lifestyle, the proper environment or genomic causes over a long time and come up with confusing signs and symptoms.
 Talukder et al. mention 'P6'-Medicine which describes medicine using six adjectives starting with the letter 'p': medicine needs to be participatory, personalized, proactive, preventive, predictive, precision medicine.
 As a requirement list for health data, Talukder et al. describe important features as follows: 
 
@@ -147,7 +148,7 @@ As a requirement list for health data, Talukder et al. describe important featur
 
 \subsection{The potential of chatbots}
 Modelling, profiling, analyzing and understanding users becomes increasingly important in many different indrustries and count as key to success in todays data driven world. 
-The main advantage of chatbots is to provide a 24-hour customer service with personalized interaction and no waiting time\footnote{cf.\autocite{akhtar}}.
+The main advantage of chatbots is to provide a 24-hour customer service with personalized interaction and no waiting time\footnote{cf.\autocite{akhtar} pp.297}.
 Akhtar et al. analyzed chat conversations between customers and the chatbot of a telecommunication company in order to find out the user's topics of interest and how to satisfy users. As described by Akhtar et al., the tests of the chatbot were splitted into different activities, such as text mining techniques (feedback comments), event sequence analysis, frequent term extraction, analysis of bigrams/trigrams. 
 During data preprocessing, Akthar et al. used the following methods:
 \begin{itemize}
@@ -163,12 +164,12 @@ During data preprocessing, Akthar et al. used the following methods:
 The main challenges during the data analysis process are data availability, the access to further user information (e.g. contract details or age in order to generate an user model) and the distinction between different user types and different personality structures.
 
 \paragraph{Question Answering Paradigms}
-There are several types of conversations which can be designed by building a chatbot\footnote{cf.\autocite{akhtar}}. Generally, there can be distinguished between two different paradigms: information-retrieval based Question and Answering and knowledge-based Question and Answering. The first type describes the mechanism to define short texts as answers to a user's intent. On the opposite, the second type describes how to in natural language. The answers are stored into a full-related database and the conversation works simply with a rule-based method.
+There are several types of conversations which can be designed by building a chatbot\footnote{cf.\autocite{akhtar} p.398}. Generally, there can be distinguished between two different paradigms: information-retrieval based Question and Answering and knowledge-based Question and Answering. The first type describes the mechanism to define short texts as answers to a user's intent. On the opposite, the second type describes how to in natural language. The answers are stored into a full-related database and the conversation works simply with a rule-based method.
 \paragraph{Types of dialog systems}
-In general, dialog systems can be divided into two kinds of systems. On the one hand, there are task-oriented systems which are appropriate for short conversations and built for a certain purpose. On the other hand, there are non-task-oriented systems which are built for longer and more complex interactions with the purpose of imitating human conversations\footnote{cf.\autocite{akhtar}}.
+In general, dialog systems can be divided into two kinds of systems. On the one hand, there are task-oriented systems which are appropriate for short conversations and built for a certain purpose. On the other hand, there are non-task-oriented systems which are built for longer and more complex interactions with the purpose of imitating human conversations\footnote{cf.\autocite{akhtar} pp.399}.
 
 \subsection{A deep learning question-answering specialized chatbot for medical students}
-During their studies, medical students have to take an exam which is called \ac{osce} where they interact with a 'standardized' patient played by an actor who simulates the symptoms and intents of the patient\footnote{cf.\autocite{zini}}. The aim of this exam is to test and assess the students' abilities and social interaction and diagnosis skills.
+During their studies, medical students have to take an exam which is called \ac{osce} where they interact with a 'standardized' patient played by an actor who simulates the symptoms and intents of the patient\footnote{cf.\autocite{zini} p.2}. The aim of this exam is to test and assess the students' abilities and social interaction and diagnosis skills.
 Since in practice, there are not many actors who can play a patient's role, Zini et al. developed a virtual patient and chatbot system which works with \ac{nlp} techniques.
 
 Figure \ref{vp_architecture} shows the architecture of the developed system to create a virtual patient. Zini et al. used a \ac{cnn} and \ac{lstm} network in order to learn domain specific word embeddings, sentence embedding and answer selection models.
@@ -178,14 +179,14 @@ In Figure \ref{vp_architecture}, there is a \ac{nlp} engine outlined by a red re
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{images/vp_architecture.png}
-	\caption{Virtual patient software architecture cf.\autocite{zini}}
+	\caption{Virtual patient software architecture cf.\autocite{zini} p.3}
 	\label{vp_architecture}
 \end{figure}
 
 The aim of the developed system was to create a deep learning framework for answer selection in the medical domain and to create domain-specific word and sentence e,bedding models. Additionally, a question and answering corpus should be created for \ac{osce}s.
 
 \paragraph{Question and Answering systems}
-According to Zini et al. there are two types of question and answering systems\footnote{cf.\autocite{zini}}. First of all, there is open domain question and answering which uses very specific terminology. Secondly there are restricted domain question and answering systems which are broader in their scope. These are for example insurance-related deep learning question and answering systems which make use of two baseline models: \ac{bow} and \ac{ir} model. 
+According to Zini et al. there are two types of question and answering systems\footnote{cf.\autocite{zini} pp.4}. First of all, there is open domain question and answering which uses very specific terminology. Secondly there are restricted domain question and answering systems which are broader in their scope. These are for example insurance-related deep learning question and answering systems which make use of two baseline models: \ac{bow} and \ac{ir} model. 
 
 
 \chapter{Analysis and Development}
@@ -346,10 +347,7 @@ Since the setup of Watson Assistant API and the Angular Frontend took too much d
   \item alco (binary)
   \item active (binary)
   \item presence or absence of cardiovascular disease (binary) 
-\end{itemize}
-
-
-  
+\end{itemize}  
 
 
 \section{Predictive Analytics: Creating a model to predict cardiovascular disease} \label{predict}
