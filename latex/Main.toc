@@ -37,13 +37,13 @@
 \contentsline {section}{\numberline {4.6}Predictive Analytics: Creating a model to predict cardiovascular disease}{20}{section.4.6}% 
 \contentsline {subsection}{\numberline {4.6.1}Dataset}{20}{subsection.4.6.1}% 
 \contentsline {subsection}{\numberline {4.6.2}Development of python script}{21}{subsection.4.6.2}% 
-\contentsline {subsection}{\numberline {4.6.3}Connect Flask app, python script and Angular frontend}{22}{subsection.4.6.3}% 
 \contentsline {section}{\numberline {4.7}Results}{22}{section.4.7}% 
-\contentsline {subsection}{\numberline {4.7.1}Challenges}{22}{subsection.4.7.1}% 
+\contentsline {subsection}{\numberline {4.7.1}Challenges}{23}{subsection.4.7.1}% 
 \contentsline {chapter}{\numberline {5}Conclusion and Outlook}{32}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Conclusion}{32}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Outlook}{32}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Abbreviations}{34}{chapter.6}% 
-\contentsline {chapter}{\nonumberline Bibliography}{36}{chapter*.51}% 
-\contentsline {chapter}{\numberline {7}Appendix A}{38}{chapter.7}% 
-\contentsline {chapter}{\numberline {8}Appendix B}{39}{chapter.8}% 
+\contentsline {subsection}{\numberline {5.2.1}Connect Flask app, python script and Angular frontend}{33}{subsection.5.2.1}% 
+\contentsline {chapter}{\numberline {6}Abbreviations}{35}{chapter.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{37}{chapter*.54}% 
+\contentsline {chapter}{\numberline {7}Appendix A}{39}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Appendix B}{40}{chapter.8}% 

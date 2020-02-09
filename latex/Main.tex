@@ -313,7 +313,7 @@ When it comes to the four intents, the first implementation included passing all
 
 \section{Connect Watson Assistant and Angular frontend}
 
-To be able to connect to the Watson Assistant instance on IBM cloud, the \ac{API} Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the \ac{API}. The response is the answer of the current node in Watson Assistant \footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its own learning set which at least should include six sentences).
+To be able to connect to the Watson Assistant instance on IBM cloud, the \ac{API} Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the \ac{API}. The response is the answer of the current node in Watson Assistant\footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its own learning set which at least should include six sentences).
 
 \subsection{Data visualization: Development of a Python Script to show all measured values} 
 
@@ -341,55 +341,64 @@ Since the setup of Watson Assistant API and the Angular Frontend took too much d
   \item cholesterol (1: normal, 2: above normal, 3: well above normal)
   \item gluc (1: normal, 2: above normal, 3: well above normal)
   \item smoke (binary)
-  \item alco (binary)
-  \item active (binary)
+  \item alco (binary, consume of acohol)
+  \item active (binary, physical activity)
   \item presence or absence of cardiovascular disease (binary) 
 \end{itemize}  
 
-\subsection{Development of python script}
+The first four characteristics (age, gender, height, weight) are objective features and give factual information. After that, systolic, diastolic, cholesterol and glucose values are examination features and include the results of medical examination. The last four features (smoke, alcohol, active and the presence of cardiovascular disease) are subjective information and given by the patient.
 
-Based on the given Kaggle Dataset, a python script was developed. This script builds up a neural network for an intelligent and fast way to find out whether a person with given health characteristics has a higher or lower risk to suffer from cardiovascular disease.
-Therefore during the first step of analysis the dataset had to be cleaned from null values and only the factors which are relevant for correlation analysis were used. All other values were eliminated. This was implemented by using seaborn's function 'heatmap'. The produced heatmap showed the parameters of the dataset and how they correlated with the classification variable 'cardio' (which means that the person suffers from cardiovascular disease or not).
+\subsection{Development of python script} \label{python}
+Based on the given Kaggle Dataset, a python script using Keras library\footnote{cf.\autocite{keras}} was developed. This script builds up a neural network for an intelligent and fast way to find out whether a person with given health characteristics has a higher or lower risk to suffer from cardiovascular disease. Therefore, all given features were important for the analysis and none was eliminated. Moreover, the \ac{bmi} was added and calculated by the given height and weight values. 
 
-As this is a binary classification problem sigmoid as the activation function was used.
-Dense layer implements output = activation(dot(input, kernel) + bias). Kernel is the weight matrix. Kernel initialization defines the way to set the initial random weights of Keras layers.
-To optimize the neural network an Adam function was used. Adam stands for Adaptive moment estimation and combines RMSProp and Momentum. Momentum takes the past gradients into account in order to smooth out the gradient descent.
+During the first step of analysis, the dataset had to be cleaned from null values. After that, a correlation matrix was built up and calculated to check whether all features are relevant for the analysis. This was implemented by using seaborn's (a python library for diagrams\footnote{cf.\autocite{seaborn}})function 'heatmap'. The produced heatmap (see \ref{appendix b}) shows the parameters of the dataset and how they correlated with the classification variable 'cardio' (which means that the person suffers from cardiovascular disease or not). The result of the correlation matrix shows that all features are relevant for the analysis.
 
+After that, a model with 10 input variables and one target variable was created. The dataset was splitted into both a training and a test set. 30\% of the dataset was declared as test set and the target variable was removed. 
+The neural network was built up with three layers: two hidden and one output layer. The first two hidden layer contain 5 nodes each of them (since there are 10 input variables) and are activated by a simple 'relu' activation function. The third layer, the output layer was built up for the classification. Since it is binary classification problem, a sigmoid as the activation function was used. What is more, the Dense layer implements output = activation(dot(input, kernel) + bias). The kernel is the weight matrix. The kernel initialization defines the way to set the initial random weights of Keras layers.
+
+To optimize the neural network an Adam function was used\footnote{cf.\autocite{adam}, p.7}. Adam stands for Adaptive moment estimation and combines RMSProp (An optimization method closely related to Adam)and Momentum. Momentum takes the past gradients into account in order to smooth out the gradient descent.
+'RMSProp with momentum generates its parameter updates using a momentum on the rescaled gradient, whereas Adam updates aredirectly estimated using a running average of first and second moment of the gradient. RMSPropalso lacks a bias-correction term; this matters most in case of a small value \textbeta (required in case ofsparse gradients), since in that case not correcting the bias leads to very large stepsizes and oftendivergence.' \footnote{cf.\autocite{adam}, p.5}
+
+After the model building phase, the neural network was trained by setting 10 epochs and a batch size of 10. 
+After the training, the model was evaluated and the result was an accuracy of 73 \%.
+
+\section{Results}
+Referring to the above section \ref{python}, the neural network gets an accuracy of 73\%. But this can be improved by changing the number of epochs and batches. Another possibility might be the change of the dataset. It might be useful to evaluate the data retrieved from real users who chatted with the developed chatbot. This data could be more realistic than the data from Kaggle.
+
+\subsection{Challenges}
+During the developent of the frontend and Watson Assistant, there were many challenges. One big challenge was the development and testing of the dialogs. Watson Assitant gives a great possibility to develop conversations in a decision tree but for testing, it does not offer any automated tests (which would be very helpful for large-scale analysis). 
+Another challenge was the connection of Watson Assistant \ac{api} and the Angular app. The documentation of Watson Assistant is kept very basic and there are not many examples on Github. Finally, the connection was implemented by an easy \ac{http} get and post request. 
+To give another example, the implementation of the OpenLayers Map was very challenging since the main configuration can only be done through the \ac{html} template. 
+
+\chapter{Conclusion and Outlook}
+\section{Conclusion}
+
+To conclude, the developed system shows that through automatisation and human-like conversations, hypertonia patients can be guided through their measurements.
+What is more, the retrieved information can be used to run several analysis and to find out trends in the data. This enables doctors to react faster and to improve and personalize the treatment individually for each patient.
+Furthermore, the developed solution supports users to never forget to measure and doctors to better understand trends in the measured data.
+During development and research, there came up another issue: To inform patients precisely about their illness. Most patients go to doctors and describe their symptoms, the doctor makes some diagnosis and provides them some medication. But in most cases, doctors do not have enough time to answer all the questions of their patients. For that reason it might be useful to provide a 24/7 service for patients with chronic disease to both record their symptoms and measurements and to answer all their questions. This could be implemented by a chatbot or by adding analysis techniques, such as image recognition. By analyzing the images, an algorithm could check the state of the patient (e.g. if he or she looks like always or not). 
+
+\section{Outlook}
+
+There are many things that can be added or improved, such as connecting the doctors' and patient's calendar to directly make an appointment through the chatbot. 
+Another possibility is encryption. It is important to store all measured and personal data in a secure way. Asynchronous encryption is a good way to save these data and to only allow access to the parties that should see the information, such as patients. To give an example, the application could save the data to the cloud and for this one action it uses a public key. If the patient wants to get to this information, he needs a private key to decrypt all information. 
+As described in section \ref{predict}, a neural network can calculate the probability of a patient to suffer cardiovascular disease.
+Moreover, another use case might be patients already suffering from cardiovascular disease which have to be treated and want to recover. In that situation the neural network could calculate the ideal weight and all other relevant factors and how to get to these ideal values. It could motivate patients through a personalized treatment plan by providing personlized nutrition plans. It could also forecast the term or maybe exact date  when the patients will be healthy again.
+Besides, for doctors, it might be very useful to have a proper dashboard which shows a list of all patients and a 'profile' for each patient. This could contain several personal data as well as the last treatments and prescribed medication. 
+Finally, an improved architecture which is described in the next section connects all components (analysis and frontend).
 
 \subsection{Connect Flask app, python script and Angular frontend}
+Flask is a python library which starts a web server to run the script in the browser \footnote{cf.\autocite{flask}}.
+Figure \ref{architecture_perfect} shows the 'perfect' architecture. The idea is to connect the python script with the Angular web app by starting the flask server and connecting both of them. Another, easier way could be to include python directly into Angular. But this might be a little complicated since Angular is a typescript framework and the two languages might cause some conflicts. 
+Nevertheless, the given architecture \ref{architecture_perfect} shows the idea of saving the created data from the chat and directly using them for the analysis script. This offers the new possibility to evaluate and predict in real time.
 
-Figure \ref{architecture_perfect} shows the architecture which is aimed  
-
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{images/architecture_perfectworld.png}
 	\caption{Watson Assistant entitities}
 	\label{architecture_perfect}
 \end{figure}
 
-\section{Results}
-
-\subsection{Challenges}
-During the developent of the frontend and Watson Assistant, there were many challenges. 
-
-\chapter{Conclusion and Outlook }
-\section{Conclusion}
-
-Is a chatbot an appropriate solution for recording and reminding patients to measure their blood pressure ? 
-In practice, most chatbots are created to solve and help multiple intents of their users and do not only provide information.
-On the one hand, the retrieved information can be used to run several analysis and to find out trends in the data. But on the other hand, the developed solution  supports users to never forget to measure and doctors to better understand trends in the measured data.
-During development and research, there came up another issue: To inform patients precisely about their illness. Most patients go to doctors and describe their symptoms, the doctor makes some diagnosis and provides them some medication. But in most cases, doctors do not have enough time to answer all the questions of their patients. For that reason it might be useful to provide a 24/7 service for patients with chronic disease to both record their symptoms and measurements and to answer all their questions.
-
-\section{Outlook}
-
-It is important to store all measured and personal data in a secure way. Asynchronous encryption is a good way to save these data and to only allow access to the parties that should see the information, such as patients. To give an example, the application could save the data to the cloud and for this one action it uses a public key. If the patient wants to get to this information, he needs a private key to decrypt all information. 
-As described in section \ref{predict}, a neural network can calculate the probability of a patient to suffer cardiovascular disease.
-Moreover, another use case might be patients already suffering from cardiovascular disease which have to be treated and want to recover. In that situation the neural network could calculate the ideal weight,
-It could provide personlaized nutrition plans. It could also forecast the term or maybe exact date (if trained well) when the patients will be healthy again and  
-
-For future use cases, it might be very useful to have a proper dashboard for each doctor (including user management and authentication systems). 
-
-outlook: maybe in future to connect to the doctors' calendar to directly make an appointment through the chatbot
 \chapter{Abbreviations}
 \input{Abkuerzung}
 
