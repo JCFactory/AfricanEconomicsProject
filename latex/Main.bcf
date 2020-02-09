@@ -2034,15 +2034,14 @@
     <bcf:citekey order="40">zini</bcf:citekey>
     <bcf:citekey order="41">zini</bcf:citekey>
     <bcf:citekey order="42">zini</bcf:citekey>
-    <bcf:citekey order="43">hochdruckliga</bcf:citekey>
-    <bcf:citekey order="44">wa_docu</bcf:citekey>
-    <bcf:citekey order="45">nebular</bcf:citekey>
-    <bcf:citekey order="46">echarts</bcf:citekey>
-    <bcf:citekey order="47">openlayers</bcf:citekey>
+    <bcf:citekey order="43">nebular</bcf:citekey>
+    <bcf:citekey order="44">echarts</bcf:citekey>
+    <bcf:citekey order="45">openlayers</bcf:citekey>
+    <bcf:citekey order="46">hochdruckliga</bcf:citekey>
+    <bcf:citekey order="47">wa_docu</bcf:citekey>
     <bcf:citekey order="48">wa_api_v2</bcf:citekey>
     <bcf:citekey order="49">kaggle</bcf:citekey>
-    <bcf:citekey order="50">decision_tree_python</bcf:citekey>
-    <bcf:citekey order="51">kaggle</bcf:citekey>
+    <bcf:citekey order="50">kaggle</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

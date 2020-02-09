@@ -193,6 +193,8 @@ According to Zini et al. there are two types of question and answering systems\f
 
 \chapter{Analysis and Development}
 
+\section{Experimental set-up} \label{first_ideas}
+
 First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor via email so that he can get more insights about the blood pressure values of his patients and can improve the treatment.
 One of the main challenges during development was the process of providing information about the disease to the patient. Is it possible to include information about different types of blood pressure into the automated conversation with a chatbot? Or does it overwhelm the conversation's use case? Is it useful to let the user ask questions like: 'What are the different types of hypertension? Am i a high-risk patient?' 
 Or should these information be provided as a video or a simple web page with long articles to read? Might the patient or user be aborred after a while of talking to a chatbot who only knows answering his questions in the same way?
@@ -200,9 +202,7 @@ Of course, a chatbot can be developed in a more intelligentway to never provide 
 For that reason, in the first version of this chatbot, five simple intents and dialogs have been designed and implemented with the focus of the instructions to measure correctly and regularly. 
 In a second or third version, it is possible to focus more on the improvement of providing information about the disease (by not doing this in the style of question and answering).
 
-\section{Experimental set-up}
-
-\subsection{Software architecture}
+\section{Software architecture}
 
 Figure \ref{architecture_0102} gives an overview of all developed components. Quite above, there is the Watson Assistant instance, running in the IBM Cloud. Beneath Watson Assistant, a NodeJS server opens the session and sends messages from the client to the Assistant and backwards. The NodeJS server connects the cloud and the frontend by implementing \ac{http} requests and responses. Finally, there is the AngularJS application running locally and creating a \ac{JSON} reporting file every few minutes. This reporting file includes all messages, with the user from whom it was send and a timestamp. It can be used to analyze the data and to create profiles of the patients.
 
@@ -213,11 +213,29 @@ Figure \ref{architecture_0102} gives an overview of all developed components. Qu
 	\label{architecture_0102}
 \end{figure}
 
+\section{Setup of Angular Frontend} \label{frontend}
+In order to provide a comfortable way to chat and view all retrieved and measured data, a basic angular application was built and run locally (see figures \ref{angular_01} and \ref{angular_02}). Three open source ibraries, such as Nebular\footnote{cf.\autocite{nebular}}, Apache Echarts\footnote{cf.\autocite{echarts}} and Openlayers Maps\footnote{cf.\autocite{openlayers}} were included to the application (see figures \ref{angular_01} and \ref{angular_02}). Nebular is a Javascript library that has certain themes (e.g. light, dark etc.) and a chat UI (which allows to send messages and different file types such as documents or images or videos). It also allows to send a location by defining longitude and latitude parameters. Generally, it is very handy and useful to fast built up an Angular webpage (see also figure \ref{angular_01}).
 
-\subsection{Development of Watson Assistant Dialog}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/angular_01.png}
+	\caption{Angular Frontend (top page), chat UI and diagrams of measured values}
+	\label{angular_01}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{images/angular_02.png}
+	\caption{Angular Frontend (bottom page), map to show the nearest doctors}
+	\label{angular_02}
+\end{figure}
 
-\paragraph{Intent model}
+Secondly, Apache Echarts is also a Javascript library which offers a huge variety of diagrams and maps, such as bar, line, pie and other special diagrams (including different animation modes, overlays and tooltips). For the first draft of the frontend, the basic line chart was used to display the weekly, monthly and yearly overview of measured pulse, systolic and diastolic values. For future use cases, it might be also useful to display other charts of Echarts or maybe tables to better understand trends.
+The third Javascript library that was used, is called Openlayers Maps and is an open source software. It is very famous and many projects rather use Openlayers \ac{API} than Google Places \ac{API} because their \ac{API} calls are very expensive. Openlayers Maps has many different modes and overlays. Besides, certain places can be marked by different icons.
+All in all, the three described libraries are very well documented and are easy and ready to use after installation, so that the focus could be spent more on developing the Watson Assistant dialog described in the next paragraph.
 
+\section{Development of Watson Assistant Dialog}
+
+\subsection{Intent model} \label{intentmodel}
 The chatbot was built according to the webpage of "Deutsche Hochdruckliga", a german organization for patients who suffer from hypertonia\footnote{cf.\autocite{hochdruckliga}}. 
 To better understand the users and patients a basic intent model with four intents was developed. 
 The four intents include 
@@ -267,13 +285,9 @@ These four intents were used to define and develop four typical dialogs, display
 	\label{dialog_diagram_04}
 \end{figure}
 
-
-\paragraph{Watson Assistant implementation}
-
+\subsection{Watson Assistant implementation}
 In the following, the implemented dialog as well as all entities and intents are described. They have been developed according to the Watson Assistant documentation \footnote{cf.\autocite{wa_docu}}.
-Basically, 16 entities (see figure \ref{wa_entities}) and 17 intents (see figure \ref{wa_intents}) were defined. Entities give examples of an user's input.
-The dialog (see figure \ref{wa_dialog}) includes a welcome node, a concierge node which asks the basic data (e.g. age, gender, height, weight etc.) and starts the tutorial, an additional information node (if the user wants to know more about hypertonia), the measurement node and finally the recommendation of doctors node.
-
+Basically, 16 entities (see figure \ref{wa_entities}) and 17 intents (see figure \ref{wa_intents}) were defined. Entities give examples of an user's input whereas intents describe the 'wish' or what the user wants to know.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{images/WA_dialog.png}
@@ -294,46 +308,26 @@ The dialog (see figure \ref{wa_dialog}) includes a welcome node, a concierge nod
 	\caption{Watson Assistant entitities}
 	\label{wa_entities}
 \end{figure}
+The dialog (see figure \ref{wa_dialog}) includes a welcome node, a concierge node which asks the basic data (e.g. age, gender, height, weight etc.) and starts the tutorial, an additional information node (if the user wants to know more about hypertonia), the measurement node and finally the recommendation of doctors node. The conversations are implemented as explained in section \ref{intentmodel}. In Watson Assistant, each node can be defined with a condition. If the value of the condition is true, the response of the node is returned to the user. If it is false, the next node (usually above the other node) is checked for its condition. In case of no appropriate node, there should be defined a 'anything-else' node which always return a response if the other nodes were not true. Generally, the response of the anything else node is something like 'Sorry, i did not understand. Could you try to rephrase your question, please?'.
+When it comes to the four intents, the first implementation included passing all nodes, one after another. But as mentioned in section \ref{first_ideas}, there are some special nodes which should be passed only once per user whereas other should be displayed regular intervals. This was not implemented in Watson Assistant (even though there are possibilities, such as defining 'slots' for certain \ac{ir} routines) but in the frontend which is explained in section \ref{frontend}. 
 
-\paragraph{Setup of AngularJS Frontend}
+\section{Connect Watson Assistant and Angular frontend}
 
-In order to provide a comfortable way to chat and view all retrieved and measured data, a basic angular application was built and run locally (see figures \ref{angular_01} and \ref{angular_02}). Three open source ibraries, such as Nebular\footnote{cf.\autocite{nebular}}, Apache Echarts\footnote{cf.\autocite{echarts}} and Openlayers Maps\footnote{cf.\autocite{openlayers}} were included to the application. Nebular is a Javascript library that has certain themes (e.g. light, dark etc.) and a chat UI (which allows to send messages and different file types such as documents or images or videos). It also allows to send a location by defining longitude and latitude parameters. Generally, it is very handy and useful to fast built up an Angular webpage.
-Secondly, Apache Echarts is also a Javascript library which offers a huge variety of diagrams and maps, such as bar, line, pie and other special diagrams (including different animation modes, overlays and tooltips). For the first draft of the frontend, the basic line chart was used to display the weekly, monthly and yearly overview of measured pulse, systolic and diastolic values. But for future use cases, it might be also useful to display other charts of Echarts or maybe tables.
-The third Javascript library that was used, is called Openlayers Maps. It is very famous and many projects rather use Openlayers API than Google Places API because their API calls are very expensive. Openlayers Maps has many different modes and overlays. Certain places can be marked by different icons.
-All in all, the three described libraries were very well documented and are easy and ready to use after installation, so that the focus could be spent more on developing the Watson Assistant dialog described in the next paragraph.
+To be able to connect to the Watson Assistant instance on IBM cloud, the \ac{API} Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the \ac{API}. The response is the answer of the current node in Watson Assistant \footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its own learning set which at least should include six sentences).
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\textwidth]{images/angular_01.png}
-	\caption{Angular Frontend (top page), chat UI and diagrams of measured values}
-	\label{angular_01}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\textwidth]{images/angular_02.png}
-	\caption{Angular Frontend (bottom page), map to show the nearest doctors}
-	\label{angular_02}
-\end{figure}
+\subsection{Data visualization: Development of a Python Script to show all measured values} 
 
-\paragraph{Connect Watson Assistant to Frontend}
-
-To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the answer from Watson Assistant \footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its own learning set which at least should include six sentences).
-
-\paragraph{Data visualization: Development of a Python Script to show all measured values} 
-\footnote{cf.\autocite{kaggle}}
-\footnote{cf.\autocite{decision_tree_python}}
+Based on a given dataset from Kaggle\footnote{cf.\autocite{kaggle}}, a basic python script was developed. It compares the different analyzed data
 
 
-\paragraph{Development of recommendation of nearest doctors to patient}
-outlook: maybe in future to connect to the doctors' calendar to directly make an appointment through the chatbot
-
-\paragraph{Development of email service to send reports every two weeks to the doctor}
+\subsection{Development of email service to send reports every two weeks to the doctor}
 
 Another challenge was the way to automatically ask the user for his measured data. Most chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. By implementing a python script for data analysis an alarm was created to remind users every five hours or once a day.
-In order to face this problem or use case, a routine including a timer had to be implemented.
+In order to face this problem or use case, a routine for sending an email including a timer was implemented.
 
-\section{Problem solving}
-\subsection{Tests}
+\section{Predictive Analytics: Creating a model to predict cardiovascular disease} \label{predict}
+Generally, it is hard to let an algorithm diagnose cardiovascular disease if only looking at the dataset above. In practice, it needs the experience of a doctor and many different measured values in different situations (e.g. in stress situations or in relaxing situations). Nevertheless, for analytics it is very interesting to test if for example a neural network could learn on the given dataset and could predict the probability of a cardiovascular disease for a given patient. 
+
 \subsection{Dataset}
 Since the setup of Watson Assistant API and the Angular Frontend took too much development time, a user test could not be executed. For that reason, the diagrams were calculated by using a dataset from Kaggle\footnote{cf.\autocite{kaggle}} which included 70000 entries of different patients and 12 characteristics. These 12 characteristics included:
 \begin{itemize}
@@ -352,10 +346,6 @@ Since the setup of Watson Assistant API and the Angular Frontend took too much d
   \item presence or absence of cardiovascular disease (binary) 
 \end{itemize}  
 
-
-\section{Predictive Analytics: Creating a model to predict cardiovascular disease} \label{predict}
-Generally, it is hard to let an algorithm diagnose cardiovascular disease if only looking at the dataset above. In practice, it needs the experience of a doctor and many different measured values in different situations (e.g. in stress situations or in relaxing situations). Nevertheless, for analytics it is very interesting to test if for example a neural network could learn on the given dataset and could predict the probability of a cardiovascular disease for a given patient. 
-
 \subsection{Development of python script}
 
 Based on the given Kaggle Dataset, a python script was developed. This script builds up a neural network for an intelligent and fast way to find out whether a person with given health characteristics has a higher or lower risk to suffer from cardiovascular disease.
@@ -364,13 +354,6 @@ Therefore during the first step of analysis the dataset had to be cleaned from n
 As this is a binary classification problem sigmoid as the activation function was used.
 Dense layer implements output = activation(dot(input, kernel) + bias). Kernel is the weight matrix. Kernel initialization defines the way to set the initial random weights of Keras layers.
 To optimize the neural network an Adam function was used. Adam stands for Adaptive moment estimation and combines RMSProp and Momentum. Momentum takes the past gradients into account in order to smooth out the gradient descent.
-
-\section{Results}
-
-\chapter{Conclusion and Outlook }
-\section{Conclusion}
-
-\section{Outlook}
 
 
 \subsection{Connect Flask app, python script and Angular frontend}
@@ -384,28 +367,29 @@ Figure \ref{architecture_perfect} shows the architecture which is aimed
 	\label{architecture_perfect}
 \end{figure}
 
+\section{Results}
+
+\subsection{Challenges}
+During the developent of the frontend and Watson Assistant, there were many challenges. 
+
+\chapter{Conclusion and Outlook }
+\section{Conclusion}
+
 Is a chatbot an appropriate solution for recording and reminding patients to measure their blood pressure ? 
-In practice, most chatbots are created to solve and help multiple intents of their users and not to only 'retrieve' information.
+In practice, most chatbots are created to solve and help multiple intents of their users and do not only provide information.
 On the one hand, the retrieved information can be used to run several analysis and to find out trends in the data. But on the other hand, the developed solution  supports users to never forget to measure and doctors to better understand trends in the measured data.
 During development and research, there came up another issue: To inform patients precisely about their illness. Most patients go to doctors and describe their symptoms, the doctor makes some diagnosis and provides them some medication. But in most cases, doctors do not have enough time to answer all the questions of their patients. For that reason it might be useful to provide a 24/7 service for patients with chronic disease to both record their symptoms and measurements and to answer all their questions.
 
+\section{Outlook}
 
-connection frontend (angularjs webpage) to mongodb through socket.io connection.
-Connection between Watson Assistant and Frontend through mongodb and via socket.io connection.
-\subsection{Behaviour change techniques}
-\subsection{Therapy and Forecasting of healing}
+It is important to store all measured and personal data in a secure way. Asynchronous encryption is a good way to save these data and to only allow access to the parties that should see the information, such as patients. To give an example, the application could save the data to the cloud and for this one action it uses a public key. If the patient wants to get to this information, he needs a private key to decrypt all information. 
 As described in section \ref{predict}, a neural network can calculate the probability of a patient to suffer cardiovascular disease.
 Moreover, another use case might be patients already suffering from cardiovascular disease which have to be treated and want to recover. In that situation the neural network could calculate the ideal weight,
 It could provide personlaized nutrition plans. It could also forecast the term or maybe exact date (if trained well) when the patients will be healthy again and  
 
-For future use cases, it might be very useful to have a proper dashboard for each doctor (which requires a user management and authentication mechanism) 
+For future use cases, it might be very useful to have a proper dashboard for each doctor (including user management and authentication systems). 
 
-\subsection{Encrypt and save patient data}
-
-It is important to store all measured and personal data in a secure way. Asynchronous encryption is a good way to save these data and to only allow access to the parties that should see the information, such as patients. To give an example, the application could save the data to the cloud and for this one action it uses a public key. If the patient wants to get to this information, he needs a private key to decrypt all information. 
-
-
-
+outlook: maybe in future to connect to the doctors' calendar to directly make an appointment through the chatbot
 \chapter{Abbreviations}
 \input{Abkuerzung}
 
