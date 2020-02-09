@@ -24,19 +24,22 @@ The first aim of this scientific work is to develop a solution to document blood
 To recommend an appropriate doctor in one's surrounding (approximately 5 kilometers of distance), an intuitive user interface with map is being shown.
 The application shall send every week/every two weeks a report (including a diagramm of all measured blood pressure values of the patient) to the doctor so that the doctor will be informed in real-time. In the diagrams/frontend, it is possible to select different scales, e.g. like the values of last week/last month/last year. 
 At the beginning of using the Chatbot, the user is being led through a tutorial which shows him how to measure correctly his blood pressure. One instruction is for example not to drink coffee before measuring your blood pressure or to sit for at least 5 minutes. After that, a routine for the measurement leads the patient through the measurement. The measured values are saved automatically into a \ac{json} file.
-Due to time limitations, there were no user tests driven. But to build up diagrams and to build up a neural network that calculates the probability of the cardiovascular disease, a sample dataset from Kaggle was used. The whole analytics process and implementation will be explained in section \ref{predict}.
+Due to time limitations, there were no user tests driven. But to build up diagrams and to build up a neural network that calculates the probability of the cardiovascular disease, a sample dataset from Kaggle was used. The whole analytics process and implementation will be explained in section \ref{predict}. What is important, the developed model is only a reference model and can be improved by changing the parameters and using real test data. Moreover, for diagnosis of any disease (in this case cardiovascular disease) depends on many factors, e.g. the appearance of the patient. Therefore, in case of a cardiovascular disease, the advice and treatment of a real doctor should be taken.
 
 \chapter{Fundamentals}\label{fundamentals}
 
 \section{Software Architecture: Best Practices}
 
-To describe the 'best practices' of software architecture, in this section the architecture of a blockchain \ac{p2p} network which is backed with a distributed ledger system (see figure \ref{example_software_architecture}) will be explained. As stated by Talukder et al.\footnote{cf.\autocite{talukder} pp.258}, this model is an appropriate solution for health applications because they support multiple stakeholders.
+In this section, the 'best practices' of software architecture are described. To give an example, the architecture of a blockchain \ac{p2p} network which is backed with a distributed ledger system (see figure \ref{example_software_architecture}) will be explained. According to the authors, Talukder et al.\footnote{cf.\autocite{talukder} pp.258}, the model is an appropriate solution for health applications because they support multiple stakeholders.
 
-As a common problem in every big data project there are multiple data sources and systems which provide relevant information for the particular use case. For instance, these information can be handwritten human readable and human understandable medical notes. Some information are computer readable and human understandable and the third 'generation' of information describes computer readable and understandable algorithms.
+\subsection{Data mining in medical context}
 
-In order to provide an effective treatment of any disease, all health related data of a person on a spatial and temporal basis from birth is needed. These data will be examined by a panel of experts to reach a consensus \ac{poc} and include all illness episodes, lab tests, pathological test results (which are outside the normal range), genomic data (to evaluate the genomic state of the individual), environmental and health events, lifestyle related data captured by \ac{iot}, therapeutic data and outcome analysis results.
+As a common problem in every big data project there are multiple data sources and systems which provide relevant information for the particular use case. Generally, three types of data sources can be distinguished: For instance, the information can be handwritten human readable and human understandable medical notes. Besides, some information are computer readable and human understandable and the third 'generation' of information describes computer readable and understandable algorithms.
 
-According to Talukder et al.\footnote{cf.\autocite{talukder} pp.260}, there are three different types of mining: 
+In order to provide an effective treatment of any disease, all health related data of a person on a spatial and temporal basis from birth is needed. For instance, all illness episodes, lab tests, pathological test results (which are outside the normal range), genomic data (to evaluate the genomic state of the individual), environmental and health events, lifestyle related data captured by \ac{iot}, therapeutic data and outcome analysis results.
+This data is examined by a panel of experts to reach a consensus \ac{poc}.
+
+According to Talukder et al.\footnote{cf.\autocite{talukder} pp.260}, there are three different types of data mining: 
 
 \begin{itemize}
 \setlength\itemsep{-0.5em}
@@ -47,7 +50,7 @@ According to Talukder et al.\footnote{cf.\autocite{talukder} pp.260}, there are 
 
 As can be seen in figure \ref{example_software_architecture}, medical systems need many resources from which all relevant medical data iare loaded. As described by Talukder et al.\footnote{cf.\autocite{talukder} pp.259}, all medical data is processed by \ac{nlp} techniques, evidence based medicine as well as big data analytics (see figure \ref{example_software_architecture}).
 In most health applications, patients' participation increases when they have access to their health and lab records. In the solution provided by Talukder et al. genomic tests and \ac{ncd} data are stored in the blockchain as a transaction.
-Moreover, the blockchain technology is deployed in the cloud (cf. figure \ref{example_software_architecture} Ethereum).
+Moreover, the blockchain technology is deployed in the cloud, as described in figure \ref{example_software_architecture}.
 
 \begin{figure}[htbp]
 	\centering
@@ -56,7 +59,7 @@ Moreover, the blockchain technology is deployed in the cloud (cf. figure \ref{ex
 	\label{example_software_architecture}
 \end{figure}
 
-What is more, there is a medical miner which validates every transaction, then translates all clinical notes into structured \ac{icd} or \ac{snowmed ct} codes. After that, all codes are stored into a smart contract. During that process, a medical expert validates whether current the onset matches any clinical pathway. 
+What is more, there is a medical miner which validates every transaction, then translates all clinical notes into structured \ac{icd} or \ac{snowmed ct} codes. After that, all codes are stored into a smart contract. During that process, a medical expert validates whether the current onset matches any clinical pathway. 
 Finally, medical experts discuss in a proper medical consensus if the data is useful for an accurate diagnosis and public health.
 
 \subsection{\ac{soa} for big data applications in the cloud}
@@ -88,7 +91,7 @@ According to Zimmermann et al., the main actors in cloud computing are cloud con
 \section{Medical Documentation Apps}
 
 \subsection{Overview: Smartphone apps to support self-management of hypertension}
-There exist many different self-management applications for patients who suffer from hypertension. Generally, these self-management programs are likely to be effective if they track the behaviour of their users\footnote{cf.\autocite{alessa} p.1}. This means that medical self-management applications should be supported by theory-based interventions which allow the identification of target behaviour and strategies of behavioural changes needed to achieve desirable health outcomes.
+There exist many different self-management applications for patients who suffer from hypertension. Generally, these self-management programs are likely to be effective if they track the behaviour of their users\footnote{cf.\autocite{alessa} p.1}. This means that medical self-management applications should be supported by theory-based interventions, such as identifying the target behaviour and strategies of behavioural changes needed to achieve desirable health outcomes.
 \paragraph{Key functionalities}
 As depicted by Alessa et al., important functionalities of medical self-management applications are stress management, communication with \ac{hcp}, self-monitoring abilities (e.g. portrayed in graphs or tables), reminders, automatic feedback and educational information.
 \paragraph{\ac{bct}}
@@ -103,7 +106,7 @@ Alessa et al. describe important functionalities during the development of medic
   \item beliefs about consequences
 \end{itemize}
 
-In their study, Alessa et al. studied that a significant number of applications support self-management of hypertension with similar functionalities\footnote{cf.\autocite{alessa} p.2}.
+In their study, Alessa et al. studied that many applications supporting self-management of hypertension have similar functionalities\footnote{cf.\autocite{alessa} p.2}.
 Besides these findings, Alessa et al. state that privacy and security is an important issue in many health applications and that these are not available in 35\% of all applications. Moreover, it should be ensured that users are able to make fully informaed decisions by equipping the applications with skills and information necessary to scrutinize the privacy and security policies. This is due to the lack of knowledge and experience of many users in privacy concerns which can be seen in the social media\footnote{cf.\autocite{alessa} p.3}.
 
 \subsection{Blood pressure monitoring in cardiovascular medicine and therapeutics}
@@ -113,7 +116,7 @@ White et al. mention three different monitors for home measurements: arm, wrist 
 
 \paragraph{Influence factors of hypertension}
 There are multiple factors which increase blood pressure, such as age, gender, environmental factors, smoking, alcohol, medication, caffeine, stress and talking.
-To be more precisely, e.g. women have lower blood pressure than men or age increases the blood pressure\footnote{cf.\autocite{white_blood_2007} pp.9}. Environmental factors mean that the blood pressure values depend on winter or summer term. In winter, it is possible that blood pressure values increase up to 5 mmHg. Besides, the time of date can also influence measurements. For instance, it is recommended that patients take readings in the early morning and night. And there are differences between multiple systolic measurements whereas diastolic measurements stay nearly the same. But the most important fact, stated by White et al. is that summer and exercice dicrease the blood pressure measurements\footnote{cf.\autocite{white_blood_2007} pp.9}.
+To be more precisely, e.g. women have lower blood pressure than men or age increases the blood pressure\footnote{cf.\autocite{white_blood_2007} pp.9}. Environmental factors describe the influence of winter or summer terms on the blood pressure values. In winter, it is possible that blood pressure values increase up to 5 mmHg. Besides, the time of date can also influence measurements. For instance, it is recommended that patients take readings in the early morning and night. And there are differences between multiple systolic measurements whereas diastolic measurements stay nearly the same. But the most important fact, stated by White et al. is that summer and exercice dicrease the blood pressure measurements\footnote{cf.\autocite{white_blood_2007} pp.9}.
 
 \paragraph{Future trends in blood pressure measurements}
 As explained by White et al., it is very useful to have all readings available in an electronic form and to use these together with telemonitoring \footnote{cf.\autocite{white_blood_2007} pp.31}. In detail, the readings could be transferred automatically to the health care provider. This can help to facilitate the communication between physician and patient in an easy way so that they could form virtual hypertension clinic.
@@ -121,7 +124,7 @@ As explained by White et al., it is very useful to have all readings available i
 \subsection{Social web and use cases for medical apps}
 As stated by Lupton et al.\footnote{cf.\autocite{lupton_apps} p.607} the current technical 'era' we are living in is the web 2.0 or social web. Social web includes sharing health and medical information with each other, e.g. patients and caregivers write about experiences and the individual health status. Often, the aim of these social webs is to control the health status by using online information and imaging.
 Conforming to Lupton et al.\footnote{cf.\autocite{lupton_apps} p.608}, in healthcare projects, big data can be used to generate knowledge about healthcare, health behaviours and disease patterns. Such applications can assist in calculating diagnosis, identifying risks, facilitating health, fitness self-tracking as well as patient self-care regimes.
-As reported by a study which surveyed American doctors\footnote{cf.\autocite{lupton_apps} p.610} medication interaction apps are the first most-used and diagnosis apps the second most used category of apps.
+As reported by a study which surveyed American doctors\footnote{cf.\autocite{lupton_apps} p.610}, medication interaction apps are the first most-used and diagnosis apps the second most used category of apps.
 Moreover, pregnancy apps offer greater opportunities, such as that women can engage obsessive self-surveillance because of producing detailed data, such as heart rates, in real-time\footnote{cf.\autocite{lupton_apps} pp.614}. Pursuant to Lupton et al., the future potential of medical application lies in systems which enable lay people to access medical information (such as the electronic medical record) that was previously only available to healthcare practitioners or students.
 
 In another article, Lupton et al. reported that the potential lies in automation of news or notifications which can be personalized or targeted so that doctors could contact patients directly to remind them to adhere to their tratment programs\footnote{cf.\autocite{lupton_mhealth} pp.229}.
@@ -147,8 +150,8 @@ As a requirement list for health data, Talukder et al. describe important featur
 \section{Chatbots} 
 
 \subsection{The potential of chatbots}
-Modelling, profiling, analyzing and understanding users becomes increasingly important in many different indrustries and count as key to success in todays data driven world. 
-The main advantage of chatbots is to provide a 24-hour customer service with personalized interaction and no waiting time\footnote{cf.\autocite{akhtar} pp.297}.
+The main advantage of chatbots is to provide a 24-hour customer service with personalized interaction and no waiting time\footnote{cf.\autocite{akhtar} pp.297}. 
+Besides, the data retrieval from conversations with chatbots provides many possibilities. To be more precise,  modelling, profiling, analyzing and understanding users becomes increasingly important in many different indrustries and count as key to success in todays data driven world. 
 Akhtar et al. analyzed chat conversations between customers and the chatbot of a telecommunication company in order to find out the user's topics of interest and how to satisfy users. As described by Akhtar et al., the tests of the chatbot were splitted into different activities, such as text mining techniques (feedback comments), event sequence analysis, frequent term extraction, analysis of bigrams/trigrams. 
 During data preprocessing, Akthar et al. used the following methods:
 \begin{itemize}
@@ -183,18 +186,17 @@ In Figure \ref{vp_architecture}, there is a \ac{nlp} engine outlined by a red re
 	\label{vp_architecture}
 \end{figure}
 
-The aim of the developed system was to create a deep learning framework for answer selection in the medical domain and to create domain-specific word and sentence e,bedding models. Additionally, a question and answering corpus should be created for \ac{osce}s.
+The aim of the developed system was to create a deep learning framework for answer selection in the medical domain and to create domain-specific word and sentence embedding models. Additionally, a question and answering corpus should be created for \ac{osce}s.
 
 \paragraph{Question and Answering systems}
 According to Zini et al. there are two types of question and answering systems\footnote{cf.\autocite{zini} pp.4}. First of all, there is open domain question and answering which uses very specific terminology. Secondly there are restricted domain question and answering systems which are broader in their scope. These are for example insurance-related deep learning question and answering systems which make use of two baseline models: \ac{bow} and \ac{ir} model. 
 
-
 \chapter{Analysis and Development}
 
-First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor so that he can get more insights about the blood pressure values of his patients and improve the treatment.
+First of all, the developed chatbot includes information about blood pressure and was built to remind patients of their measurements. Secondly, based on the measured data, analysis can be done in order to react earlier to outliers. Thirdly, a generated report is sent to the doctor via email so that he can get more insights about the blood pressure values of his patients and can improve the treatment.
 One of the main challenges during development was the process of providing information about the disease to the patient. Is it possible to include information about different types of blood pressure into the automated conversation with a chatbot? Or does it overwhelm the conversation's use case? Is it useful to let the user ask questions like: 'What are the different types of hypertension? Am i a high-risk patient?' 
 Or should these information be provided as a video or a simple web page with long articles to read? Might the patient or user be aborred after a while of talking to a chatbot who only knows answering his questions in the same way?
-Of course, a chatbot can be developed more intelligent to never provide the same answer and to answer more precisely to a users' intent. But this requires a lot of training and testing. 
+Of course, a chatbot can be developed in a more intelligentway to never provide the same answer and to answer more precisely to a users' intent. But this requires a lot of training and testing. 
 For that reason, in the first version of this chatbot, five simple intents and dialogs have been designed and implemented with the focus of the instructions to measure correctly and regularly. 
 In a second or third version, it is possible to focus more on the improvement of providing information about the disease (by not doing this in the style of question and answering).
 
@@ -212,9 +214,9 @@ Figure \ref{architecture_0102} gives an overview of all developed components. Qu
 \end{figure}
 
 
-\paragraph{Development of Watson Assistant Dialog}
+\subsection{Development of Watson Assistant Dialog}
 
-\subparagraph{Intent model}
+\paragraph{Intent model}
 
 The chatbot was built according to the webpage of "Deutsche Hochdruckliga", a german organization for patients who suffer from hypertonia\footnote{cf.\autocite{hochdruckliga}}. 
 To better understand the users and patients a basic intent model with four intents was developed. 
@@ -234,7 +236,7 @@ Measurement tutorial & How should i measure my blood pressure? \\
 \hline
 \end{tabular}
 \end{center}
-
+  
 These four intents were used to define and develop four typical dialogs, displayed in figure \ref{dialog_diagram_01}, \ref{dialog_diagram_02}, \ref{dialog_diagram_03} and \ref{dialog_diagram_04}.
 
 \begin{figure}[h]
@@ -266,25 +268,27 @@ These four intents were used to define and develop four typical dialogs, display
 \end{figure}
 
 
-\subparagraph{Watson Assistant implementation}
+\paragraph{Watson Assistant implementation}
 
 In the following, the implemented dialog as well as all entities and intents are described. They have been developed according to the Watson Assistant documentation \footnote{cf.\autocite{wa_docu}}.
+Basically, 16 entities (see figure \ref{wa_entities}) and 17 intents (see figure \ref{wa_intents}) were defined. Entities give examples of an user's input.
+The dialog (see figure \ref{wa_dialog}) includes a welcome node, a concierge node which asks the basic data (e.g. age, gender, height, weight etc.) and starts the tutorial, an additional information node (if the user wants to know more about hypertonia), the measurement node and finally the recommendation of doctors node.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{images/WA_dialog.png}
 	\caption{Watson Assistant dialog}
 	\label{wa_dialog}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{images/WA_intents.png}
 	\caption{Watson Assistant intents}
 	\label{wa_intents}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{images/WA_entities.png}
 	\caption{Watson Assistant entitities}
@@ -313,7 +317,7 @@ All in all, the three described libraries were very well documented and are easy
 
 \paragraph{Connect Watson Assistant to Frontend}
 
-To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the answer from Watson Assistant \footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its 
+To be able to connect to the Watson Assistant instance on IBM cloud, the API Version 2.0 had to be called. First of all, the current sessionId was requested to be able to interact with Watson Assistant. After that, a simple get request was executed to let the chatbot start the conversation. Everytime, the user sends a message to Watson Assistant, a post request is sent to the API and the response is the answer from Watson Assistant \footnote{cf.\autocite{wa_api_v2}}. In order to define the conversation's direction, the intent's probability is calculated (every intent has its own learning set which at least should include six sentences).
 
 \paragraph{Data visualization: Development of a Python Script to show all measured values} 
 \footnote{cf.\autocite{kaggle}}
@@ -327,7 +331,6 @@ outlook: maybe in future to connect to the doctors' calendar to directly make an
 
 Another challenge was the way to automatically ask the user for his measured data. Most chatbot only helps in certain situations including precise user intents, e.g. the question 'When should i measure my blood pressure?'. By implementing a python script for data analysis an alarm was created to remind users every five hours or once a day.
 In order to face this problem or use case, a routine including a timer had to be implemented.
-
 
 \section{Problem solving}
 \subsection{Tests}
